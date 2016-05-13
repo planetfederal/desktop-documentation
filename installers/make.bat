@@ -166,7 +166,7 @@ if "%1" == "latexpdfja" (
 )
 
 if "%1" == "text" (
-	%SPHINXBUILD% -b text %ALLSPHINXOPTS% %BUILDDIR%/text
+	%SPHINXBUILD% -b text -E %ALLSPHINXOPTS% %BUILDDIR%/text
 	if errorlevel 1 exit /b 1
 	echo.
 	echo.Build finished. The text files are in %BUILDDIR%/text.
