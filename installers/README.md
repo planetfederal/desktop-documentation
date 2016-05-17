@@ -12,21 +12,37 @@ When a new installer is created one should make sure that all relevant informati
 
 * Boundless Desktop Version:
 
-  sources/conf.py`
+        source/conf.py
 
 * Supported and Additional Components, and their versions for each platform:
 
-  sources/<platform>/supported_components.rst
-  sources/<platform>/additional_components.rst
+        source/<platform>/supported_components.rst
+        source/<platform>/additional_components.rst
 
 * Install and uninstall procedures for each platform:
 
-  sources/<platform>/install_uninstall.rst
+        source/<platform>/install_uninstall.rst
 
 ## Build sources
 
+Building takes a parameter for a supported platform: `win` or `osx`
+
 To build the files one have to specify the aimed platform in make command:
 
-  `make text SPHINXOPTS="-t <platform>"`
+        make text SPHINXOPTS="-t <platform>"
 
-Current platforms available are `win` and `osx`
+To build RTF files, you need [pandoc][pan] and [sphinxcontrib-restbuilder][srb]
+installed:
+
+[pan]: https://github.com/jgm/pandoc/releases
+[srb]: https://pythonhosted.org/sphinxcontrib-restbuilder/
+
+* Combine rst sources into one README.rst
+
+        rm -Rf build
+        sphinx-build -b rst -t <platform> source build/rst
+
+* Build README.rtf
+
+        cd build/rst
+        pandoc -s -f rst -t rtf -o README.rtf README.rst
