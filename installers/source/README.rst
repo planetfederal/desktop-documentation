@@ -4,36 +4,36 @@ Boundless Desktop |version|
 Boundless Desktop is a software package prepared by Boundless Spatial and composed of open source geospatial client-side tools. The current version (|version|) includes:
 
 .. only:: win
-   
+
    .. include:: /win/supported_components.rst
 
 .. only:: osx
-   
+
    .. include:: /osx/supported_components.rst
 
 For convenience, outside the supported scope of Boundless Desktop, the following providers are available for QGIS’s Processing framework:
 
 .. only:: win
-   
+
    .. include:: /win/additional_components.rst
 
 .. only:: osx
-   
+
    .. include:: /osx/additional_components.rst
 
 Install
 -------
 
-There are 64-bit installers available for both Windows and Mac OS X in: 
+There are 64-bit installers available for both Windows and Mac OS X in:
 
 http://boundlessgeo.com/
 
 .. only:: win
-   
+
    .. include:: /win/install_uninstall.rst
 
 .. only:: osx
-   
+
    .. include:: /osx/install_uninstall.rst
 
 Boundless Connect plugin for QGIS
@@ -49,8 +49,8 @@ http://boundlessgeo.com/
 
 For more details, please consult the License Agreement during installation.
 
-Known issues
-------------
+.. Known issues
+.. ------------
 
 Online resources
 ----------------
