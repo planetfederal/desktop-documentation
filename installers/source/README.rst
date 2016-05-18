@@ -21,6 +21,19 @@ For convenience, outside the supported scope of Boundless Desktop, the following
 
    .. include:: /osx/additional_components.rst
 
+System Requirements
+-------------------
+
+Boundless Desktop has the following minimum and recommended system requirements:
+
+.. only:: win
+
+   .. include:: /win/system_requirements.rst
+
+.. only:: osx
+
+   .. include:: /osx/system_requirements.rst
+
 Install
 -------
 
