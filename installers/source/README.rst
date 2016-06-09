@@ -1,7 +1,7 @@
 Boundless Desktop |version|
 ===========================
 
-Boundless Desktop is a software package prepared by Boundless Spatial and composed of open source geospatial client-side tools. The current version (|version|) includes:
+Boundless Desktop is a software package prepared by Boundless Spatial and composed of open-source geospatial client-side tools. The current version (|version|) includes:
 
 .. only:: win
 
@@ -11,7 +11,7 @@ Boundless Desktop is a software package prepared by Boundless Spatial and compos
 
    .. include:: /osx/supported_components.rst
 
-For convenience, outside the supported scope of Boundless Desktop, the following providers are available for QGIS’s Processing framework:
+For convenience, outside the supported scope of Boundless Desktop, the following components are provided:
 
 .. only:: win
 
