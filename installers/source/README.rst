@@ -21,6 +21,14 @@ For convenience, outside the supported scope of Boundless Desktop, the following
 
    .. include:: /osx/additional_components.rst
 
+A full Python interpreter install is embedded within Desktop. Desktop does not use any Python interpreter or modules that you have installed on your system.
+
+To add packages to the embedded Python install, open the included Command Shell application and run:
+
+::
+
+pip install <module name>
+
 System Requirements
 -------------------
 
