@@ -82,7 +82,7 @@ Online resources
 
 * Boundless Desktop Documentation:
 
-  https://connect.boundlessgeo.com/Desktop
+  https://connect.boundlessgeo.com/docs/desktop/1.0.0/index.html
 
 * Boundless Plugins Repository for QGIS:
 
