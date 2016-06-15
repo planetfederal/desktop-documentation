@@ -17,6 +17,6 @@ The same shortcuts are also added to the start menu in a group called "Boundless
 
 There is a handy `Licenses` shortcut to access the licenses for each individual tool. Please make sure to consult those licenses, including Boundless EULA for Boundless desktop.
 
-In windows, there is also an `Uninstall` shortcut to easily remove Boundless Desktop from your computer. Please consult :ref:`install.uninstall` for more information about uninstallion procedures.
+In windows, there is also an `Uninstall` shortcut to easily remove Boundless Desktop from your computer. Please consult :ref:`install.uninstall` for more information about uninstalling procedures.
 
 For more information on how to use each tool, please consult the :ref:`components` section.
