@@ -5,16 +5,14 @@ Installing Boundless Desktop
 
 Boundless provides packages for Boundless Desktop on both Windows and OS X.
 
-To install any of the open source software that ships with Boundless Desktop in Linux, please look for instructions in their communities' oficial documentation. The `components`_ section in this documents provide links for online resources for each one.
-
-.. warning::
-
-   For Linux users, **please do not try to run QGIS on the same machine as OpenGeo Suite**, as package conflicts will occur (specifically with GDAL). If you install OpenGeo Suite on a machine that has QGIS, **QGIS may be automatically uninstalled!**
-
-   Instead, use QGIS on a different machine and connect to OpenGeo Suite services from there.
-
 .. toctree::
    :maxdepth: 1
 
    windows
    osx
+
+.. note:: 
+
+   Although Boundless does not provide installers for Linux, all open source tools that ship with Boundless Desktop are also available for Linux. Please look for instructions in their communities' official documentation. The :ref:`components` section in this documentation provide a list of links to online resources for each tool, which includes installation instructions. 
+
+   In that case, for installing Boundless Connect plugin or any other Boundless plugin for QGIS, please consult the :ref:`qgis.plugins` section.
