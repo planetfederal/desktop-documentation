@@ -15,12 +15,12 @@ Boundless Desktop |version| is composed of the following set of open source tool
 
 (See :ref:`components` section for more details on each component)
 
-Boundless Desktop is also enhanced by a set of :ref:`qgis.plugins`, this are aimed at improving QGIS functionality, but also a better integration with the other two Boundless Products: `Boundless Suite <https://connect.boundlessgeo.com/suite>`_ and `Boundless Exchange <https://connect.boundlessgeo.com/Exchange>`_. (See more in :ref:`boundless.desktop.qgis.plugins`)
+Boundless Desktop is also enhanced by a set of Boundless-supported plugins for QGIS, those are aimed at improving QGIS functionality, but also a better integration with the other two Boundless Products: `Boundless Suite <https://connect.boundlessgeo.com/suite>`_ and `Boundless Exchange <https://connect.boundlessgeo.com/Exchange>`_. (See more in :ref:`qgis.plugins`)
 
 .. figure:: /img/boundless_desktop_simplified_ecosystem.png
 
    Boundless Desktop ecosystem
 
-The central element of our QGIS installation is the `Boundless Connect plugin`_, which acts as a single entry point to Boundless technology and content for QGIS. This provides access to `Boundless Connect <https://connect.boundlessgeo.com/>`_ content, which currently includes Boundless-supported plugins.
+The central element of our QGIS installation is the `Boundless connect plugin <https://connect.boundlessgeo.com/docs/desktop/plugins/connect/>`_, which acts as a single entry point to Boundless technology and content for QGIS. This provides access to `Boundless Connect <https://connect.boundlessgeo.com/>`_ content, which currently includes Boundless-supported plugins.
 
-But Boundless Desktop is not composed solely of zeros and ones. It also comes with the deep technical knowledge and immediate readiness of Boundless experts. From product maintenance to day-to-day online support, whatever are your needs, there is a Boundless support plan suited for you (see more about it in `Boundless website <http://boundlessgeo.com/>`_).
+But Boundless Desktop is not composed solely of zeros and ones. It also comes with the deep technical knowledge and immediate readiness of Boundless experts. From product maintenance to day-to-day online support, whatever are your needs, there is a Boundless support plan suited for you (see more about it in following Boundless Connect `page <https://connect.boundlessgeo.com/Purchase-Boundless-Desktop>`_).
