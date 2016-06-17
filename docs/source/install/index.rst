@@ -10,13 +10,10 @@ Boundless provides packages for Boundless Desktop on both Windows and OS X.
 
    windows
    osx
+   uninstall
 
 .. note:: 
 
    Although Boundless does not provide installers for Linux, all open source tools that ship with Boundless Desktop are also available for Linux. Please look for instructions in their communities' official documentation. The :ref:`components` section in this documentation provide a list of links to online resources for each tool, which includes installation instructions. 
 
    In that case, for installing Boundless Connect plugin or any other Boundless plugin for QGIS, please consult the :ref:`qgis.plugins` section.
-
-.. _install.uninstall:
-
-.. TODO:: Add Uninstalling Boundless Desktop procedures, mention how to clean users folders?
