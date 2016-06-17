@@ -1,4 +1,4 @@
-.. _system_requirements::
+.. _system_requirements:
 
 System requirements
 ===================
@@ -9,14 +9,14 @@ Boundless Desktop should run well in any relatively recent hardware system. Neve
    
    For now, Boundless does not provide Boundless Desktop installers for Linux. Read more about it in the :ref:`installation` section.
 
-.. _system_requirements.win::
+.. _system_requirements.win:
 
 Windows
 -------
 
 .. include:: ../../installers/source/win/system_requirements.rst
 
-.. _system_requirements.mac::
+.. _system_requirements.mac:
 
 Mac
 ---
