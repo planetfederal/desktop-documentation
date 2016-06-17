@@ -13,6 +13,6 @@ The following list comprises the currently available boundless-supported plugins
 * `Geoserver <https://connect.boundlessgeo.com/docs/desktop/plugins/geoserver/>`_
 * `MGRS tools <https://connect.boundlessgeo.com/docs/desktop/plugins/mgrstools/>`_
 * `Web App Builder <https://connect.boundlessgeo.com/docs/desktop/plugins/webappbuilder/>`_
-* `Whatt3words <https://connect.boundlessgeo.com/docs/desktop/plugins/what3words/>`_
+* `What3words <https://connect.boundlessgeo.com/docs/desktop/plugins/what3words/>`_
 
 
