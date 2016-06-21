@@ -17,7 +17,7 @@ Quick start guide
 
 The following quick start guide will introduce you to Qt Designer basics. It will show how to create a simple custom feature form for a vector layer in QGIS. 
 
-0. Download the data for this tutorial :download:`here <data/events_data_sample.zip>` and unzip it anywhere you think it's convenient.
+0. Download the data for this tutorial :download:`here <data/events_data_sample.zip>`. Unzip it to whatever folder you think is more convenient.
 
 1. Open `Qt Designer` using any of the available shortcuts in your computer.
 
@@ -37,6 +37,8 @@ By default, Qt Designer will show the `New Form` dialog on opening.
    * On the right-hand side of the screen you will find the :guilabel:`Widget box` which lists all available widgets (2). This list can be used to insert widgets by simply dragging and dropping them on top of the dialog.
    * In the left-hand side (among others) there's the :guilabel:`Property Editor` (3), that can be used to edit the properties of the dialog itself or of each inserted widgets.
    * Finally, in the top, near to the menus, you will find the :guilabel:`Forms` toolbar(4), which we will use to impose some alignment layout for consistency purposes.
+   
+   .. note:: In Mac OS X, Qt Designer starts up in `Multiple Top-Level Windows mode` by default, looking very different from what is presented above. To change it, you should go to :menuselection:`Designer --> Preferences...` and choose ``Docked Window`` in the :guilabel:`User Interface Mode`.
 
 To see what widgets we want to use on the new form, we will need to inspect the data's attributes and the layer's current feature form.
 
