@@ -6,18 +6,112 @@ Qt Designer for QGIS
 About
 -----
 
-Qt Designer is a Qt's Framework tool for designing and building graphical user interfaces (GUIs) from Qt components. With it, you can compose and customize widgets or dialogs in a what-you-see-is-what-you-get (WYSIWYG) manner, and also test them using different styles and resolutions.
+Qt Designer is a Qt's Framework tool for designing and building graphical user interfaces (GUIs) from Qt components. With it, you can compose and customise widgets or dialogs in a what-you-see-is-what-you-get (WYSIWYG) manner, and also test them using different styles and resolutions.
+
+The reason why `Boundless Desktop` includes `Qt Designer` is because it's extremely useful to create QGIS plugins' interface dialogs, but also to create highly customised feature forms for editing vector layers' attributes in QGIS projects. With that in mind, the shipped version brings a set of very convenient special widgets for QGIS (as an example, a combobox with all project's loaded layers).
 
 Qt Designer is created by the same team that delivers the Qt Framework. See more information about it in `Qt official website <www.qt.io>`_
-
-The shipped version brings a set of special widgets for QGIS that make it easier to create custom forms and dialogs for your PyQGIS projects and custom attribute editing forms within QGIS.
-
-For more information on Qt Designer usage, check the Qt Designer Documentation. 
 
 Quick start guide
 -----------------
 
-**Will be available soon.**
+The following quick start guide will introduce you to Qt Designer basics. It will show how to create a simple custom feature form for a vector layer in QGIS. 
+
+0. Download the data for this tutorial here and unzip it anywhere you think it's convenient.
+
+1. Open `Qt Designer` using any of the available shortcuts in your computer.
+
+By default, Qt Designer will show the `New Form` dialog on opening.
+
+2. Choose ``Dialog with Buttons Bottom`` from the :guilabel:`template\forms` list and press :guilabel:`Create`.
+
+   .. figure:: img/qt_designer_new_form.png
+
+      New form dialog window
+
+3. Have a quick look into the `Qt Designer`'s graphical user interface (GUI):
+
+   .. figure:: img/qt_designer_GUI.png
+   
+   * In the middle of the screen, you will find the recently created new dialog, a blank form with only a pair of ok-cancel buttons (1).
+   * On the right-hand side of the screen you will find the :guilabel:`Widget box` which lists all available widgets (2). This list can be used to insert widgets by simply dragging and dropping them on top of the dialog.
+   * In the left-hand side (among others) there's the :guilabel:`Property Editor` (3), that can be used to edit the properties of the dialog itself or of each inserted widgets.
+   * Finally, in the top, near to the menus, you will find the :guilabel:`Forms` toolbar(4), which we will use to impose some alignment layout for consistency purposes.
+
+To see what widgets we want to use on the new form, we will need to inspect the data's attributes and the layer's current feature form.
+
+4. Open `QGIS` by using any of the available shortcuts in your computer.
+5. Click the :guilabel:`Add Vector layers` button in the `Manage layers Toolbar` (or use the :menuselection:`Layer --> Add Layer --> Add Vector Layer...`) to browse to the ``events.shp`` shapefile location. (see QGIS quick start if you need help with this task)
+
+   .. figure:: img/qt_designer_load_layer.png
+
+6. Right-click the recently loaded layer's name in the :guilabel:`Layers panel` and choose the option :guilabel:`Open attribute table`. Then, take some time noticing the layer's field names and types.
+   
+   .. figure:: img/qt_designer_layer_attributes.png
+   
+7. Let's now have a look at the layer's current feature form. Go back to QGIS main window, select the `events` layer and, in the `digitising toolbar` (if not visible check :menuselection:`View --> Toolbars --> Digitizing toolbar`) click :guilabel:`Toggle editing`. Next to it, select the :guilabel:`Add Feature` tool and click anywhere in the map canvas to add a new point to your layer. This step should insert a point in the map canvas and show the automatically created layer's feature form. Take some time analysing the feature form and then press :guilabel:`Cancel` to discard any changes.
+
+   .. figure:: img/qt_designer_layer_add_point.png
+
+Let's go back to `Qt Designer` and add the necessary widgets for the first field: `name`.
+
+7. We will start by adding a text label to our form. Scroll down the :guilabel:`Widget box` to locate the :guilabel:`Label` widget in the `Display widgets` group. Now, drag and drop it on the form. You can change the label's text either by double-clicking label itself and typing or using the :guilabel:`Property Editor`, more precisely at the :guilabel:`Text` property. Set the value to ``Event's name``. If necessary, expand the label box using the small squares in its border.
+
+   .. figure:: img/qt_designer_dragndrop_label.png
+
+8. Now let's add an input widget for the `name` field. This time, instead of scrolling down the :guilabel:`Widget box` to locate the widget, try typing ``line edit`` on the filter bar at the top of it. Drag and drop a :guilabel:`Line edit` widget to be right below of the label.
+
+   .. figure:: img/qt_designer_dragndrop_input_widget.png
+
+9. Repeat steps 7 and 8, for the `venue` field (or just select both existing widgets pressing the ``Ctrl`` key, and copy (:kbd::`Ctrl+c`) and paste (:kbd:`Ctrl+v`)). Use ``Event's venue`` for the label,  and put both :guilabel:`Label` and :guilabel:`Line edit` widgets below the other two.
+
+10. Finally, let's add some special QGIS input widgets and respective labels to control the date fields. Using any of the two options described in steps 7 and 8, find and insert two :guilabel:`QgsDateTimeEdit`widgets. Put them side by side, and above them add the labels `Start date` and `End date`. Your form should look similar to the one in the following figure.
+
+    .. figure:: img/qt_designer_finished_form_unaligned.png
+
+To connect this dialog's input widgets to the QGIS layer's fields, we need to set their :guilabel:`objectName` property's value with the same name as the target field. As you will see, this can be done in several different ways.
+
+11. Select the `Name of event` :guilabel:`Line edit` and in the :guilabel:`Property Editor` set the value of the :guilabel:`objectName` property to ``name``.
+
+12. Right-click the `Venue of the event` :guilabel:`Line edit`, and choose :guilabel:`Change objectName`. Set the value to have the name of the second field: ``venue``.
+
+13. For :guilabel:`QgsDateTimeEdit` widgets simply use the :guilabel:`Object Inspector` located above the :guilabel:`Property Editor`. Double-click on their current names and change them to ``start_date`` and ``end_date``
+
+By now, all your input widgets should have the name of the corresponding fields, and in the :guilabel:`Object Inspector` you should have something similar to the next figure.
+
+.. figure:: img/qt_designer_object_inspector.png
+
+We are almost finishing. All we need to do now is align all widgets so that they look good together. For that, we will use a grid layout.
+
+14. Right-click anywhere on the dialog's empty space (this will switch any focus over the widgets to the dialog instead) and choose :menuselection:`layout --> Layout in a grid` (or use the toolbar). After that, all widgets should be aligned according to their relative place to each others.
+
+    .. figure:: img/qt_designer_form_grid_layout.png
+
+After you have applied the grid layout, you can now resize the form to make it more compact, by click and move the bottom-left-corner of the form.
+
+.. figure:: img/qt_designer_form_resize.png 
+
+15. Finally, using :menuselection:`File --> Save as..` let's save the form using a suggestive name, for instance ``events_form.ui``. To make easy to find later, save it in the same folder of the data. 
+
+Now, let's go back to QGIS and test the feature form in action.
+
+16. In QGIS, right-click the layer's name in the :guilabel:`Layers panel` and choose :guilabel:`properties`. Go to the :guilabel:`Fields` tab and in the :guilabel:`Attribute editor layout` select the ``Provide ui-file`` option. Then, in the :guilabel:`Edit UI` browse to the `events_form.ui` location. Finally, press :guilabel:`Ok` to apply the changes and close the layer's properties dialog.
+
+    .. figure:: img/qt_designer_apply_form_in_layer.png
+
+17. Assuming that the `events` layer is still in editing mode, let's use the :guilabel:`Add feature` again to create a new point in the map canvas. This time, it should open the customised feature form created in `Qt designer` with all its widgets.
+
+    .. figure:: img/qt_designer_new_feature_form_in_action.png
+
+18. To finish our feature form, let's make a small tweak in the date fields. Back in `Qt Designer`, select the two :guilabel:`QgsDateTimeEdit` widgets (Hold the :kbd:`Ctrl` key while clicking) and, in the :guilabel:`Properties Editor` set the :guilabel:`Display format` value to ``yyyy-M-dd`` and check the :guilabel:`calendarPopup` property. The changes will be applied on both widgets.
+
+    .. figure:: img/qt_designer_date_fields_tweak.png
+
+19. Save the form, and back in QGIS repeat step #17 to see the changes take effect. The date values should be represented differently, and a new icon will alow to choose the date from a popup calendar.
+
+    .. figure:: img/qt_designer_form_with_calendar_popup.png
+
+A lot more form customizations can be done using `Qt Designer`. You can use many different widgets, organise the widgets in groups or tabs, and you can even add some Python logic to make your forms responsive.
 
 Online resources
 ----------------
