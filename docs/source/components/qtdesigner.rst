@@ -17,13 +17,13 @@ Quick start guide
 
 The following quick start guide will introduce you to Qt Designer basics. It will show how to create a simple custom feature form for a vector layer in QGIS. 
 
-0. Download the data for this tutorial here and unzip it anywhere you think it's convenient.
+0. Download the data for this tutorial :download:`here <data/events_data_sample.zip>` and unzip it anywhere you think it's convenient.
 
 1. Open `Qt Designer` using any of the available shortcuts in your computer.
 
 By default, Qt Designer will show the `New Form` dialog on opening.
 
-2. Choose ``Dialog with Buttons Bottom`` from the :guilabel:`template\forms` list and press :guilabel:`Create`.
+2. Choose ``Dialog with Buttons Bottom`` from the :guilabel:`template\\forms` list and press :guilabel:`Create`.
 
    .. figure:: img/qt_designer_new_form.png
 
@@ -49,7 +49,7 @@ To see what widgets we want to use on the new form, we will need to inspect the 
    
    .. figure:: img/qt_designer_layer_attributes.png
    
-7. Let's now have a look at the layer's current feature form. Go back to QGIS main window, select the `events` layer and, in the `digitising toolbar` (if not visible check :menuselection:`View --> Toolbars --> Digitizing toolbar`) click :guilabel:`Toggle editing`. Next to it, select the :guilabel:`Add Feature` tool and click anywhere in the map canvas to add a new point to your layer. This step should insert a point in the map canvas and show the automatically created layer's feature form. Take some time analysing the feature form and then press :guilabel:`Cancel` to discard any changes.
+7. Let's now have a look at the layer's current feature form. Go back to QGIS main window, select the `events` layer and click :guilabel:`Toggle editing` in the `digitising toolbar` (if not visible check :menuselection:`View --> Toolbars --> Digitizing toolbar`). In the same toolbar, select the :guilabel:`Add Feature` tool and click anywhere in the map canvas to add a new point to your layer. This step should insert a point in the map canvas and show the default layer's feature form. Take some time analysing the feature form and then press :guilabel:`Cancel` to discard any changes.
 
    .. figure:: img/qt_designer_layer_add_point.png
 
@@ -103,11 +103,17 @@ Now, let's go back to QGIS and test the feature form in action.
 
     .. figure:: img/qt_designer_new_feature_form_in_action.png
 
-18. To finish our feature form, let's make a small tweak in the date fields. Back in `Qt Designer`, select the two :guilabel:`QgsDateTimeEdit` widgets (Hold the :kbd:`Ctrl` key while clicking) and, in the :guilabel:`Properties Editor` set the :guilabel:`Display format` value to ``yyyy-M-dd`` and check the :guilabel:`calendarPopup` property. The changes will be applied on both widgets.
+To finish our feature form, let's make a small fix in the date fields otherwise the values won't be saved in the table because of the use of different date formats in Qt form and QGIS.
+
+18. Back in `Qt Designer`, select the two :guilabel:`QgsDateTimeEdit` widgets (Hold the :kbd:`Ctrl` key while clicking) and, in the :guilabel:`Properties Editor` set the :guilabel:`Display format` value to ``yyyy-M-dd`` and check the :guilabel:`calendarPopup` property. The changes will be applied on both widgets. Save the form again.
 
     .. figure:: img/qt_designer_date_fields_tweak.png
 
-19. Save the form, and back in QGIS repeat step #17 to see the changes take effect. The date values should be represented differently, and a new icon will alow to choose the date from a popup calendar.
+19. Back in QGIS, go to the fields tab in the Properties menu and for each date field change the widget to date/time, make sure to use the same date format value in the :guilabel:`Widget display` that the one used in the form (``yyyy-MM-dd``). Also select the :guilabel:`calendar popup` and :guilabel:`allow NULL` options. Press :guilabel:`Ok` when you have finished.
+
+    .. figure:: img/qt_designer_date_fields_qgis_tweak.png
+
+20. Now, repeat step #17 to see the feature form changes take effect. The date values should be represented differently, and a new icon will alow to choose the date from a popup calendar. Besides, saving the input to the table will work just fine.
 
     .. figure:: img/qt_designer_form_with_calendar_popup.png
 
