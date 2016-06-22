@@ -69,4 +69,4 @@ To install Boundless Desktop:
 
 After a successful install, Boundless Desktop components, such as QGIS, can be run from shortcuts in the Start Menu (see :ref:`quickstarguide` for more information)
 
-For more information about Boundless Desktop and its components, please see the :ref:`desktop_documentation` documentation on the Boundless Connect portal.
+For more information about Boundless Desktop and its components, please see the :ref:`desktop_documentation` on the Boundless Connect portal.
