@@ -67,25 +67,25 @@ To install Boundless Desktop:
 
 10. You are ready to install the software. Click :guilabel:`Install` to begin.
 
-   .. figure:: img/install_osx_install_location.png
+    .. figure:: img/install_osx_install_location.png
    
       Installation Type screen
 
 11. When prompted, enter your username and password. Click :guilabel:`Install Software` to continue.
 
-   .. figure:: img/install_osx_type_your_password.png
+    .. figure:: img/install_osx_type_your_password.png
    
       Insert your administrator username and password
 
 12. Please wait while the installation proceeds.
 
-   .. figure:: img/install_win_installing.png
+    .. figure:: img/install_osx_installing.png
 
       Installation
       
 13. After installation, click :guilabel:`Close`.
 
-   .. figure:: img/install_osx_install_complete.png
+    .. figure:: img/install_osx_install_complete.png
 
     Boundless Desktop successfully installed
 
