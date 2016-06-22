@@ -7,11 +7,11 @@ Boundless Desktop is a fully supported software package prepared by Boundless an
 
 Boundless Desktop |version| is composed of the following set of open source tools:
 
-* QGIS 2.14 by `<www.qgis.org>`_
+* QGIS 2.14 by `<http://www.qgis.org>`_
 * Connect plugin for QGIS by Boundless
-* PgAdmin 1.22 by `<www.pgadmin.org>`_
-* Qt Designer 4.8 for QGIS by `<www.qt.io>`_
-* GDAL/OGR 2.0 by `<www.gdal.org>`_
+* PgAdmin 1.22 by `<http://www.pgadmin.org>`_
+* Qt Designer 4.8 for QGIS by `<http://www.qt.io>`_
+* GDAL/OGR 2.0 by `<http://www.gdal.org>`_
 
 (See :ref:`components` section for more details on each component)
 
