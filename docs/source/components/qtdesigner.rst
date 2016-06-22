@@ -10,12 +10,12 @@ Qt Designer is a Qt's Framework tool for designing and building graphical user i
 
 The reason why `Boundless Desktop` includes `Qt Designer` is because it's extremely useful to create QGIS plugins' interface dialogs, but also to create highly customised feature forms for editing vector layers' attributes in QGIS projects. With that in mind, the shipped version brings a set of very convenient special widgets for QGIS (as an example, a combobox with all project's loaded layers).
 
-Qt Designer is created by the same team that delivers the Qt Framework. See more information about it in `Qt official website <www.qt.io>`_
+Qt Designer is created by the same team that delivers the Qt Framework. See more information about it in `Qt official website <http://www.qt.io>`_
 
 Quick start guide
 -----------------
 
-The following quick start guide will introduce you to Qt Designer basics. It will show how to create a simple custom feature form for a vector layer in QGIS. 
+The following quick start guide will introduce you to Qt Designer basics. It will show how to create a simple custom feature form for a vector layer in QGIS.
 
 0. Download the data for this tutorial :download:`here <data/events_data_sample.zip>`. Unzip it to whatever folder you think is more convenient.
 
@@ -32,12 +32,12 @@ By default, Qt Designer will show the `New Form` dialog on opening.
 3. Have a quick look into the `Qt Designer`'s graphical user interface (GUI):
 
    .. figure:: img/qt_designer_GUI.png
-   
+
    * In the middle of the screen, you will find the recently created new dialog, a blank form with only a pair of ok-cancel buttons (1).
    * On the right-hand side of the screen you will find the :guilabel:`Widget box` which lists all available widgets (2). This list can be used to insert widgets by simply dragging and dropping them on top of the dialog.
    * In the left-hand side (among others) there's the :guilabel:`Property Editor` (3), that can be used to edit the properties of the dialog itself or of each inserted widgets.
    * Finally, in the top, near to the menus, you will find the :guilabel:`Forms` toolbar(4), which we will use to impose some alignment layout for consistency purposes.
-   
+
    .. note:: In Mac OS X, Qt Designer starts up in `Multiple Top-Level Windows mode` by default, looking very different from what is presented above. To change it, you should go to :menuselection:`Designer --> Preferences...` and choose ``Docked Window`` in the :guilabel:`User Interface Mode`.
 
 To see what widgets we want to use on the new form, we will need to inspect the data's attributes and the layer's current feature form.
@@ -48,9 +48,9 @@ To see what widgets we want to use on the new form, we will need to inspect the 
    .. figure:: img/qt_designer_load_layer.png
 
 6. Right-click the recently loaded layer's name in the :guilabel:`Layers panel` and choose the option :guilabel:`Open attribute table`. Then, take some time noticing the layer's field names and types.
-   
+
    .. figure:: img/qt_designer_layer_attributes.png
-   
+
 7. Let's now have a look at the layer's current feature form. Go back to QGIS main window, select the `events` layer and click :guilabel:`Toggle editing` in the `digitising toolbar` (if not visible check :menuselection:`View --> Toolbars --> Digitizing toolbar`). In the same toolbar, select the :guilabel:`Add Feature` tool and click anywhere in the map canvas to add a new point to your layer. This step should insert a point in the map canvas and show the default layer's feature form. Take some time analysing the feature form and then press :guilabel:`Cancel` to discard any changes.
 
    .. figure:: img/qt_designer_layer_add_point.png
@@ -91,9 +91,9 @@ We are almost finishing. All we need to do now is align all widgets so that they
 
 After you have applied the grid layout, you can now resize the form to make it more compact, by click and move the bottom-left-corner of the form.
 
-.. figure:: img/qt_designer_form_resize.png 
+.. figure:: img/qt_designer_form_resize.png
 
-15. Finally, using :menuselection:`File --> Save as..` let's save the form using a suggestive name, for instance ``events_form.ui``. To make easy to find later, save it in the same folder of the data. 
+15. Finally, using :menuselection:`File --> Save as..` let's save the form using a suggestive name, for instance ``events_form.ui``. To make easy to find later, save it in the same folder of the data.
 
 Now, let's go back to QGIS and test the feature form in action.
 
@@ -124,5 +124,5 @@ A lot more form customizations can be done using `Qt Designer`. You can use many
 Online resources
 ----------------
 
-* Official Site: `<www.qt.io>`_
+* Official Site: `<http://www.qt.io>`_
 * Documentation: `<http://doc.qt.io/qt-4.8/designer-manual.html>`_

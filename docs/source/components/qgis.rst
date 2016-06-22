@@ -12,9 +12,9 @@ QGIS’s development is steered by the `QGIS Project <www.qgis.org>`_, which wor
 
 For convenience, outside the supported scope of Boundless Desktop, the following processing providers are available for QGIS’s Processing framework:
 
-* SAGA 2.1 by `<www.saga-gis.org>`_
-* GRASS 7.0 by `<grass.osgeo.org>`_
-* Orfeo Toolbox 5.0 by `<www.orfeo-toolbox.org>`_
+* SAGA 2.1 by `<http://www.saga-gis.org>`_
+* GRASS 7.0 by `<http://grass.osgeo.org>`_
+* Orfeo Toolbox 5.0 by `<https://www.orfeo-toolbox.org>`_
 
 Quick start guide
 -----------------
