@@ -10,7 +10,7 @@ About
 
 `pgAdmin` is developed by a community of PostgreSQL experts around the world and is available in more than a dozen languages. It is Free Software released under the PostgreSQL License.
 
-`pgAdmin` is aimed to answer the needs of all users, from writing simple SQL queries to developing complex databases. The graphical interface supports all PostgreSQL features and makes its administration easy. The application includes, among other things: syntax highlighting SQL editor, a server-side code editor, an SQL/batch/shell job scheduling agent, and much more. See more about it in the `official website <www.pgadmin.org>`_.
+`pgAdmin` is aimed to answer the needs of all users, from writing simple SQL queries to developing complex databases. The graphical interface supports all PostgreSQL features and makes its administration easy. The application includes, among other things: syntax highlighting SQL editor, a server-side code editor, an SQL/batch/shell job scheduling agent, and much more. See more about it in the `official website <https://www.pgadmin.org/>`_.
 
 Quick start guide
 -----------------
@@ -77,7 +77,7 @@ By default, :program:`pgAdmin` will show the following window on opening:
 Online resources
 ----------------
 
-* Official Site: `<www.pgadmin.org>`_
+* Official Site: `<https://www.pgadmin.org/>`_
 * Documentation: `<https://www.pgadmin.org/docs/1.22/index.html>`_
 * :program:`PostgreSQL` `<https://www.postgresql.org>`_
 * :program:`PostGIS` `<http://postgis.net>`_
