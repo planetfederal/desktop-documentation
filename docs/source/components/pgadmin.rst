@@ -41,7 +41,7 @@ By default, :program:`pgAdmin` will show the following window on opening:
 
 .. figure:: img/pgadmin_first_open.png
 
-3. Click on the :guilabel:`plug` icon to create a new database connection.
+3. Click on the :guilabel:`Add a connection to a server` (the "plug" icon) to create a new database connection.
 
 4. Enter the connection parameters in the dialog, a database connection is usually
    identified by:
@@ -57,20 +57,26 @@ By default, :program:`pgAdmin` will show the following window on opening:
 
 .. figure:: img/pgadmin_schema_tree.png
 
-6. Click on the :guilabel:`SQL` icon
+6. Perform operations on selected tables with :kbd:`Right-Click`
+
+.. figure:: img/pgadmin_right_click_table_operations.png
+
+7. Preview data with :menuselection:`View Data --> View Top 100 Rows`
+
+.. figure:: img/pgadmin_right_click_table_preview.png
+
+.. figure:: img/pgadmin_right_click_table_preview_result.png
+
+
+8. Click on the :guilabel:`SQL` icon
 
 .. figure:: img/pgadmin_execute_sql.png
 
-7. Execute a spatial query::
+9. Execute a spatial query::
 
     SELECT name, St_AsText( geom ) FROM events;
 
 .. figure:: img/pgadmin_execute_sql_results.png
-
-8. Perform operations on selected tables with :kbd:`Right-Click`
-
-.. figure:: img/pgadmin_right_click_table_operations.png
-
 
 .. _pgadmin.online_resources:
 
