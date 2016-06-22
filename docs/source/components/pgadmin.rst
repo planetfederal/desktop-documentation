@@ -50,7 +50,6 @@ By default, :program:`pgAdmin` will show the following window on opening:
 * port
 * username
 * password
-* database name
 
 .. figure:: img/pgadmin_register_new_server.png
 
