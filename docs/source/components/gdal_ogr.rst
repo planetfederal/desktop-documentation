@@ -18,7 +18,7 @@ Quick start guide
 :program:`Command Shell` can be found in the :guilabel:`Boundless Desktop` folder.
 
 
-.. figure:: img/desktop_command_shell_icon.PNG
+.. figure:: img/desktop_command_shell_icon.png
 
 0. Download the data for this quick start :download:`here <data/events_data_sample.zip>` and unzip it anywhere you think it's convenient.
 
@@ -34,7 +34,7 @@ Quick start guide
 
     gdalinfo --help
 
-.. figure::   img/desktop_command_shell_gdalinfo.PNG
+.. figure::   img/desktop_command_shell_gdalinfo.png
 
 4. To print all information on the shapefile `events.shp` contained in the
    sample data::
