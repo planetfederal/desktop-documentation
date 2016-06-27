@@ -8,7 +8,7 @@ This section will describe how to install Boundless Desktop on Mac OS X.
 Prerequisites
 -------------
 
-Boundless Desktop can run on any recent hardware/software combination. See :ref:`system_requirements` section for more details.
+Boundless Desktop can run on any recent hardware/software combination. See :ref:`system_requirements.osx` section for more details.
 
 Install
 -------
@@ -53,37 +53,29 @@ To install Boundless Desktop:
    
       Installation Type screen
 
-8. Click :guilabel:`Change Install Location`” to change the install location, if needed.
+8. You are ready to install the software. Click :guilabel:`Install` to begin.
 
    .. figure:: img/install_osx_install_location.png
    
       Installation Type screen
 
-9. Choose the disk to which you will install Boundless Desktop and click  :guilabel:`Continue`.
+.. note::
 
-   .. figure:: img/install_osx_change_install_location.png
-   
-      Destination Select screen
+   Although an option appears for you to change the install location, please ignore it as you must install Boundless Desktop in your main drive, which is choosen by default.
 
-10. You are ready to install the software. Click :guilabel:`Install` to begin.
+9. When prompted, enter your username and password. Click :guilabel:`Install Software` to continue.
 
-    .. figure:: img/install_osx_install_location.png
-   
-      Installation Type screen
-
-11. When prompted, enter your username and password. Click :guilabel:`Install Software` to continue.
-
-    .. figure:: img/install_osx_type_your_password.png
+   .. figure:: img/install_osx_type_your_password.png
    
       Insert your administrator username and password
 
-12. Please wait while the installation proceeds.
+10. Please wait while the installation proceeds.
 
     .. figure:: img/install_osx_installing.png
 
       Installation
       
-13. After installation, click :guilabel:`Close`.
+11. After installation, click :guilabel:`Close`.
 
     .. figure:: img/install_osx_install_complete.png
 
@@ -92,4 +84,3 @@ To install Boundless Desktop:
 After a successful install, Boundless Desktop components, such as QGIS, can be run from shortcuts in the `Applications` Folder (see :ref:`quickstarguide` for more information)
 
 For more information about Boundless Desktop and its components, please see the :ref:`desktop_documentation` on the Boundless Connect portal.
-
