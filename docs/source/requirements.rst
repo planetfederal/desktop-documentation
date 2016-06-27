@@ -16,7 +16,7 @@ Windows
 
 .. include:: ../../installers/source/win/system_requirements.rst
 
-.. _system_requirements.mac:
+.. _system_requirements.osx:
 
 Mac
 ---
