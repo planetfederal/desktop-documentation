@@ -25,9 +25,9 @@ Quick start guide
 The following quick start guide will introduce you to :program:`pgAdmin` basics. It will show how to access to a
 spatially enabled database and run some simple queries on its tables.
 
-0. Download the data for this tutorial :download:`here <data/events_data_sample.zip>` and unzip it anywhere you think it's convenient.
+#. Download the data for this tutorial :download:`here <data/events_data_sample.zip>` and unzip it anywhere you think it's convenient.
 
-1. Import the geodata from the shapefile into the database, if you have :command:`shp2pgsql` command line utility
+#. Import the geodata from the shapefile into the database, if you have :command:`shp2pgsql` command line utility
    at hand you can import the data with::
 
      shp2pgsql events.shp | psql -U postgres pg_test
@@ -35,15 +35,15 @@ spatially enabled database and run some simple queries on its tables.
    If you don't have this command available you can still use :program:`QGIS` *db manager*
    to import you data into the database.
 
-2. Open :program:`pgAdmin` using any of the available shortcuts in your computer.
+#. Open :program:`pgAdmin` using any of the available shortcuts in your computer.
 
 By default, :program:`pgAdmin` will show the following window on opening:
 
 .. figure:: img/pgadmin_first_open.png
 
-3. Click on the :guilabel:`Add a connection to a server` (the "plug" icon) to create a new database connection.
+#. Click on the :guilabel:`Add a connection to a server` (the "plug" icon) to create a new database connection.
 
-4. Enter the connection parameters in the dialog, a database connection is usually
+#. Enter the connection parameters in the dialog, a database connection is usually
    identified by:
 
 * host
@@ -53,26 +53,26 @@ By default, :program:`pgAdmin` will show the following window on opening:
 
 .. figure:: img/pgadmin_register_new_server.png
 
-5. Click on the newly added server to open its features tree and select the `events` table or any other table you want to query
+#. Click on the newly added server to open its features tree and select the `events` table or any other table you want to query
 
 .. figure:: img/pgadmin_schema_tree.png
 
-6. Perform operations on selected tables with :kbd:`Right-Click`
+#. Perform operations on selected tables with :kbd:`Right-Click`
 
 .. figure:: img/pgadmin_right_click_table_operations.png
 
-7. Preview data with :menuselection:`View Data --> View Top 100 Rows`
+#. Preview data with :menuselection:`View Data --> View Top 100 Rows`
 
 .. figure:: img/pgadmin_right_click_table_preview.png
 
 .. figure:: img/pgadmin_right_click_table_preview_result.png
 
 
-8. Click on the :guilabel:`SQL` icon
+#. Click on the :guilabel:`SQL` icon
 
 .. figure:: img/pgadmin_execute_sql.png
 
-9. Execute a spatial query::
+#. Execute a spatial query::
 
     SELECT name, St_AsText( geom ) FROM events;
 

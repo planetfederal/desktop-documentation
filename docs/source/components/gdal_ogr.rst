@@ -20,15 +20,15 @@ Quick start guide
 
 .. figure:: img/desktop_command_shell_icon.png
 
-0. Download the data for this quick start :download:`here <data/events_data_sample.zip>` and unzip it anywhere you think it's convenient.
+#. Download the data for this quick start :download:`here <data/events_data_sample.zip>` and unzip it anywhere you think it's convenient.
 
-1. Open :program:`Command Shell` using any of the available shortcuts in your computer.
+#. Open :program:`Command Shell` using any of the available shortcuts in your computer.
 
-2. If you are on Windows, you will immediately see the list of available command,
+#. If you are on Windows, you will immediately see the list of available command,
    to print the list of available commands on Mac, follow the instructions
    printed on the screen.
 
-3. To execute a :program:`GDAL/OGR` command, type its name an press enter,
+#. To execute a :program:`GDAL/OGR` command, type its name an press enter,
    if executed without arguments :program:`GDAL/OGR` commands normally print
    a short help text, that can also be accessed with `--help` option, for example::
 
@@ -36,7 +36,7 @@ Quick start guide
 
 .. figure::   img/desktop_command_shell_gdalinfo.png
 
-4. To print all information on the shapefile `events.shp` contained in the
+#. To print all information on the shapefile `events.shp` contained in the
    sample data::
 
     ogrinfo -al events.shp
@@ -67,13 +67,13 @@ Quick start guide
           end_date (Date) = 2016/08/26
           POINT (7.12311523114681 50.718396029588526)
 
-5. To convert the shapefile `events.shp` to a different coordinate reference
+#. To convert the shapefile `events.shp` to a different coordinate reference
    system (UTM 33N) and save it to a different format (MapInfo) you can use
    :program:`ogr2ogr`::
 
     ogr2ogr -t_srs EPSG:32633 -f "MapInfo File" events_32633.tab events.shp
 
-6. To check the transformed data you can use :command:`ogrinfo`::
+#. To check the transformed data you can use :command:`ogrinfo`::
 
     ogrinfo ogrinfo -al events_32633.tab
 
