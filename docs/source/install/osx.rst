@@ -1,6 +1,6 @@
 .. _install.osx:
 
-Installing Boundless Desktop in OS X
+Installing Boundless Desktop on OS X
 ====================================
 
 This section will describe how to install Boundless Desktop on Mac OS X.

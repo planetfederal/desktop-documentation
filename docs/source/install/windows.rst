@@ -1,6 +1,6 @@
 .. _install.windows:
 
-Installing Boundless Desktop in Windows
+Installing Boundless Desktop on Windows
 =======================================
 
 This section will describe how to install Boundless Desktop on Windows.
