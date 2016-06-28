@@ -37,48 +37,47 @@ spatially enabled database and run some simple queries on its tables.
 
 #. Open :program:`pgAdmin` using any of the available shortcuts in your computer.
 
-By default, :program:`pgAdmin` will show the following window on opening:
+   By default, :program:`pgAdmin` will show the following window on opening:
 
-.. figure:: img/pgadmin_first_open.png
+   .. figure:: img/pgadmin_first_open.png
 
 #. Click on the :guilabel:`Add a connection to a server` (the "plug" icon) to create a new database connection.
 
 #. Enter the connection parameters in the dialog, a database connection is usually
    identified by:
 
-* host
-* port
-* username
-* password
+   * host
+   * port
+   * username
+   * password
 
-.. figure:: img/pgadmin_register_new_server.png
+   .. figure:: img/pgadmin_register_new_server.png
 
 #. Click on the newly added server to open its features tree and select the `events` table or any other table you want to query
 
-.. figure:: img/pgadmin_schema_tree.png
+   .. figure:: img/pgadmin_schema_tree.png
 
 #. Perform operations on selected tables with :kbd:`Right-Click`
 
-.. figure:: img/pgadmin_right_click_table_operations.png
+   .. figure:: img/pgadmin_right_click_table_operations.png
 
 #. Preview data with :menuselection:`View Data --> View Top 100 Rows`
 
-.. figure:: img/pgadmin_right_click_table_preview.png
+   .. figure:: img/pgadmin_right_click_table_preview.png
 
-.. figure:: img/pgadmin_right_click_table_preview_result.png
-
+   .. figure:: img/pgadmin_right_click_table_preview_result.png
 
 #. Click on the :guilabel:`SQL` icon
 
-.. figure:: img/pgadmin_execute_sql.png
+   .. figure:: img/pgadmin_execute_sql.png
 
 #. Execute a spatial query::
 
-    SELECT name, St_AsText( geom ) FROM events;
+       SELECT name, St_AsText( geom ) FROM events;
 
-.. figure:: img/pgadmin_execute_sql_results.png
+   .. figure:: img/pgadmin_execute_sql_results.png
 
-.. _pgadmin.online_resources:
+   .. _pgadmin.online_resources:
 
 Online resources
 ----------------

@@ -17,7 +17,6 @@ Quick start guide
 :program:`Command Shell`.
 :program:`Command Shell` can be found in the :guilabel:`Boundless Desktop` folder.
 
-
 .. figure:: img/desktop_command_shell_icon.png
 
 #. Download the data for this quick start :download:`here <data/events_data_sample.zip>` and unzip it anywhere you think it's convenient.
@@ -32,89 +31,87 @@ Quick start guide
    if executed without arguments :program:`GDAL/OGR` commands normally print
    a short help text, that can also be accessed with `--help` option, for example::
 
-    gdalinfo --help
+       gdalinfo --help
 
-.. figure::   img/desktop_command_shell_gdalinfo.png
+   .. figure::   img/desktop_command_shell_gdalinfo.png
 
 #. To print all information on the shapefile `events.shp` contained in the
    sample data::
 
-    ogrinfo -al events.shp
+       ogrinfo -al events.shp
 
    The output of the command is::
 
-        INFO: Open of `events.shp'
-              using driver `ESRI Shapefile' successful.
-
-        Layer name: events
-        Geometry: Point
-        Feature Count: 1
-        Extent: (7.123115, 50.718396) - (7.123115, 50.718396)
-        Layer SRS WKT:
-        GEOGCS["GCS_WGS_1984",
-            DATUM["WGS_1984",
-                SPHEROID["WGS_84",6378137,298.257223563]],
-            PRIMEM["Greenwich",0],
-            UNIT["Degree",0.017453292519943295]]
-        name: String (80.0)
-        venue: String (80.0)
-        start_date: Date (10.0)
-        end_date: Date (10.0)
-        OGRFeature(events):0
-          name (String) = FOSS4G 2016
-          venue (String) = World Conference Center Bonn
-          start_date (Date) = 2016/08/21
-          end_date (Date) = 2016/08/26
-          POINT (7.12311523114681 50.718396029588526)
+       INFO: Open of `events.shp'
+             using driver `ESRI Shapefile' successful.
+       
+       Layer name: events
+       Geometry: Point
+       Feature Count: 1
+       Extent: (7.123115, 50.718396) - (7.123115, 50.718396)
+       Layer SRS WKT:
+       GEOGCS["GCS_WGS_1984",
+           DATUM["WGS_1984",
+               SPHEROID["WGS_84",6378137,298.257223563]],
+           PRIMEM["Greenwich",0],
+           UNIT["Degree",0.017453292519943295]]
+       name: String (80.0)
+       venue: String (80.0)
+       start_date: Date (10.0)
+       end_date: Date (10.0)
+       OGRFeature(events):0
+         name (String) = FOSS4G 2016
+         venue (String) = World Conference Center Bonn
+         start_date (Date) = 2016/08/21
+         end_date (Date) = 2016/08/26
+         POINT (7.12311523114681 50.718396029588526)
 
 #. To convert the shapefile `events.shp` to a different coordinate reference
    system (UTM 33N) and save it to a different format (MapInfo) you can use
    :program:`ogr2ogr`::
 
-    ogr2ogr -t_srs EPSG:32633 -f "MapInfo File" events_32633.tab events.shp
+       ogr2ogr -t_srs EPSG:32633 -f "MapInfo File" events_32633.tab events.shp
 
 #. To check the transformed data you can use :command:`ogrinfo`::
 
-    ogrinfo ogrinfo -al events_32633.tab
+       ogrinfo ogrinfo -al events_32633.tab
 
    The output of the command is::
 
-        Had to open data source read-only.
-        INFO: Open of `events_32633.tab'
-              using driver `MapInfo File' successful.
-
-        Layer name: events_32633
-        Geometry: Point
-        Feature Count: 1
-        Extent: (-55706.115697, 5648162.052998) - (-55706.115697, 5648162.052998)
-        Layer SRS WKT:
-        PROJCS["unnamed",
-            GEOGCS["unnamed",
-                DATUM["WGS_1984",
-                    SPHEROID["WGS 84",6378137,298.257223563],
-                    TOWGS84[0,0,0,0,0,0,0]],
-                PRIMEM["Greenwich",0],
-                UNIT["degree",0.0174532925199433]],
-            PROJECTION["Transverse_Mercator"],
-            PARAMETER["latitude_of_origin",0],
-            PARAMETER["central_meridian",15],
-            PARAMETER["scale_factor",0.9996],
-            PARAMETER["false_easting",500000],
-            PARAMETER["false_northing",0],
-            UNIT["Meter",1.0]]
-        name: String (80.0)
-        venue: String (80.0)
-        start_date: Date (10.0)
-        end_date: Date (10.0)
-        OGRFeature(events_32633):1
-          name (String) = FOSS4G 2016
-          venue (String) = World Conference Center Bonn
-          start_date (Date) = 2016/08/21
-          end_date (Date) = 2016/08/26
-          Style = SYMBOL(a:0,c:#000000,s:12pt,id:"mapinfo-sym-35,ogr-sym-10")
-          POINT (-55706.115697181601718 5648162.052997644990683)
-
-
+       Had to open data source read-only.
+       INFO: Open of `events_32633.tab'
+             using driver `MapInfo File' successful.
+       
+       Layer name: events_32633
+       Geometry: Point
+       Feature Count: 1
+       Extent: (-55706.115697, 5648162.052998) - (-55706.115697, 5648162.052998)
+       Layer SRS WKT:
+       PROJCS["unnamed",
+           GEOGCS["unnamed",
+               DATUM["WGS_1984",
+                   SPHEROID["WGS 84",6378137,298.257223563],
+                   TOWGS84[0,0,0,0,0,0,0]],
+               PRIMEM["Greenwich",0],
+               UNIT["degree",0.0174532925199433]],
+           PROJECTION["Transverse_Mercator"],
+           PARAMETER["latitude_of_origin",0],
+           PARAMETER["central_meridian",15],
+           PARAMETER["scale_factor",0.9996],
+           PARAMETER["false_easting",500000],
+           PARAMETER["false_northing",0],
+           UNIT["Meter",1.0]]
+       name: String (80.0)
+       venue: String (80.0)
+       start_date: Date (10.0)
+       end_date: Date (10.0)
+       OGRFeature(events_32633):1
+         name (String) = FOSS4G 2016
+         venue (String) = World Conference Center Bonn
+         start_date (Date) = 2016/08/21
+         end_date (Date) = 2016/08/26
+         Style = SYMBOL(a:0,c:#000000,s:12pt,id:"mapinfo-sym-35,ogr-sym-10")
+         POINT (-55706.115697181601718 5648162.052997644990683)
 
 Online resources
 ----------------
