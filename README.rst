@@ -1,4 +1,4 @@
 Boundless Desktop Documentation
 ===============================
 
-This repository will hold Boundless Desktop Documentation.
+This repository holds Boundless Desktop documentation.
