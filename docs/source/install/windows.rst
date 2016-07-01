@@ -8,7 +8,7 @@ This section will describe how to install Boundless Desktop on Windows.
 Prerequisites
 -------------
 
-Boundless Desktop can run on any recent hardware/software combination. See `windows system requirements <system_requirements.win>`_ for more details.
+Boundless Desktop can run on any recent hardware/software combination. See :ref:`system_requirements.win` for more details.
 
 Install
 -------
@@ -49,7 +49,7 @@ To install Boundless Desktop:
 
    .. figure:: img/install_win_install_components.png
 
-7. You are ready to install the software. Click guilabel:`Install` to begin.
+7. You are ready to install the software. Click :guilabel:`Install` to begin.
 
    .. figure:: img/install_win_ready_to_install.png
 

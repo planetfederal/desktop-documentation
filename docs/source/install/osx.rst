@@ -8,7 +8,7 @@ This section will describe how to install Boundless Desktop on Mac OS X.
 Prerequisites
 -------------
 
-Boundless Desktop can run on any recent hardware/software combination. See `Mac system requirements <system_requirements.osx>`_ for more details.
+Boundless Desktop can run on any recent hardware/software combination. See :ref:`system_requirements.osx` for more details.
 
 Install
 -------

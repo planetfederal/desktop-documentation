@@ -11,15 +11,15 @@ Boundless Desktop should run well in any relatively recent hardware system. Neve
 
 .. _system_requirements.win:
 
-Windows
--------
+Windows system requirements
+---------------------------
 
 .. include:: ../../installers/source/win/system_requirements.rst
 
 .. _system_requirements.osx:
 
-Mac
----
+Mac system requirements
+-----------------------
 
 .. include:: ../../installers/source/osx/system_requirements.rst
 
