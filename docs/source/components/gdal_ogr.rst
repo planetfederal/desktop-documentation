@@ -23,20 +23,20 @@ Quick start guide
 
 #. Open :program:`Command Shell` using any of the available shortcuts in your computer.
 
-#. If you are on Windows, you will immediately see the list of available command,
-   to print the list of available commands on Mac, follow the instructions
-   printed on the screen.
+#. If you are on Windows, you will immediately see the list of available commands. 
+   To list it again in other time, type ``o-help`` and press :kbd:`Enter`.
+   To print the list of available commands on Mac, type ``list-cmds`` and press :kbd:`Enter`.
 
-#. To execute a :program:`GDAL/OGR` command, type its name an press enter,
-   if executed without arguments :program:`GDAL/OGR` commands normally print
-   a short help text, that can also be accessed with `--help` option, for example::
+#. To execute a :program:`GDAL/OGR` command, type its name an press enter.
+   If executed without arguments :program:`GDAL/OGR` commands normally print
+   a short help text that can also be accessed with `--help` option, for example::
 
        gdalinfo --help
 
    .. figure::   img/desktop_command_shell_gdalinfo.png
 
 #. To print all information on the shapefile `events.shp` contained in the
-   sample data::
+   sample data, navigate to the location of the unzipped quick start data and run the following::
 
        ogrinfo -al events.shp
 
@@ -74,7 +74,7 @@ Quick start guide
 
 #. To check the transformed data you can use :command:`ogrinfo`::
 
-       ogrinfo ogrinfo -al events_32633.tab
+        ogrinfo -al events_32633.tab
 
    The output of the command is::
 
