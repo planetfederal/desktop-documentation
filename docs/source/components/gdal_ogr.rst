@@ -24,7 +24,7 @@ Quick start guide
 #. Open :program:`Command Shell` using any of the available shortcuts in your computer.
 
 #. If you are on Windows, you will immediately see the list of available commands. 
-   To list it again in other time, type ``o-help`` and press :kbd:`Enter`.
+   To list them again, type ``o-help`` and press :kbd:`Enter`.
    To print the list of available commands on Mac, type ``list-cmds`` and press :kbd:`Enter`.
 
 #. To execute a :program:`GDAL/OGR` command, type its name an press enter.
