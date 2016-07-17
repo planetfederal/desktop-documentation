@@ -3,11 +3,11 @@
 System requirements
 ===================
 
-Boundless Desktop should run well in any relatively recent hardware system. Nevertheless, it's performace may vary depending on the data type and size, and the type of operation/analysis to be done. The following system requirements are the minimum and recommended settings for a reliable average use.
+Boundless Desktop should run well in most recent hardware systems. Nevertheless, the performace may vary depending on the data type, data size, and the type of operation/analysis performed. The following system requirements are the minimum and recommended settings for reliable average use.
 
 .. note:: 
    
-   For now, Boundless does not provide Boundless Desktop installers for Linux. Read more about it in the :ref:`installation` section.
+   Currently, Boundless does not provide Boundless Desktop installers for Linux. Read more about it in the :ref:`installation` section.
 
 .. _system_requirements.win:
 
