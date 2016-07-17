@@ -3,7 +3,7 @@
 What is Boundless Desktop?
 ==========================
 
-Boundless Desktop is a fully supported software package prepared by Boundless and available both for Windows and Mac OS X platforms. It's composed of open source geospatial client-side tools and is prepared to address the most demanding desktop GIS users needs, including spatial analysis, data management, cartography and web publishing.
+Boundless Desktop is a fully supported software package prepared by Boundless and available for Windows and Mac OS X platforms. It's composed of open source geospatial client-side tools and is capable of addressing the most demanding desktop GIS users needs, including spatial analysis, data management, cartography and web publishing.
 
 Boundless Desktop |version| is composed of the following set of open source tools:
 
@@ -23,4 +23,4 @@ Boundless Desktop is also enhanced by a set of Boundless-supported plugins for Q
 
 The central element of our QGIS installation is the `Boundless connect plugin <https://connect.boundlessgeo.com/docs/desktop/plugins/connect/>`_, which acts as a single entry point to Boundless technology and content for QGIS. This provides access to `Boundless Connect <https://connect.boundlessgeo.com/>`_ content, which currently includes Boundless-supported plugins.
 
-But Boundless Desktop is not composed solely of zeros and ones. It also comes with the deep technical knowledge and immediate readiness of Boundless experts. From product maintenance to day-to-day online support, whatever are your needs, there is a Boundless support plan suited for you (see more about it in following Boundless Connect `page <https://connect.boundlessgeo.com/Purchase-Boundless-Desktop>`_).
+Boundless Desktop is not composed solely of zeros and ones! It also comes with the deep technical knowledge and immediate readiness of Boundless experts. From product maintenance and day-to-day online support, whatever are your needs, there is a Boundless support plan suited for you (see more about it in following Boundless Connect `page <https://connect.boundlessgeo.com/Purchase-Boundless-Desktop>`_).
