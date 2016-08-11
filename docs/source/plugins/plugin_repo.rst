@@ -39,7 +39,6 @@ Looking for something else?
 
 - Boundless plugins in the official `QGIS plugin repository`_
 - Boundless `Plugins documentation`_
-- Boundless `QGIS documentation`_
 - Older `OpenGeo Explorer documentation`_
 
 .. warning:: OpenGeo Explorer is deprecated and users are recommended to migrate
@@ -47,6 +46,5 @@ Looking for something else?
 
 .. _QGIS plugin repository: http://plugins.qgis.org/search/?q=boundless
 .. _Plugins documentation: http://boundlessgeo.github.io/qgis-plugins-documentation
-.. _QGIS documentation: http://suite.opengeo.org/opengeo-docs/qgis
 .. _OpenGeo Explorer documentation: http://suite.opengeo.org/opengeo-docs/qgis/explorer
 .. _GeoServer Explorer: http://plugins.qgis.org/plugins/geoserverexplorer/
