@@ -11,5 +11,5 @@ Boundless Desktop documentation
    install/index
    quick_start_guide
    components/index
-   qgis_plugins
+   plugins/index
 
