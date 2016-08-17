@@ -21,7 +21,7 @@ For convenience, outside the supported scope of Boundless Desktop, the following
 Quick start guide
 -----------------
 
-This section aims to give you a brief overview about QGIS. We will mainly focus on QGIS's graphical user interface (GUI) and some of the most common operations like loading data, managing layers and printing a map. For more detailed information on QGIS usage see the tutorials on our learning centre and/or consult QGIS's official `documentation <http://docs.qgis.org/2.8/en/docs/index.html>`_. 
+This section aims to give you a brief overview about QGIS. We will mainly focus on QGIS's graphical user interface (GUI) and some of the most common operations like loading data, managing layers and printing a map. For more detailed information on QGIS usage see the tutorials on our learning centre and/or consult QGIS's official `documentation <http://docs.qgis.org/2.14/en/docs/index.html>`_. 
 
 For this Quick start, we will be using the `Natural Earth <http://www.naturalearthdata.com>`_ data. Please, download `Natural Earth Quickstart Kit <http://naciscdn.org/naturalearth/packages/Natural_Earth_quick_start.zip>`_ and unzip it to any folder that you find convenient to access.
 
@@ -215,5 +215,5 @@ Online resources
 ----------------
 
 * Official Site: `<http://www.qgis.org>`_
-* Documentation: `<http://docs.qgis.org/2.8/en/docs/index.html>`_
+* Documentation: `<http://docs.qgis.org/2.14/en/docs/index.html>`_
 * Official Plugins Repository: `<http://plugins.qgis.org/plugins/>`_
