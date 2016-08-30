@@ -9,7 +9,7 @@ QGIS for Boundless Desktop includes all the core plugins of a standard QGIS inst
 
 The following list comprises the currently available boundless-supported plugins for QGIS with links to their official documentation. 
 
-* `Boundless connect <https://connect.boundlessgeo.com/docs/desktop/plugins/connect/>`_
+* `Boundless Connect <https://connect.boundlessgeo.com/docs/desktop/plugins/connect/>`_
 * `Geoserver <https://connect.boundlessgeo.com/docs/desktop/plugins/geoserver/>`_
 * `MGRS tools <https://connect.boundlessgeo.com/docs/desktop/plugins/mgrstools/>`_
 * `Web App Builder <https://connect.boundlessgeo.com/docs/desktop/plugins/webappbuilder/>`_
