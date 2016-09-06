@@ -47,7 +47,7 @@ Install
 
 There are 64-bit installers available for both Windows and Mac OS X in:
 
-http://boundlessgeo.com/
+https://connect.boundlessgeo.com/Desktop
 
 .. only:: win
 
@@ -76,13 +76,17 @@ For more details, please consult the Boundless End User License Agreement (EULA)
 Online resources
 ----------------
 
-* Boundless Spatial website:
-
-  http://boundlessgeo.com
-
 * Boundless Desktop Documentation:
 
   https://connect.boundlessgeo.com/docs/desktop/1.0.0/index.html
+
+* Boundless Connect:
+
+  https://connect.boundlessgeo.com
+
+* Boundless Spatial website:
+
+  http://boundlessgeo.com
 
 * Boundless Plugins Repository for QGIS:
 
