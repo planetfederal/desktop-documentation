@@ -57,8 +57,8 @@ http://boundlessgeo.com/
 
    .. include:: /osx/install_uninstall.rst
 
-Boundless Connect plugin for QGIS
----------------------------------
+Boundless Connect plugin
+------------------------
 
 The central element of our QGIS installation is the Boundless Connect plugin, which acts as a single entry point to Boundless technology and content for QGIS. QGIS for Boundless Desktop includes all the core plugins of a standard QGIS installation, plus the Connect plugin. This provides access to Boundless Connect content, which currently includes Boundless-supported plugins. We will continue to add more content for customizing your QGIS interface, and for training and support.
 
