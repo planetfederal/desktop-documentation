@@ -1,7 +1,7 @@
 .. _components.qtdesign:
 
-Qt Designer for QGIS
-====================
+Qt Designer
+===========
 
 About
 -----
