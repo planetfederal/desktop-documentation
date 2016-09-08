@@ -27,6 +27,8 @@ If you are using `Boundless Desktop`, this repository should be already availabl
    **Show also deprecated plugins** options. The latter is required to install the
    updated, though deprecated, version of the OpenGeo Explorer plugin.
 
+.. warning:: On Windows operating systems, while trying to connect to the repository, it's possible that you get a **Unable To Get Local Issuer Certificate** error message, and you won't be able to access the repository. To solve the issue, try using your browser (Chrome, Edge or Internet Explorer) to open the `repository's URL <https://qgis.boundlessgeo.com/plugins/plugins.xml>`_. This operation should add the needed certificate to your Windows system.
+
 Browsing the repository
 -----------------------
 
