@@ -18,3 +18,5 @@ folders to the Trash (administrator permissions needed):
 
 * ``/Library/Boundless``
 * ``/Applications/Boundless``
+
+A utility for removing Boundless Desktop is available on Boundless Connect.
