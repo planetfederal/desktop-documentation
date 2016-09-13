@@ -35,6 +35,8 @@ folders to the Trash (administrator permissions needed):
 * ``/Library/Boundless``
 * ``/Applications/Boundless``
 
+A utility for removing Boundless Desktop is available on Boundless Connect.
+
 .. Note::
 
    Both in Windows and Mac OS X, all user's configuration and settings (for example, QGIS settings and plugins) will be preserved for future installations of `Boundless Desktop`.
