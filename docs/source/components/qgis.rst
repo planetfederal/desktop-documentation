@@ -16,7 +16,7 @@ For convenience, outside the supported scope of Boundless Desktop, the following
 * GRASS 7.0 by `<http://grass.osgeo.org>`_
 * Orfeo Toolbox 5.0 by `<https://www.orfeo-toolbox.org>`_
 
-.. _components.qgis.quickstart
+.. _components.qgis.quickstart:
 
 Quick start guide
 -----------------
