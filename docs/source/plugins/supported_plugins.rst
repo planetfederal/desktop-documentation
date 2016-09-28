@@ -12,6 +12,7 @@ The following list comprises the currently available boundless-supported plugins
 * `Boundless Connect <https://connect.boundlessgeo.com/docs/desktop/plugins/connect/>`_
 * `Geoserver <https://connect.boundlessgeo.com/docs/desktop/plugins/geoserver/>`_
 * `MGRS tools <https://connect.boundlessgeo.com/docs/desktop/plugins/mgrstools/>`_
+* `MIL-STD2525 <https://connect.boundlessgeo.com/docs/desktop/plugins/milstd2525/>`_
 * `Web App Builder <https://connect.boundlessgeo.com/docs/desktop/plugins/webappbuilder/>`_
 * `What3words <https://connect.boundlessgeo.com/docs/desktop/plugins/what3words/>`_
 
