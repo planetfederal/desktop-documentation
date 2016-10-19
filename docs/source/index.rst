@@ -1,7 +1,7 @@
 .. _desktop_documentation:
 
-Boundless Desktop documentation
-===============================
+Index
+=====
 
 .. toctree::
    :maxdepth: 2
