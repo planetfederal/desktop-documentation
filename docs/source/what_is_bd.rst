@@ -11,7 +11,7 @@ Boundless Desktop |version| is composed of the following set of open source tool
 * Connect plugin for QGIS by Boundless
 * PgAdmin 1.22 by `<http://www.pgadmin.org>`_
 * Qt Designer 4.8 for QGIS by `<http://www.qt.io>`_
-* GDAL/OGR 2.0 by `<http://www.gdal.org>`_
+* GDAL/OGR 2.1 by `<http://www.gdal.org>`_
 
 (See :ref:`components` section for more details on each component)
 
