@@ -23,11 +23,15 @@ For convenience, outside the supported scope of Boundless Desktop, the following
 
 A full Python interpreter install is embedded within Desktop. Desktop does not use any Python interpreter or modules that you have installed on your system.
 
-To add packages to the embedded Python install, open the included Command Shell application and run:
+To manage packages available to the embedded Python install, open the included Command Shell application (as an administrator) and use ``pip``:
 
 ::
 
-pip install <module name>
+pip --help
+
+See ``pip`` docs for more details:
+
+https://pip.pypa.io/en/stable/
 
 System Requirements
 -------------------
