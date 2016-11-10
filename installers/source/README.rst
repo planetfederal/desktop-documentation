@@ -1,3 +1,5 @@
+.. |minorversion| replace:: 1.0
+
 Boundless Desktop |version|
 ===========================
 
