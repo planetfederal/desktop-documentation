@@ -23,17 +23,24 @@ For convenience, outside the supported scope of Boundless Desktop, the following
 
    .. include:: /osx/additional_components.rst
 
+Python interpreter
+------------------
+
 A full Python interpreter install is embedded within Desktop. Desktop does not use any Python interpreter or modules that you have installed on your system.
 
 To manage packages available to the embedded Python install, open the included Command Shell application (as an administrator) and use ``pip``:
 
 ::
 
-pip --help
+        pip --help
 
 See ``pip`` docs for more details:
 
 https://pip.pypa.io/en/stable/
+
+The ``IPython`` and ``Jupyter`` packages are installed (see **Known Issues** on Windows). This allows for easy installation of the **IPyConsole** plugin for QGIS, an excellent additional console to QGIS's embedded Python console.
+
+http://plugins.qgis.org/plugins/IPyConsole/
 
 System Requirements
 -------------------
@@ -76,8 +83,16 @@ http://boundlessgeo.com/
 
 For more details, please consult the Boundless End User License Agreement (EULA) during installation. You can review the EULA and individual licenses for components of Desktop in the Licenses folder located within the installation folder.
 
-.. Known issues
-.. ------------
+Known issues
+------------
+
+.. only:: win
+
+   .. include:: /win/known_issues.rst
+
+.. only:: osx
+
+   .. include:: /osx/known_issues.rst
 
 Online resources
 ----------------
