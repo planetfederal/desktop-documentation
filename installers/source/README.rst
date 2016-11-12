@@ -47,7 +47,7 @@ Boundless Connect plugin
 
 The central element of our QGIS installation is the Boundless Connect plugin, which acts as a single entry point to Boundless technology and content for QGIS. QGIS for Boundless Desktop includes all the core plugins of a standard QGIS installation, plus the Connect plugin. This provides access to Boundless Connect content, which currently includes Boundless-supported plugins. We will continue to add more content for customizing your QGIS interface, and for training and support.
 
-System Requirements
+System requirements
 -------------------
 
 Boundless Desktop has the following minimum and recommended system requirements:
@@ -133,7 +133,7 @@ Online resources
 
   http://doc.qt.io/qt-4.8/designer-manual.html
 
-Proprietary Software
+Proprietary software
 --------------------
 
 Proprietary software, included with Desktop, has its provenance from the
