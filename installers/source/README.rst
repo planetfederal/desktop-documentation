@@ -117,3 +117,30 @@ Online resources
 * Qt Designer Manual:
 
   http://doc.qt.io/qt-4.8/designer-manual.html
+
+Proprietary Software
+--------------------
+
+Proprietary software, included with Desktop, has its provenance from the
+following sources.
+
+* MrSID raster and LiDAR decompression driver support for GDAL/OGR
+
+  - (LizardTech Computer Software License)
+
+  - https://www.lizardtech.com/gis-tools/server-development-kit
+
+* ECW, ECWP and JPEG2000 driver support for GDAL
+
+  - (ERDAS ECW/JP2 Desktop Read-Only Redistributable SDK License)
+
+  - http://www.hexagongeospatial.com/products/provider-suite/erdas-ecw-jp2-sdk
+
+.. only:: win
+
+   .. include:: /win/proprietary_components.rst
+
+.. only:: osx
+
+   .. include:: /osx/proprietary_components.rst
+
