@@ -42,6 +42,11 @@ The ``IPython`` and ``Jupyter`` packages are installed (see **Known Issues** on 
 
 http://plugins.qgis.org/plugins/IPyConsole/
 
+Boundless Connect plugin
+------------------------
+
+The central element of our QGIS installation is the Boundless Connect plugin, which acts as a single entry point to Boundless technology and content for QGIS. QGIS for Boundless Desktop includes all the core plugins of a standard QGIS installation, plus the Connect plugin. This provides access to Boundless Connect content, which currently includes Boundless-supported plugins. We will continue to add more content for customizing your QGIS interface, and for training and support.
+
 System Requirements
 -------------------
 
@@ -69,11 +74,6 @@ https://connect.boundlessgeo.com/Desktop
 .. only:: osx
 
    .. include:: /osx/install_uninstall.rst
-
-Boundless Connect plugin
-------------------------
-
-The central element of our QGIS installation is the Boundless Connect plugin, which acts as a single entry point to Boundless technology and content for QGIS. QGIS for Boundless Desktop includes all the core plugins of a standard QGIS installation, plus the Connect plugin. This provides access to Boundless Connect content, which currently includes Boundless-supported plugins. We will continue to add more content for customizing your QGIS interface, and for training and support.
 
 License
 -------
