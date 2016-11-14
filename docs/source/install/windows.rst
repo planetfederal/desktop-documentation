@@ -53,7 +53,7 @@ To install Boundless Desktop on windows:
 
    .. figure:: img/install_win_install_components.png
 
-#. You are ready to install the software. Click :guilabel:`Install` to begin.
+#. You are ready to install the software. Click :guilabel:`Install` to start the installation.
 
    .. figure:: img/install_win_ready_to_install.png
 
@@ -69,8 +69,6 @@ To install Boundless Desktop on windows:
 
    .. figure:: img/install_win_install_complete.png
 
-    Boundless Desktop successfully
+      Boundless Desktop successfully installed
 
-After a successful install, Boundless Desktop components, such as QGIS, can be run from shortcuts in the Start Menu (see :ref:`quickstarguide` for more information)
-
-For more information about Boundless Desktop and its components, please see the :ref:`desktop_documentation` on the Boundless Connect portal.
+After a successful install, Boundless Desktop components, such as QGIS, can be run from shortcuts in the Start Menu (see :ref:`quickstarguide` for more information).
