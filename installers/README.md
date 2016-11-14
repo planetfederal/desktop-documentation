@@ -39,10 +39,15 @@ installed:
 
 * Combine rst sources into one README.rst
 
-        rm -Rf build
+        rm -Rf build && \
         sphinx-build -b rst -t <platform> source build/rst
 
 * Build README.rtf
 
-        cd build/rst
-        pandoc -s -f rst -t rtf -o README.rtf README.rst
+        pushd build/rst &&
+        pandoc -s -f rst -t rtf -o README.rtf README.rst && \
+        popd
+        
+* Optionally open the README on macOS (defaults to TextEdit.app)
+
+        open build/rst/README.rtf

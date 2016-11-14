@@ -1,3 +1,5 @@
+.. |minorversion| replace:: 1.0
+
 Boundless Desktop |version|
 ===========================
 
@@ -21,15 +23,31 @@ For convenience, outside the supported scope of Boundless Desktop, the following
 
    .. include:: /osx/additional_components.rst
 
+Python interpreter
+------------------
+
 A full Python interpreter install is embedded within Desktop. Desktop does not use any Python interpreter or modules that you have installed on your system.
 
-To add packages to the embedded Python install, open the included Command Shell application and run:
+To manage packages available to the embedded Python install, open the included Command Shell application (as an administrator) and use ``pip``:
 
 ::
 
-pip install <module name>
+        pip --help
 
-System Requirements
+See ``pip`` docs for more details:
+
+https://pip.pypa.io/en/stable/
+
+The ``IPython`` and ``Jupyter`` packages are installed (see **Known Issues** on Windows). This allows for easy installation of the **IPyConsole** plugin for QGIS, an excellent additional console to QGIS's embedded Python console.
+
+http://plugins.qgis.org/plugins/IPyConsole/
+
+Boundless Connect plugin
+------------------------
+
+The central element of our QGIS installation is the Boundless Connect plugin, which acts as a single entry point to Boundless technology and content for QGIS. QGIS for Boundless Desktop includes all the core plugins of a standard QGIS installation, plus the Connect plugin. This provides access to Boundless Connect content, which currently includes Boundless-supported plugins. We will continue to add more content for customizing your QGIS interface, and for training and support.
+
+System requirements
 -------------------
 
 Boundless Desktop has the following minimum and recommended system requirements:
@@ -57,11 +75,6 @@ https://connect.boundlessgeo.com/Desktop
 
    .. include:: /osx/install_uninstall.rst
 
-Boundless Connect plugin
-------------------------
-
-The central element of our QGIS installation is the Boundless Connect plugin, which acts as a single entry point to Boundless technology and content for QGIS. QGIS for Boundless Desktop includes all the core plugins of a standard QGIS installation, plus the Connect plugin. This provides access to Boundless Connect content, which currently includes Boundless-supported plugins. We will continue to add more content for customizing your QGIS interface, and for training and support.
-
 License
 -------
 
@@ -70,8 +83,16 @@ http://boundlessgeo.com/
 
 For more details, please consult the Boundless End User License Agreement (EULA) during installation. You can review the EULA and individual licenses for components of Desktop in the Licenses folder located within the installation folder.
 
-.. Known issues
-.. ------------
+Known issues
+------------
+
+.. only:: win
+
+   .. include:: /win/known_issues.rst
+
+.. only:: osx
+
+   .. include:: /osx/known_issues.rst
 
 Online resources
 ----------------
@@ -111,3 +132,30 @@ Online resources
 * Qt Designer Manual:
 
   http://doc.qt.io/qt-4.8/designer-manual.html
+
+Proprietary software
+--------------------
+
+Proprietary software, included with Desktop, has its provenance from the
+following sources.
+
+* MrSID raster and LiDAR decompression driver support for GDAL/OGR
+
+  - (LizardTech Computer Software License)
+
+  - https://www.lizardtech.com/gis-tools/server-development-kit
+
+* ECW, ECWP and JPEG2000 driver support for GDAL
+
+  - (ERDAS ECW/JP2 Desktop Read-Only Redistributable SDK License)
+
+  - http://www.hexagongeospatial.com/products/provider-suite/erdas-ecw-jp2-sdk
+
+.. only:: win
+
+   .. include:: /win/proprietary_components.rst
+
+.. only:: osx
+
+   .. include:: /osx/proprietary_components.rst
+
