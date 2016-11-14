@@ -6,13 +6,13 @@ Quick start guide
 Windows
 -------
 
-During installation, a desktop shortcut will be added for easy access to all installed tools. Double-click the icon to open the shortcuts folder. Then, simply double-click any of the icons to launch the desired tool.
+After installation, a Boundless Desktop shortcut is added for easy access to all the installed tools. Double-click the icon to open the shortcuts folder. Then, double-click any of the icons to launch the respective tools.
 
 .. figure:: img/quickstart_desktop_shortcut.png
    
    Boundless desktop shortcut and folder in windows
    
-The same shortcuts are also added to the start menu in a group called `Boundless Desktop |version|`. Click on any of the tools icons or names to launch it.
+The same shortcuts are also added to the start menu in a group called `Boundless Desktop` |version|. Click on any of the tools' icons or names to launch it.
 
 .. figure:: img/quickstart_start_menu.png
    
@@ -20,16 +20,16 @@ The same shortcuts are also added to the start menu in a group called `Boundless
 
 There is also an `Uninstall` shortcut to easily remove `Boundless Desktop` from your computer. Please see :ref:`install.uninstall` for more information about uninstalling procedures.
 
-OS X
-----
+Mac OS X
+--------
 
-After installation, you will find a Boundless Desktop icon in the Applications folder.
+After installation, you will find a Boundless icon in the *Applications* folder.
 
 .. figure:: img/quickstart_osx_apps_folder.png
    
-   Boundless Desktop icon in Mac OS X Applications folder
+   Boundless icon in Mac OS X Applications folder
 
-Double-click the icon to open the shortcuts folder. Then, simply double-click any of the icons to launch the desired tool.
+Double-clicking the Boundless icon will lead you to a folder with a *Desktop* |version| icon. Double-clicking it will open the Boundless Desktop's shortcuts folder. In it, double-click any of the icons to launch the respective tool.
 
 .. figure:: img/quickstart_osx_shortcut_folder.png
    
