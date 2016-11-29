@@ -9,5 +9,6 @@ Boundless Desktop's functionality can be remarkably extended by the use of plugi
 .. toctree::
    :maxdepth: 1
    
-   supported_plugins
+   boundless_plugins
    plugin_repo
+   3rdparty_plugins/index
