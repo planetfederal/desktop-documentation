@@ -33,7 +33,6 @@ IPyConsole when the plugin starts::
    from qgis.core import *
    from qgis.gui import *
 
-
 Propertize: better introspection for QGIS API
 *********************************************
 
