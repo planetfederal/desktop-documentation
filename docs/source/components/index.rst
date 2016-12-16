@@ -12,3 +12,4 @@ Boundless Desktop is composed of several open source geospatial client-side tool
    pgadmin
    qtdesigner
    gdal_ogr
+   python_interpreter
