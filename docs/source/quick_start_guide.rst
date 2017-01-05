@@ -20,6 +20,10 @@ The same shortcuts are also added to the start menu in a group called `Boundless
 
 There is also an `Uninstall` shortcut to easily remove `Boundless Desktop` from your computer. Please see :ref:`install.uninstall` for more information about uninstalling procedures.
 
+.. note::
+
+   Users should not 'pin' the launched apps to the Windows taskbar because the pinned icons will not launch the apps correctly next time.
+
 Mac OS X
 --------
 
