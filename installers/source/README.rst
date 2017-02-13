@@ -3,7 +3,7 @@
 Boundless Desktop |version|
 ===========================
 
-Boundless Desktop is a software package prepared by Boundless Spatial and composed of open-source geospatial client-side tools. The current version (|version|) includes:
+Boundless Desktop is a software package prepared by Boundless Spatial and composed of open-source geospatial client-side tools. The current version (|release|) includes:
 
 .. only:: win
 
@@ -65,7 +65,7 @@ Install
 
 There are 64-bit installers available for both Windows and Mac OS X in:
 
-https://connect.boundlessgeo.com/Desktop
+https://connect.boundlessgeo.com/Downloads
 
 .. only:: win
 
@@ -99,7 +99,7 @@ Online resources
 
 * Boundless Desktop Documentation:
 
-  https://connect.boundlessgeo.com/docs/desktop/1.0.0/index.html
+  https://connect.boundlessgeo.com/docs/desktop/|release|/index.html
 
 * Boundless Connect:
 
@@ -108,14 +108,6 @@ Online resources
 * Boundless Spatial website:
 
   http://boundlessgeo.com
-
-* Boundless Plugins Repository for QGIS:
-
-  http://qgis.boundlessgeo.com
-
-* Boundless Plugins for QGIS Documentation:
-
-  http://boundlessgeo.github.io/qgis-plugins-documentation
 
 * QGIS official documentation:
 
