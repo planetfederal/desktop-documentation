@@ -21,7 +21,7 @@ else
 fi
 make html
 deactivate
-rsync -uthvr --delete output/html/en/docs/ ../output/qgis_core_docs
+rsync -uthvr --delete output/html/ ../output/qgis_core_docs
 cd ..
 
 # Getting Desktop documentation
