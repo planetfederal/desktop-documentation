@@ -1,2 +1,7 @@
+.idea
 installers/build/*
 docs/build/*
+offline_docs/output
+offline_docs/QGIS-Documentation
+offline_docs/qgis-plugins-documentation
+offline_docs/desktop-documentation
