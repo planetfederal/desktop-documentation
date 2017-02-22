@@ -1,8 +1,11 @@
 # Clean things up
-#rm -rf output 
-#mkdir output
+mkdir tmp
+cd tmp
+# rm -rf output 
+mkdir output
 
 # Getting QGIS Core Documentation
+
 if [ -d "QGIS-Documentation" ]; then 
   cd QGIS-Documentation;
   git pull origin manual_en_2.14;
@@ -21,7 +24,7 @@ else
 fi
 make html
 deactivate
-rsync -uthvr --delete output/html/ ../output/qgis_core_docs
+rsync -uthvr --delete output/ ../output/qgis_core_docs
 cd ..
 
 # Getting Desktop documentation
@@ -35,8 +38,7 @@ else
   cd desktop-documentation/docs;
 fi
 make html
-cp build/html ../../output/desktop_docs
-rsync -uthvr --delete build/html/ ../../output/desktop_doc
+rsync -uthvr --delete build/ ../../output/desktop_doc
 
 cd ../..
 
@@ -54,26 +56,35 @@ paver fetch
 paver builddocs
 paver deployoffline
 
-rsync -uthvr output/ ../output/plugins
+rsync -uthvr --delete output/ ../output/plugins
 
 cd ..
 
 #Cleaning up links
 
-sed -ri "s@\.\./\.\./plugins/(\w*)/@../../plugins/\1/index.html@g" output/desktop_doc/plugins/supported_plugins.html
+sed -ri "s@\.\./\.\./plugins/(\w*)/@../../plugins/\1/index.html@g" output/desktop_doc/html/plugins/supported_plugins.html
 
-# Getting Learning Center
 :'
+# Getting Learning Center
+
 if [ -d "connect-learning" ]; then 
   cd connect-learning;
   git pull origin master;
 else 
-  git clone --recursive https://github.com/qgis/QGIS-Documentation.git
+  git clone --recursive https://github.com/boundlessgeo/connect-learning.git;
   cd connect-learning;
 fi
 cd desktop
 make html-offline
-make get-datasets
-make get-videos
+#make get-datasets
+#make get-videos
+rsync -uthvr --delete build/ ../../output/desktop-learning
+cd ../../..
 '
+
+#Place Index Page
+cd ..
+rsync -uthvr _static/ tmp/output/_static
+cp index.html tmp/output
+
 
