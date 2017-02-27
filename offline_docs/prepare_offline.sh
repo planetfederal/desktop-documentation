@@ -65,8 +65,12 @@ rsync -uthvr --delete output/ ../output/plugins
 cd ..
 
 #Cleaning up links
-
-sed -ri "s@\.\./\.\./plugins/(\w*)/@../../plugins/\1/index.html@g" output/desktop_doc/html/plugins/supported_plugins.html
+REGXHTML="output/desktop_doc/html/plugins/supported_plugins.html"
+if [[ "${OSTYPE}" =~ ^darwin ]]; then
+  sed -i '' -E 's@\.\./\.\./plugins/([[:alnum:]]+)/@../../plugins/\1/index.html@g' ${REGXHTML}
+else
+  sed -ri "s@\.\./\.\./plugins/(\w*)/@../../plugins/\1/index.html@g" ${REGXHTML}
+fi
 
 :'
 # Getting Learning Center
