@@ -3,10 +3,10 @@
 set -e
 
 # Clean things up
-mkdir tmp
+mkdir -p tmp
 cd tmp
 # rm -rf output 
-mkdir output
+mkdir -p output
 
 # Getting QGIS Core Documentation
 
