@@ -72,23 +72,23 @@ else
   sed -ri "s@\.\./\.\./plugins/(\w*)/@../../plugins/\1/index.html@g" ${REGXHTML}
 fi
 
-:'
+
 # Getting Learning Center
 
-if [ -d "connect-learning" ]; then 
-  cd connect-learning;
-  git pull origin master;
-else 
-  git clone --recursive https://github.com/boundlessgeo/connect-learning.git;
-  cd connect-learning;
-fi
-cd desktop
-make html-offline
-#make get-datasets
-#make get-videos
-rsync -uthvr --delete build/ ../../output/desktop-learning
-cd ../../..
-'
+# if [ -d "connect-learning" ]; then 
+#   cd connect-learning;
+#   git pull origin master;
+# else 
+#   git clone --recursive https://github.com/boundlessgeo/connect-learning.git;
+#   cd connect-learning;
+# fi
+# cd desktop
+# make html-offline
+# #make get-datasets
+# #make get-videos
+# rsync -uthvr --delete build/ ../../output/desktop-learning
+# cd ../../..
+
 
 #Place Index Page
 cd ..
