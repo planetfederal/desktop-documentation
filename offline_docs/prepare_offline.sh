@@ -1,3 +1,7 @@
+#!/bin/bash
+
+set -e
+
 # Clean things up
 mkdir tmp
 cd tmp
