@@ -99,7 +99,7 @@ git pull origin master;
 make html-offline
 #make get-videos
 rsync -uthvr --delete build/ ../../output/desktop-learning
-cd ../../..
+cd ../..
 
 
 #Put index Page in place
