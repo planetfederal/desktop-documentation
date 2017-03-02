@@ -54,7 +54,18 @@ if [ ! -d "desktop-documentation" ]; then
 fi  
 
 cd desktop-documentation/docs;
-git pull origin master;
+
+case "$Version" in
+	"1.0")
+		git fetch origin r1.0;
+		git checkout r1.0;
+		git merge origin/r1.0;
+		;;
+	*)
+		git checkout master;
+		git pull origin master;
+		;;
+esac
 
 make html
 rsync -uthvr --delete build/ ../../output/desktop_doc
