@@ -89,17 +89,17 @@ fi
 
 # Getting Learning Center
 
-if [ ! -d "connect-learning" ]; then 
-   git clone --recursive https://github.com/boundlessgeo/connect-learning.git;
-fi
-
-cd connect-learning/desktop;
-git pull origin master;
-
-make html-offline
-#make get-videos
-rsync -uthvr --delete build/ ../../output/desktop-learning
-cd ../..
+#if [ ! -d "connect-learning" ]; then 
+#   git clone --recursive https://github.com/boundlessgeo/connect-learning.git;
+#fi
+#
+#cd connect-learning/desktop;
+#git pull origin master;
+#
+#make html-offline
+##make get-videos
+#rsync -uthvr --delete build/ ../../output/desktop-learning
+#cd ../..
 
 
 #Put index Page in place
