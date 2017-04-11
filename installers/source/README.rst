@@ -94,6 +94,17 @@ Known issues
 
    .. include:: /osx/known_issues.rst
 
+Version Changelog
+-----------------
+
+.. only:: win
+
+   .. include:: /win/version_changelog.rst
+
+.. only:: osx
+
+   .. include:: /osx/version_changelog.rst
+
 Online resources
 ----------------
 
