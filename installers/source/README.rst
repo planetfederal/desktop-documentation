@@ -94,8 +94,8 @@ Known issues
 
    .. include:: /osx/known_issues.rst
 
-Version Changelog
------------------
+Changelog
+---------
 
 .. only:: win
 

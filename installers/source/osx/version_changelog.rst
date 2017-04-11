@@ -1,7 +1,7 @@
 Version 1.0.1
 ~~~~~~~~~~~~~
 
-*Fixed*
+**Fixed**
 
 * Fixed QGIS crash on macOS after 10.12.4 update (Qt's Phonon Python binding removed)
 * Fixed referenced macOS system Python library paths
