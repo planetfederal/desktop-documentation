@@ -43,9 +43,9 @@ Browsing the repository
 Beta Repository
 ---------------
 
-If you have signed up for the **Beta program**, you can set up our Beta
-plugin repository, which will allow you to download and install the latest beta
-versions of our plugins.
+If you have signed up for access to the **Beta Plugin Repository**, you must
+set it up to be able to download and install the latest beta versions of our
+plugins.
 
 To set the BETA repository, follow the instructions :ref:`above
 <using.boundless.repository>` giving the repository another name (e.g.
