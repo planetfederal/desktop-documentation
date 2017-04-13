@@ -11,6 +11,8 @@ QGIS's functionality can be remarkably extended by the use of plugins.
 This is the QGIS plugin repository for Boundless_ plugins that are not in the
 `official QGIS repository`_.
 
+.. _using.boundless.repository:
+
 Using the repository in QGIS
 ----------------------------
 
@@ -37,6 +39,19 @@ Browsing the repository
 - `Available plugins <https://qgis.boundlessgeo.com/plugins/plugins.xml>`_
 
 - `Archives of released versions <https://qgis.boundlessgeo.com/plugins/packages>`_
+
+Beta Repository
+---------------
+
+If you have signed up for access to the **Beta Plugin Repository**, you must
+set it up to be able to download and install the latest beta versions of our
+plugins.
+
+To set the BETA repository, follow the instructions :ref:`above
+<using.boundless.repository>` giving the repository another name (e.g.
+``Boundless Plugin Beta Repository``) and using the following URL:
+
+- https://qgis-beta.boundlessgeo.com/plugins/plugins.xml
 
 Looking for something else?
 ---------------------------
