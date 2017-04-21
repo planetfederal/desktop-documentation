@@ -10,6 +10,7 @@
 * Ability to pin Desktop apps launched from .bat wrapper scripts (right-click on shortcuts and choose Pin to Start or Taskbar). Wrappers are launched with nircmd.exe executable.
 * Included SciPy Python package: https://www.scipy.org/scipylib/index.html
 * Included 'requests' and 'future' Python packages.
+* Upgraded 'setuptools' Python package.
 
 **Quality Assurance**
 
