@@ -1,4 +1,4 @@
-.. |minorversion| replace:: 1.0
+.. |minorversion| replace:: 1.1
 
 Boundless Desktop |version|
 ===========================
@@ -78,7 +78,7 @@ https://connect.boundlessgeo.com/Downloads
 License
 -------
 
-Copyright (C) 2009-2016 Boundless
+Copyright (C) 2009-2017 Boundless
 http://boundlessgeo.com/
 
 For more details, please consult the Boundless End User License Agreement (EULA) during installation. You can review the EULA and individual licenses for components of Desktop in the Licenses folder located within the installation folder.

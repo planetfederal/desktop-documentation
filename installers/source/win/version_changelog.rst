@@ -1,3 +1,18 @@
+**Version 1.1.0**
+
+**Fixed**
+
+* TODO
+
+**Added**
+
+* TODO
+
+**Quality Assurance**
+
+* TODO
+
+
 **Version 1.0.1**
 
 **Fixed**
