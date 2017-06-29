@@ -11,7 +11,7 @@ Minimum:
 
 Recommended:
 
-* OS: OS X 10.11 El Capitan
+* OS: OS X 10.12 Sierra
 * CPU: Intel Core 2 Quad, i5 or better
 * RAM for Desktop: 2 GB or higher
 * Screen resolution: 1440x900 or higher at standard dpi
