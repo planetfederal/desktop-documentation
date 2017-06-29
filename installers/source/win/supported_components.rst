@@ -5,4 +5,5 @@
 * Boundless Connect plugin
 * Master Password Helper plugin
 * OAuth2 authentication plugin
+* Reporting tool plugin
 * Windows certificate store authentication plugin
