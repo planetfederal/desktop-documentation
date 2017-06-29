@@ -6,34 +6,48 @@ pgAdmin
 About
 -----
 
-`pgAdmin` is a feature rich Open Source administration and development platform for `PostgreSQL <https://www.postgresql.org/>`_, the most advanced Open Source database in the world, which includes, among others, the `Postgis <http://postgis.org/>`_ spatial extention.
+`pgAdmin` is a feature rich Open Source administration and development platform
+for `PostgreSQL <https://www.postgresql.org/>`_, the most advanced Open Source
+database in the world, which includes, among others, the `Postgis
+<http://postgis.org/>`_ spatial extention.
 
-`pgAdmin` is developed by a community of PostgreSQL experts around the world and is available in more than a dozen languages. It is Free Software released under the PostgreSQL License.
+`pgAdmin` is developed by a community of PostgreSQL experts around the world and
+is available in more than a dozen languages. It is Free Software released under
+the PostgreSQL License.
 
-`pgAdmin` is aimed to answer the needs of all users, from writing simple SQL queries to developing complex databases. The graphical interface supports all PostgreSQL features and makes its administration easy. The application includes, among other things: syntax highlighting SQL editor, a server-side code editor, an SQL/batch/shell job scheduling agent, and much more. See more about it in the `official website <https://www.pgadmin.org/>`_.
+`pgAdmin` is aimed to answer the needs of all users, from writing simple SQL
+queries to developing complex databases. The graphical interface supports all
+PostgreSQL features and makes its administration easy. The application includes,
+among other things: syntax highlighting SQL editor, a server-side code editor,
+an SQL/batch/shell job scheduling agent, and much more. See more about it in the
+`official website <https://www.pgadmin.org/>`_.
 
 Quick start guide
 -----------------
 
 .. note::
 
-    To execute this Quick Start Guide you will need a running instance of :program:`PostgreSQL` database
-    with the spatial extension :program:`PostGIS` installed, please ask your system administrator
-    for the connection parameters. For further information about :program:`PostgreSQL` or :program:`PostGIS`
-    see :ref:`pgadmin.online_resources`.
+    To execute this Quick Start Guide you will need a running instance of
+    :program:`PostgreSQL` database with the spatial extension :program:`PostGIS`
+    installed, please ask your system administrator for the connection
+    parameters. For further information about :program:`PostgreSQL` or
+    :program:`PostGIS` see :ref:`pgadmin.online_resources`.
 
-The following quick start guide will introduce you to :program:`pgAdmin` basics. It will show how to access to a
-spatially enabled database and run some simple queries on its tables.
+The following quick start guide will introduce you to :program:`pgAdmin` basics.
+It will show how to access to a spatially enabled database and run some simple
+queries on its tables.
 
-#. Download the data for this tutorial :download:`here <data/events_data_sample.zip>` and unzip it anywhere you think it's convenient.
+#. Download the data for this tutorial :download:`here
+   <data/events_data_sample.zip>` and unzip it anywhere you think it's
+   convenient.
 
-#. Import the geodata from the shapefile into the database, if you have :command:`shp2pgsql` command line utility
-   at hand you can import the data with::
+#. Import the geodata from the shapefile into the database, if you have
+   :command:`shp2pgsql` command line utility at hand you can import the data with::
 
      shp2pgsql events.shp | psql -U postgres pg_test
 
-   If you don't have this command available you can still use :program:`QGIS` *db manager*
-   to import you data into the database.
+   If you don't have this command available you can still use :program:`QGIS`
+   *db manager* to import you data into the database.
 
 #. Open :program:`pgAdmin` using any of the available shortcuts in your computer.
 
@@ -41,10 +55,11 @@ spatially enabled database and run some simple queries on its tables.
 
    .. figure:: img/pgadmin_first_open.png
 
-#. Click on the :guilabel:`Add a connection to a server` (the "plug" icon) to create a new database connection.
+#. Click on the :guilabel:`Add a connection to a server` (the "plug" icon) to
+   create a new database connection.
 
-#. Enter the connection parameters in the dialog, a database connection is usually
-   identified by:
+#. Enter the connection parameters in the dialog, a database connection is
+   usually identified by:
 
    * host
    * port
@@ -53,7 +68,8 @@ spatially enabled database and run some simple queries on its tables.
 
    .. figure:: img/pgadmin_register_new_server.png
 
-#. Click on the newly added server to open its features tree and select the `events` table or any other table you want to query
+#. Click on the newly added server to open its features tree and select the
+   `events` table or any other table you want to query
 
    .. figure:: img/pgadmin_schema_tree.png
 

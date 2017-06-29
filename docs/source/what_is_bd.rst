@@ -3,9 +3,14 @@
 What is Boundless Desktop?
 ==========================
 
-Boundless Desktop is a fully supported software package prepared by Boundless and available for Windows and Mac OS X platforms. It's composed of open source geospatial client-side tools and is capable of addressing the most demanding desktop GIS users needs, including spatial analysis, data management, cartography and web publishing.
+Boundless Desktop is a fully supported software package prepared by Boundless
+and available for Windows and Mac OS X platforms. It's composed of open source
+geospatial client-side tools and is capable of addressing the most demanding
+desktop GIS users needs, including spatial analysis, data management,
+cartography and web publishing.
 
-Boundless Desktop |version| is composed of the following set of open source tools:
+Boundless Desktop |version| is composed of the following set of open source
+tools:
 
 * QGIS 2.14 by `<http://www.qgis.org>`_
 * Connect plugin for QGIS by Boundless
@@ -15,12 +20,25 @@ Boundless Desktop |version| is composed of the following set of open source tool
 
 (See :ref:`components` section for more details on each component)
 
-Boundless Desktop is also enhanced by a set of Boundless-supported plugins for QGIS, those are aimed at improving QGIS functionality, but also a better integration with the other two Boundless Products: `Boundless Suite <https://connect.boundlessgeo.com/suite>`_ and `Boundless Exchange <https://connect.boundlessgeo.com/Exchange>`_. (See more in :ref:`qgis.plugins`)
+Boundless Desktop is also enhanced by a set of Boundless-supported plugins for
+QGIS, those are aimed at improving QGIS functionality, but also a better
+integration with the other two Boundless Products: `Boundless Suite
+<https://connect.boundlessgeo.com/suite>`_ and `Boundless Exchange
+<https://connect.boundlessgeo.com/Exchange>`_. (See more in :ref:`qgis.plugins`)
 
 .. figure:: /img/boundless_desktop_simplified_ecosystem.png
 
    Boundless Desktop ecosystem
 
-The central element of our QGIS installation is the `Boundless connect plugin <https://connect.boundlessgeo.com/docs/desktop/plugins/connect/>`_, which acts as a single entry point to Boundless technology and content for QGIS. This provides access to `Boundless Connect <https://connect.boundlessgeo.com/>`_ content, which currently includes Boundless-supported plugins.
+The central element of our QGIS installation is the `Boundless connect plugin
+<https://connect.boundlessgeo.com/docs/desktop/plugins/connect/>`_, which acts
+as a single entry point to Boundless technology and content for QGIS. This
+provides access to `Boundless Connect <https://connect.boundlessgeo.com/>`_
+content, which currently includes Boundless-supported plugins.
 
-Boundless Desktop is not composed solely of zeros and ones! It also comes with the deep technical knowledge and immediate readiness of Boundless experts. From product maintenance and day-to-day online support, whatever are your needs, there is a Boundless support plan suited for you (see more about it in following Boundless Connect `page <https://connect.boundlessgeo.com/Purchase-Boundless-Desktop>`_).
+Boundless Desktop is not composed solely of zeros and ones! It also comes with
+the deep technical knowledge and immediate readiness of Boundless experts. From
+product maintenance and day-to-day online support, whatever are your needs,
+there is a Boundless support plan suited for you (see more about it in following
+Boundless Connect `page
+<https://connect.boundlessgeo.com/Purchase-Boundless-Desktop>`_).

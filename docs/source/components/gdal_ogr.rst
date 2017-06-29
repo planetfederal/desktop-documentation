@@ -6,26 +6,40 @@ GDAL/OGR
 About
 -----
 
-Geospatial Data Abstraction Library (GDAL/OGR) is a cross-platform C++ translator library for raster and vector geospatial data formats that is released under an X/MIT style Open Source license by the `Open Source Geospatial Foundation <http://www.osgeo.org>`_. As a library, it presents a single abstract data model to the calling application for all supported formats. It also comes with a variety of useful command line utilities for data translation and processing. GDAL supports over 50 raster formats, and OGR over 20 vector formats.
+Geospatial Data Abstraction Library (GDAL/OGR) is a cross-platform C++
+translator library for raster and vector geospatial data formats that is
+released under an X/MIT style Open Source license by the `Open Source Geospatial
+Foundation <http://www.osgeo.org>`_. As a library, it presents a single abstract
+data model to the calling application for all supported formats. It also comes
+with a variety of useful command line utilities for data translation and
+processing. GDAL supports over 50 raster formats, and OGR over 20 vector
+formats.
 
-In Boundless Desktop installation, GDAL/OGR utilities are available through QGIS or the installed Command Shell. The shipped version of GDAL/OGR includes two extra libraries, LibKML and OpenJPEG2, for .kmz and JPEG2000 support, respectively.
+In Boundless Desktop installation, GDAL/OGR utilities are available through QGIS
+or the installed Command Shell. The shipped version of GDAL/OGR includes two
+extra libraries, LibKML and OpenJPEG2, for .kmz and JPEG2000 support,
+respectively.
 
 Quick start guide
 -----------------
 
-:program:`GDAL/OGR` is a suite of command line programs that can be launched through the
-:program:`Command Shell`.
-:program:`Command Shell` can be found in the :guilabel:`Boundless Desktop` folder.
+:program:`GDAL/OGR` is a suite of command line programs that can be launched
+through the :program:`Command Shell`. :program:`Command Shell` can be found in
+the :guilabel:`Boundless Desktop` folder.
 
 .. figure:: img/desktop_command_shell_icon.png
 
-#. Download the data for this quick start :download:`here <data/events_data_sample.zip>` and unzip it anywhere you think it's convenient.
+#. Download the data for this quick start :download:`here
+   <data/events_data_sample.zip>` and unzip it anywhere you think it's
+   convenient.
 
-#. Open :program:`Command Shell` using any of the available shortcuts in your computer.
+#. Open :program:`Command Shell` using any of the available shortcuts in your
+   computer.
 
-#. If you are on Windows, you will immediately see the list of available commands. 
-   To list them again, type ``o-help`` and press :kbd:`Enter`.
-   To print the list of available commands on Mac, type ``list-cmds`` and press :kbd:`Enter`.
+#. If you are on Windows, you will immediately see the list of available
+   commands. To list them again, type ``o-help`` and press :kbd:`Enter`. To
+   print the list of available commands on Mac, type ``list-cmds`` and press
+   :kbd:`Enter`.
 
 #. To execute a :program:`GDAL/OGR` command, type its name an press enter.
    If executed without arguments :program:`GDAL/OGR` commands normally print
@@ -36,7 +50,8 @@ Quick start guide
    .. figure::   img/desktop_command_shell_gdalinfo.png
 
 #. To print all information on the shapefile `events.shp` contained in the
-   sample data, navigate to the location of the unzipped quick start data and run the following::
+   sample data, navigate to the location of the unzipped quick start data
+   and run the following::
 
        ogrinfo -al events.shp
 
