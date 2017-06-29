@@ -1,11 +1,8 @@
-**IPython and Jupyter consoles on Windows**
+**Boundless Desktop uninstaller**
 
-When using the Command Shell application, the following will produce errors:
-
-* ``ipython``
-* ``jupyter-console``
-
-Alternatively, you can run these commands until a fix is provided:
-
-* ``ipython --simple-prompt``
-* ``jupyter-qtconsole`` (when run from a graphical user interface login)
+* If Boundless Desktop 1.1 is installed in a custom directory as a sub-folder of
+  the previous install directory, Boundless Desktop older version uninstaller
+  (e.g. 1.0.1) will remove the newest version. However, using the default
+  installation directory poses no issues, and the older versions removal won't
+  affect the latest ones.
+* Uninstaller leaves an empty ``Program Files\Boundless\Desktop\1.1`` directory

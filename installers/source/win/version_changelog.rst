@@ -2,15 +2,35 @@
 
 **Fixed**
 
-* TODO
+* Python error in DB manager when trying to import a shapefile in a PostGIS
+  database
 
 **Added**
 
-* TODO
+* QGIS updated to 2.18.10
+* QgsSettings (a QGIS 3.0 feature) backported to 2.18 Boundless release
+  branch
+* New qgis_global_setting.ini customization file, with Boundless plugins and
+  plugin repo enabled by default
+* New init_scripts support for running customization scripts on QGIS launch
+* pgAdmin3 replaced by pgAdmin4 (code-signed)
+* New Master Password Helper (C++ core plugin)
+* New OAuth2 authentication method plugin
+* New Reporting Tool plugin and createreport command line script
+* GDAL/OGR updated to 2.2.0
+* Updated license files for included third-party software
+* Added custom OpenSSL and QtNetwork builds, and OpenSSL configuration for
+  CAPI backend engine, to support Keystore plugin
+* New 'Boundless Desktop Documentation' URL link in Start menu and shortcuts on
+  user's desktop
+* New winhttp-head.exe sub.domain.tld utility for auto-loading missing CAs of
+  endpoints in Win cert store (overcomes Qt4 flaw)
+* OpenGeo QGIS logo dropped in favor of the official QGIS 2.x logo
+* inumerous
 
 **Quality Assurance**
 
-* TODO
+* In-house testing suite, covering Windows 10 and Windows 7 with latest updates
 
 
 **Version 1.0.1**
