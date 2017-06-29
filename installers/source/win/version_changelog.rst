@@ -2,8 +2,15 @@
 
 **Fixed**
 
-* Python error in DB manager when trying to import a shapefile in a PostGIS
-  database
+* SAGA "slope, aspect, curvature" returns wrong output
+* Crash when zooming a reprojected PostGIS layer
+* Degradation of rendering performances in MSSQL provider
+* Encoding problems with Processing toolbox
+* Python filter expression don't work on "value relation"
+* DB Manager: previewing layers in Virtual layers section remove them from the Layers panel
+* Intersection causes crash with specific inputs
+* Crashes when switching to some UTM CRSs with certain data
+* Errors while trying run IPython and Jupyter consoles in Windows.
 
 **Added**
 
@@ -26,7 +33,6 @@
 * New winhttp-head.exe sub.domain.tld utility for auto-loading missing CAs of
   endpoints in Win cert store (overcomes Qt4 flaw)
 * OpenGeo QGIS logo dropped in favor of the official QGIS 2.x logo
-* inumerous
 
 **Quality Assurance**
 

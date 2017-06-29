@@ -2,8 +2,17 @@
 
 **Fixed**
 
-* Python error in DB manager when trying to import a shapefile in a PostGIS
-  database
+**Fixed**
+
+* SAGA "slope, aspect, curvature" returns wrong output
+* Crash when zooming a reprojected PostGIS layer
+* Degradation of rendering performances in MSSQL provider
+* Encoding problems with Processing toolbox
+* Python filter expression don't work on "value relation"
+* DB Manager: previewing layers in Virtual layers section remove them from the Layers panel
+* Intersection causes crash with specific inputs
+* Crashes when switching to some UTM CRSs with certain data
+* Errors while trying run IPython and Jupyter consoles in Windows.
 
 **Added**
 
