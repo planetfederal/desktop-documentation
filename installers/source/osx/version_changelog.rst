@@ -2,8 +2,6 @@
 
 **Fixed**
 
-**Fixed**
-
 * SAGA "slope, aspect, curvature" returns wrong output
 * Crash when zooming a reprojected PostGIS layer
 * Degradation of rendering performances in MSSQL provider
