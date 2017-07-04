@@ -4,7 +4,8 @@
 Plugins
 =======
 
-Boundless Desktop's functionality can be remarkably extended by the use of plugins for QGIS.
+Boundless Desktop's functionality can be remarkably extended by the use of
+plugins for QGIS.
 
 .. toctree::
    :maxdepth: 1

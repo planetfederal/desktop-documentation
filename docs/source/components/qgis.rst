@@ -45,16 +45,6 @@ QGIS user interface
 
 #. Use any of the available QGIS's shortcuts on your computer to open QGIS.
 
-   .. note:: 
-   
-      When running QGIS for the first time after Boundless Desktop installation,
-      the Boundless Connect plugin's First Run Wizard will be triggered. We will
-      not cover that process in this page, so please see the `Connect plugin's
-      documentation
-      <https://connect.boundlessgeo.com/docs/desktop/plugins/connect/usage.html#first-run-wizard>`_
-      for instructions on how to proceed or you can just cancel it (you can
-      resume it later).
-   
    By default, the QGIS GUI should resemble the one presented in the next figure.
    
    .. figure:: img/qgis_GUI.png
@@ -353,5 +343,5 @@ Online resources
 ----------------
 
 * Official Site: `<http://www.qgis.org>`_
-* Documentation: `<http://docs.qgis.org/2.14/en/docs/index.html>`_
+* Documentation: `<http://docs.qgis.org/2.18/en/docs/index.html>`_
 * Official Plugins Repository: `<http://plugins.qgis.org/plugins/>`_

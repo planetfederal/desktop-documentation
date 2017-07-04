@@ -22,19 +22,3 @@ The ``IPython`` and ``Jupyter`` packages are installed with Desktop. This allows
 for easy installation of the `IPyConsole plugin
 <http://plugins.qgis.org/plugins/IPyConsole/>`_ for QGIS, an excellent
 additional console to QGIS's embedded Python console.
-
-Know issues
-...........
-
-**IPython and Jupyter consoles on Windows**
-
-When using the Command Shell application, the following commands will produce
-errors:
-
-* ``ipython``
-* ``jupyter-console``
-
-Alternatively, until a fix is provided, you can run these commands:
-
-* ``ipython --simple-prompt``
-* ``jupyter-qtconsole`` (when run from a graphical user interface login)
