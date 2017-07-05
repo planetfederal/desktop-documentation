@@ -49,17 +49,22 @@ queries on its tables.
    If you don't have this command available you can still use :program:`QGIS`
    *db manager* to import you data into the database.
 
-#. Open :program:`pgAdmin` using any of the available shortcuts in your computer.
+#. Open :program:`pgAdmin4` using any of the available shortcuts in your
+computer.
 
-   By default, :program:`pgAdmin` will show the following window on opening:
+   By default, :program:`pgAdmin4` will show the following window on opening:
 
    .. figure:: img/pgadmin_first_open.png
 
-#. Click on the :guilabel:`Add a connection to a server` (the "plug" icon) to
-   create a new database connection.
+#. On the :guilabel:`Browser` panel, right-click on the :guilabel:`Servers`,
+   and navigate to :menuselection:`Create --> Server...` to create a new
+   database connection.
 
-#. Enter the connection parameters in the dialog, a database connection is
-   usually identified by:
+#. In the :guilabel:`Create - Server` dialog, enter the connection
+   :guilabel:`Name`. Click the :guilabel:`Connection` tab,
+   enter the connection parameters in the dialog and click :guilabel:`Save`.. figure:: img/
+
+   A database connection is usually identified by:
 
    * host
    * port
@@ -68,8 +73,9 @@ queries on its tables.
 
    .. figure:: img/pgadmin_register_new_server.png
 
-#. Click on the newly added server to open its features tree and select the
-   `events` table or any other table you want to query
+#. Click on the newly added server to open its objects tree and select the
+   `events` table or any other table you want to query. Then, click the
+   :guilabel:`Properties` tab.
 
    .. figure:: img/pgadmin_schema_tree.png
 
@@ -77,19 +83,19 @@ queries on its tables.
 
    .. figure:: img/pgadmin_right_click_table_operations.png
 
-#. Preview data with :menuselection:`View Data --> View Top 100 Rows`
+#. Preview data with :menuselection:`View Data --> View First 100 Rows`
 
    .. figure:: img/pgadmin_right_click_table_preview.png
 
    .. figure:: img/pgadmin_right_click_table_preview_result.png
 
-#. Click on the :guilabel:`SQL` icon
+#. In the menus, click :menuselection:`Tools --> Query`
 
-   .. figure:: img/pgadmin_execute_sql.png
-
-#. Execute a spatial query::
+#. In the query editor, type the following query::
 
        SELECT name, St_AsText( geom ) FROM events;
+
+#. Then, click the :guilabel:`Execute/Refresh` button or press :kbd:`F5`
 
    .. figure:: img/pgadmin_execute_sql_results.png
 
@@ -99,6 +105,6 @@ Online resources
 ----------------
 
 * Official Site: `<https://www.pgadmin.org/>`_
-* Documentation: `<https://www.pgadmin.org/docs/1.22/index.html>`_
+* Documentation: `<https://www.pgadmin.org/docs/pgadmin4/1.x/>`_
 * :program:`PostgreSQL` `<https://www.postgresql.org>`_
 * :program:`PostGIS` `<http://postgis.net>`_
