@@ -12,11 +12,11 @@ cartography and web publishing.
 Boundless Desktop |version| is composed of the following set of open source
 tools:
 
-* QGIS 2.18.10 by http://www.qgis.org
+* QGIS 2.18 by http://www.qgis.org
 * Connect plugin for QGIS by Boundless
 * PgAdmin 4 1.5 by `<http://www.pgadmin.org>`_
-* Qt Designer 4.8.5 for QGIS by `<http://www.qt.io>`_
-* GDAL/OGR 2.2.0 by `<http://www.gdal.org>`_
+* Qt Designer 4.8 for QGIS by `<http://www.qt.io>`_
+* GDAL/OGR 2.2 by `<http://www.gdal.org>`_
 * Master Password Helper plugin by Boundless
 * OAuth2 authentication plugin by Boundless
 * Reporting tool plugin by Boundless
