@@ -18,8 +18,8 @@ the world, that helps enhance and maintain QGIS.
 For convenience, outside the supported scope of Boundless Desktop, the following
 processing providers are available for QGIS’s Processing framework:
 
-* SAGA 2.1 by `<http://www.saga-gis.org>`_
-* GRASS 7.0 by `<http://grass.osgeo.org>`_
+* SAGA 2.3 by `<http://www.saga-gis.org>`_
+* GRASS 7.2 by `<http://grass.osgeo.org>`_
 * Orfeo Toolbox 5.0 by `<https://www.orfeo-toolbox.org>`_
 
 .. _components.qgis.quickstart:
