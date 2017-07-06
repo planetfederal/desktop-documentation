@@ -33,7 +33,7 @@ include:
   * Search and install lessons for lessons plugin.
 * New :ref:`Master Password Helper <master_password_helper>` plugin (C++
   core plugin).
-* New :ref:`Reporting Tool <reporting_tool_plugin>` plugin (core plugin) and
+* New :ref:`Support Tool <support_tool_plugin>` plugin (core plugin) and
   ``createreport`` command line script (see :ref:`asking_for_support` page for
   instructions).
 * New :ref:`Terrain Analysis <terrain_analysis>` plugin\*

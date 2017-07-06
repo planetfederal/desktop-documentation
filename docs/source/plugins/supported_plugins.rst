@@ -98,15 +98,15 @@ for QGIS:
 .. TODO:: (See `OAuth2 Plugin Documentation <../../plugins/oauth2/>`_ for
    details)
 
-.. _reporting_tool_plugin:
+.. _support_tool_plugin:
 
-* **Reporting Tool** :guilabel:`NEW`
+* **Support Tool** :guilabel:`NEW`
 
   Core plugin shipped with Boundless Desktop for collecting information from
   the user's QGIS installation and operating system to help in debugging
   issues. The information can be saved as a file or copied to the clipboard.
 
-.. TODO:: (See `Reporting Tool Documentation <../../plugins/reports/>`_ for
+.. TODO:: (See `Support Tool Documentation <../../plugins/reports/>`_ for
    details)
 
 .. _terrain_analysis:

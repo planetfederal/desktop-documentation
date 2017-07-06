@@ -17,14 +17,14 @@ At boundless we have prepared two levels of support for Boundless Desktop:
 
 .. _reporting_tool:
 
-Reporting tool
---------------
+Support tool
+------------
 
 In either case, before you reach out for support, it's crucial that you
 can provide enough information about the problem that you are facing
 and about your system setup.
 
-For that reason, we have created the *Reporting tool* library and QGIS plugin
+For that reason, we have created the *Support tool* library and QGIS plugin
 that helps you with the task of collecting information about your QGIS
 configuration and Operating System.
 
