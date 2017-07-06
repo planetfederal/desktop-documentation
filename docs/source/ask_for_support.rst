@@ -15,6 +15,8 @@ At boundless we have prepared two levels of support for Boundless Desktop:
   development team, will search for a solution to your issue. Go to `Support
   tickets <https://connect.boundlessgeo.com/Support/My-Tickets>`_.
 
+.. _reporting_tool:
+
 Reporting tool
 --------------
 
