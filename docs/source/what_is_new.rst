@@ -20,11 +20,6 @@ include:
     available only on QGIS 2.18 for Boundless Desktop);
   * :file:`init_scripts` support for running customization scripts on QGIS
     launch.
-* Several enhancements to PKI authentication method support.
-* New support for OAuth2 authentication method.
-  (See :ref:`OAuth2 Plugin <oauth2>`)
-* Improved symbology integration with other products from Boundless ecosystem
-  using Mapbox GL Style library.
 * Several improvements in :ref:`Boundless Connect Plugin <connect_plugin>`,
   including:
 
@@ -44,6 +39,11 @@ include:
   * Updates WebSDK;
   * New WebSDK compiler service;
   * Enhanced support to advanced layer styling.
+* Several enhancements to PKI authentication method support.
+* New support for OAuth2 authentication method.
+  (See :ref:`OAuth2 Plugin <oauth2>`)
+* Improved symbology integration with other products from Boundless ecosystem
+  using Mapbox GL Style library.
 * New 'Boundless Documentation' URL link in Start menu and shortcuts on
   user's desktop
 * "OpenGeo QGIS" logo replaced by the official QGIS 2.x logo
