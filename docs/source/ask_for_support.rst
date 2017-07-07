@@ -3,7 +3,7 @@
 How to ask for support
 ======================
 
-At boundless we have prepared two levels of support for Boundless Desktop:
+At Boundless we have prepared two levels of support for Boundless Desktop:
 
 * **Questions and Answers**: a crowdsourced support system available to any
   subscription level. You can ask questions and receive answers from a

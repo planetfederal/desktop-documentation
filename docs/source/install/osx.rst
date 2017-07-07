@@ -17,7 +17,7 @@ Install
 To install Boundless Desktop:
 
 #. Open the provided DMG archive. There will be a single
-   :file:`BoundlessDesktop-1.0.0.pkg`
+   :file:`BoundlessDesktop-1.1.0.pkg`
 
    .. figure:: img/install_osx_Boundless_Desktop_package.png
 
