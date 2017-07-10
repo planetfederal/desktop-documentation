@@ -27,7 +27,7 @@ for QGIS:
 
 .. _geoserver_explorer:
 
-* **Geoserver Explorer**
+* **Geoserver Explorer** :guilabel:`Updated`
 
   Plugin for configuring GeoServer through QGIS. It allows you to easily
   set up your GeoServer instance, from preparing data and styling to
