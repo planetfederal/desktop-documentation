@@ -1,5 +1,26 @@
-Setting QGIS Global settings file
+QGIS Global Settings File
 =================================
+
+Starting from Boundless Desktop 1.1, QGIS supports global settings: 
+a feature that is currently only available in QGIS 3.x series.
+
+Almost all settings for QGIS application are stored using the `QSettings`
+framework that is provided by the `Qt` library upon which QGIS is built.
+
+For every setting value, an optional default value can be specified inline 
+in the application code, the global settings implementation allows the 
+inline default values to be overridden by an external and totally optional
+global settings file (in `.ini` format).
+
+Therefore, by providing a global settings file, the order for a setting 
+value lookup becomes:
+
+- user settings file
+- global settings file
+- inline default
+
+This global setting file can be used to provide pre-configuration and/or 
+custom default values for all settings used inside QGIS.
 
 QGIS Global settings and defaults can be set by editing the
 ``qgis_global_setting.ini`` file. Moreover, it is possible to overwrite the

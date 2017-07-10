@@ -1,7 +1,7 @@
 QSettings editor tool
 =====================
 
-This editor tool allows you to edit QSettings.
+This editor tool allows you to edit `QSettings`.
 
 The tool's arguments can be listed by running the tool with the ``-h``
 option:

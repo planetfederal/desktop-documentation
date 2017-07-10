@@ -3,8 +3,8 @@ QGIS Initialization scripts
 
 QGIS has the native ability to run a specified Python script when it starts.
 By loading an init script that will in turn load and run all the scripts in
-a given directory, it allows Boundless Desktop's QGIS to be configured every
-time it starts.
+a given directory, this system allows Boundless Desktop's QGIS to be configured 
+every time it starts.
 
 Setting the scripts path to a network shared folder, allows the system
 administrator to perform QGIS configuration tasks in several machines by simply
@@ -26,9 +26,12 @@ On Mac OS, the default local folder is::
 
   /Library/Boundless/Desktop/1.1/Cellar/qgis2-bdesk/2.18.10/QGIS for Boundless Desktop 1.1.app/Contents/MacOS/../Resources/init_scripts
 
-Setting the ``QGIS_INIT_SCRIPTS_DIRECTORY`` environment variable to a network
-shared folder, allows the system administrator to perform configuration tasks
-in several machines by simply adding or changing the scripts in that folder.
+
+.. tip::
+
+  Setting the ``QGIS_INIT_SCRIPTS_DIRECTORY`` environment variable to a network
+  shared folder, allows the system administrator to perform configuration tasks
+  in several machines by simply adding or changing the scripts in that folder.
 
 .. note::
 
@@ -61,14 +64,14 @@ Single run script
 .. literalinclude:: script_examples/002_runonce.py
    :language: python
 
-Install plugin
-..............
+Install a plugin from a zip file
+................................
 
 .. literalinclude:: script_examples/003_plugin_install.py
    :language: python
 
-Add WMS connection
-..................
+Add a WMS connection
+....................
 
 .. literalinclude:: script_examples/004_wms_add_config.py
    :language: python
@@ -79,8 +82,8 @@ Set a default project
 .. literalinclude:: script_examples/005_add_default_project.py
    :language: python
 
-Add authentication configuration
-................................
+Add an authentication configuration
+...................................
 
 .. literalinclude:: script_examples/006_add_authcfg.py
    :language: python

@@ -8,12 +8,12 @@ contained in a json script by calling the editor tool specialized for the
 particular settings format.
 
 Every editor tool is a command line application able to edit a particular
-settings format. For instance, the qsettings editor tool will edit QSettings
+settings format. For instance, the qsettings editor tool will edit `QSettings`
 files.
 
 All the editor tools have a common interface, but they may have additional
 arguments. Each tool arguments can be listed from the command line by
-using the -h argument. For example::
+using the ``-h`` argument. For example::
 
   tools/qsettings/editor.py -h
 
@@ -28,7 +28,7 @@ The orchestrator is a command line application to read configuration commands
 from a JSON file and run them using the individual editor tools.
 
 The path of the JSON script file can be specified on the command line by using
-the -c argument or by using the environment variable
+the ``-c`` argument or by using the environment variable
 ``BOUNDLESS_DESKTOP_CONFIG_PATH``
 
 Running the application with the `-h` will list all its arguments.
