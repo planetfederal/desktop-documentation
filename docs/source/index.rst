@@ -14,4 +14,5 @@ Welcome to Boundless Desktop documentation
    components/index
    plugins/index
    ask_for_support
+   system_admins/index
 
