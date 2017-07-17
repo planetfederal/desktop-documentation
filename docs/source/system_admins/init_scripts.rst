@@ -49,7 +49,7 @@ are transcript below.
 
 .. tip::
 
-   In order to run the examples, you can set `QGIS_INIT_SCRIPTS_DIRECTORY`
+   In order to run the examples, you can set ``QGIS_INIT_SCRIPTS_DIRECTORY``
    environment variable to point to the examples directory before launching
    QGIS as specified above.
 

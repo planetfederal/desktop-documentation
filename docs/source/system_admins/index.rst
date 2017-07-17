@@ -14,7 +14,6 @@ the future.
 .. toctree::
    :maxdepth: 2
 
-   sys_admin_tools
    init_scripts
    globalsettings
 
