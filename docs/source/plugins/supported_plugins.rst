@@ -43,8 +43,8 @@ for QGIS:
   Plugin for allowing you to efficiently search, browse, preview and download
   imagery from imagery provider's catalogs in QGIS.
 
-.. (See `Image Discovery Documentation <../../plugins/imagediscovery/>`_ for
-   details)
+  (See `Image Discovery Documentation <../../plugins/imagediscovery/>`_ for
+  details)
 
 .. _lessons:
 
@@ -65,8 +65,8 @@ for QGIS:
   need to repeatedly type the master password inside QGIS, as
   the system stores it and uses it whenever is required.
 
-.. TODO:: (See `Master Password helper <../../plugins/master-pass-cxx/>`_ for
-   details)
+  (See `Master Password helper <../../plugins/masterpasshelper/>`_ for
+  details)
 
 .. _mil_STD2525:
 
@@ -106,8 +106,8 @@ for QGIS:
   the user's QGIS installation and operating system to help in debugging
   issues. The information can be saved as a file or copied to the clipboard.
 
-.. TODO:: (See `Support Tool Documentation <../../plugins/reports/>`_ for
-   details)
+  (See `Support Tool Documentation <../../plugins/supporttool/>`_ for
+  details)
 
 .. _terrain_analysis:
 
@@ -116,8 +116,8 @@ for QGIS:
   Plugin for facilitating the access to several raster analysis tools: Slope,
   Hillshade, Clip, Aspect, Viewshed, and Profile.
 
-.. TODO:: (See `Terrain Analysis Documentation <../../plugins/terrainanalysis/>`_
-   for details)
+  (See `Terrain Analysis Documentation <../../plugins/terrainanalysis/>`_
+  for details)
 
 .. _web_app_builder:
 
