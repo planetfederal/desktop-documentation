@@ -40,6 +40,15 @@ On Mac OS, the default local folder is::
    Scripts run in alphabetically order, so if necessary prefix them with
    with some integers.
 
+.. warning::
+
+   In Windows, if the ``QGIS_INIT_SCRIPTS_DIRECTORY`` environment variable is
+   set to a folder other than the default one, the
+   :file:`000_win_load_authorities.py` script must be copied from the default
+   `init_scripts` folder to the new one. Otherwise, when trying to connect to
+   some services endpoints, users may receive SSL Errors warnings
+   claiming that a valid certificate for that URL is not available.
+
 Scripts examples
 ----------------
 
