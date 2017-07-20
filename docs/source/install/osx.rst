@@ -11,6 +11,21 @@ Prerequisites
 Boundless Desktop can run on any recent hardware/software combination. See
 :ref:`system_requirements.osx` for more details.
 
+.. note::
+
+   On Mac OS, installing Boundless Desktop 1.1.0 will remove any previously
+   installed version. To avoid the removal, before installing Boundless Desktop
+   1.1.0, you can run the following command in a terminal (you will need
+   administrator permissions).
+
+   ::
+
+     for pkg in $(pkgutil --pkgs='com\.boundlessgeo\.pkg*'); do sudo pkgutil --volume '/' --forget "${pkg}"; done
+
+   If you have accidentally removed a 1.0.x version and want to re-install it
+   without removing version 1.1.0, you can also use the same command before
+   installation.
+
 Install
 -------
 
