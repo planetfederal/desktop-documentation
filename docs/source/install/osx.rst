@@ -23,8 +23,8 @@ Boundless Desktop can run on any recent hardware/software combination. See
      for pkg in $(pkgutil --pkgs='com\.boundlessgeo\.pkg*'); do sudo pkgutil --volume '/' --forget "${pkg}"; done
 
    If you have accidentally removed a 1.0.x version and want to re-install it
-   without removing version 1.1.0, you can also use the same command before
-   installation.
+   without being blocked by a warning that states "a newer version is already
+   installed," you can also use the same command before installation.
 
 Install
 -------
