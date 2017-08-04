@@ -1,5 +1,5 @@
 QGIS Global Settings File
-=================================
+=========================
 
 Starting from Boundless Desktop 1.1, QGIS supports global settings: 
 a feature that is currently only available in QGIS 3.x series.
@@ -51,3 +51,30 @@ While on Mac OS, the default location is::
 
   /Library/Boundless/Desktop/1.1/Cellar/qgis2-bdesk/2.18.10/QGIS for Boundless Desktop 1.1.app/Contents/MacOS/../Resources/qgis_global_setting.ini
 
+
+Exporting QGIS settings to ini format
+-------------------------------------
+
+Since Windows and macOS versions of QGIS don't store settings in a ``.ini``
+format, having to create a ``qgis_global_setting.ini`` file from scratch can be
+a laborious task.
+
+For that purpose, a script is available to dump QGIS QgsSettings to a ``.ini``
+file. The resultant file can then be used to help populate a
+``qgis_global_settings.ini`` file.
+
+
+#. Download :download:`qgis-settings-to-ini.py` file to your machine.
+
+#. From within QGIS, open the :guilabel:`Python Console`
+   (:menuselection:`Plugins --> Python Console`).
+
+#. In the :guilabel:`Python Console`, click the :guilabel:`Show Editor` button.
+
+#. In the Editor toolbar, click the :guilabel:`Load Script`, browse to the
+   :download:`qgis-settings-to-ini.py` file and click :guilabel:`Open`.
+
+#. Finally, click the :guilabel:`Run script` button.
+
+A message in the :guilabel:`Python Console` will inform you the path of the
+output file.
