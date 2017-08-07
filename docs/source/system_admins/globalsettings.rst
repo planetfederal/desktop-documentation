@@ -52,10 +52,10 @@ While on Mac OS, the default location is::
   /Library/Boundless/Desktop/1.1/Cellar/qgis2-bdesk/2.18.10/QGIS for Boundless Desktop 1.1.app/Contents/MacOS/../Resources/qgis_global_setting.ini
 
 
-Exporting QGIS settings to ini format
+Exporting QGIS settings to INI format
 -------------------------------------
 
-Since Windows and macOS versions of QGIS don't store settings in a ``.ini``
+Since Windows and macOS versions of QGIS don't store settings in INI
 format, having to create a ``qgis_global_setting.ini`` file from scratch can be
 a laborious task.
 
@@ -76,5 +76,5 @@ file. The resultant file can then be used to help populate a
 
 #. Finally, click the :guilabel:`Run script` button.
 
-A message in the :guilabel:`Python Console` will inform you the path of the
-output file.
+A message in the :guilabel:`Python Console` will inform you of the path to the
+output file, or any runtime errors..
