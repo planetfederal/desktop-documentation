@@ -64,7 +64,8 @@ file. The resultant file can then be used to help populate a
 ``qgis_global_settings.ini`` file.
 
 
-#. Download :download:`qgis-settings-to-ini.py <qgis-settings-to-ini.py>` file to your machine.
+#. Download :download:`qgis-settings-to-ini.py.zip <qgis-settings-to-ini.py.zip>`
+   file to your machine and extract it.
 
 #. From within QGIS, open the :guilabel:`Python Console`
    (:menuselection:`Plugins --> Python Console`).
