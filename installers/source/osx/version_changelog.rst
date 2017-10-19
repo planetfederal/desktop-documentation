@@ -1,3 +1,22 @@
+**Version 1.1.1**
+
+**Fixed**
+
+* TODO
+
+**Added**
+
+* QGIS updated to 2.18.13
+* GDAL/OGR updated to 2.2.2
+* GRASS updated to 7.2.2
+* Python updated to 2.7.14
+* PgAdmin 4 updated to v2.0
+* New offline Desktop documentation included in installer
+
+**Quality Assurance**
+
+* In-house testing suite, covering Mac OS X 10.9 and macOS 10.12 and 10.13 with latest updates
+
 **Version 1.1.0**
 
 **Fixed**
