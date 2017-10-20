@@ -38,7 +38,18 @@ case "$Version" in
 		;;
 esac
 
+echo "Setting up virtual enviornment..."
+
+if [ -d "bdeskdocs_virtualenv" ]; then
+   rm -rf bdeskdocs_virtualenv 
+fi
+
+virtualenv bdeskdocs_virtualenv;
+source bdeskdocs_virtualenv/bin/activate;
+pip install -r requirements.txt;
+
 make html
+deactivate
 rsync -uthvr --delete build/ ../../output/desktop_doc
 
 cd ../..
