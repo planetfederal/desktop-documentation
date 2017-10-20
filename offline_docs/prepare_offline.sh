@@ -91,7 +91,7 @@ fi
 cd QGIS-Documentation;
 
 rm -rf output;
-
+git checkout -- .
 case "$Version" in
 	"1.0")
 		git fetch origin manual_en_2.14;
@@ -119,7 +119,19 @@ virtualenv qgisdocs_virtualenv;
 source qgisdocs_virtualenv/bin/activate;
 pip install -r REQUIREMENTS.txt;
 
-make html
+# Exclude unwanted QGIS Documentation
+echo "Replacing conf.py file..."
+
+ARRAY=("training_manual" "developers_guide" "documentation_guidelines" "gentle_gis_introduction")
+
+for doc in ${ARRAY[*]}
+do
+  sed -i "s|#exclude_patterns += \['docs/${doc}|exclude_patterns += \['docs/${doc}|g" source/conf.py;
+done
+
+sed '/PDF/d' source/docs/index.rst
+
+make fasthtml
 deactivate
 rsync -uthvr --delete output/ ../output/qgis_core_docs
 cd ..
