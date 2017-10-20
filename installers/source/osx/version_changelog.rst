@@ -7,7 +7,11 @@
 **Added**
 
 * QGIS updated to 2.18.13
+* Activated QGIS Oracle data provider 
 * GDAL/OGR updated to 2.2.2
+* New OGR plugin for OGDI format
+* New OGR plugin for Oracle geospatial databases
+* New GDAL/OGR plugin for PDF format
 * GRASS updated to 7.2.2
 * Python updated to 2.7.14
 * PgAdmin 4 updated to v2.0
