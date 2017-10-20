@@ -126,7 +126,7 @@ ARRAY=("training_manual" "developers_guide" "documentation_guidelines" "gentle_g
 
 for doc in ${ARRAY[*]}
 do
-  sed -i "s|#exclude_patterns += \['docs/${doc}|exclude_patterns += \['docs/${doc}|g" source/conf.py;
+  sed -i.bak "s|#exclude_patterns += \['docs/${doc}|exclude_patterns += \['docs/${doc}|g" source/conf.py;
 done
 
 sed '/PDF/d' source/docs/index.rst
