@@ -2,12 +2,18 @@
 
 **Fixed**
 
-* TODO
+* TODO (add more)
+*
+* Fixed all authentication plugin in multithreaded connections
+* Fixed missing openssl command line tool on PATH
+* Fixed NetCDF functionality (missing linkage to GCC libraries)
+* Fixed Uninstall Desktop.app launch error for macOS 10.13
 
 **Added**
 
 * QGIS updated to 2.18.13
-* Activated QGIS Oracle data provider 
+* Activated QGIS Oracle data provider
+* Activated QGIS's QSpatialite (Qt) database driver
 * GDAL/OGR updated to 2.2.2
 * New OGR plugin for OGDI format
 * New OGR plugin for Oracle geospatial databases
