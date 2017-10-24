@@ -63,9 +63,15 @@ fi
 cd qgis-plugins-documentation;
 git pull origin master;
 
+# TODO: if needed, create venv specific for plugin docs
+echo "Setting up virtual enviornment..."
+source bdeskdocs_virtualenv/bin/activate;
+
 paver fetch
 paver builddocs -r
 paver deployoffline
+
+deactivate
 
 rsync -uthvr --delete output/ ../output/plugins
 
