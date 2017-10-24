@@ -38,7 +38,7 @@ case "$Version" in
 		;;
 esac
 
-echo "Setting up virtual enviornment..."
+echo "Setting up Desktop docs virtual enviornment..."
 
 if [ -d "bdeskdocs_virtualenv" ]; then
    rm -rf bdeskdocs_virtualenv
@@ -63,9 +63,15 @@ fi
 cd qgis-plugins-documentation;
 git pull origin master;
 
-# TODO: if needed, create venv specific for plugin docs
-echo "Setting up virtual enviornment..."
-source bdeskdocs_virtualenv/bin/activate;
+echo "Setting up Desktop plugins docs virtual enviornment..."
+
+if [ -d "bdeskplugins_virtualenv" ]; then
+   rm -rf bdeskplugins_virtualenv
+fi
+
+virtualenv bdeskplugins_virtualenv;
+source bdeskplugins_virtualenv/bin/activate;
+pip install -r requirements.txt;
 
 paver fetch
 paver builddocs -r
@@ -131,7 +137,7 @@ case "$Version" in
 		;;
 esac
 
-echo "Setting up virtual enviornment..."
+echo "Setting up QGIS docs virtual enviornment..."
 
 if [ -d "qgisdocs_virtualenv" ]; then
    rm -rf qgisdocs_virtualenv
