@@ -10,14 +10,14 @@ Version=$1
 # Clean things up
 mkdir -p tmp
 cd tmp
-rm -rf output 
+rm -rf output
 mkdir output
 
 # Getting Desktop documentation
 
-if [ ! -d "desktop-documentation" ]; then 
+if [ ! -d "desktop-documentation" ]; then
   git clone --recursive https://github.com/boundlessgeo/desktop-documentation.git;
-fi  
+fi
 
 cd desktop-documentation/docs;
 
@@ -31,7 +31,7 @@ case "$Version" in
 #		git fetch origin r1.1;
 #		git checkout r1.1;
 #		git merge origin/r1.1;
-#		;;		
+#		;;
 	*)
 		git checkout master;
 		git pull origin master;
@@ -41,7 +41,7 @@ esac
 echo "Setting up virtual enviornment..."
 
 if [ -d "bdeskdocs_virtualenv" ]; then
-   rm -rf bdeskdocs_virtualenv 
+   rm -rf bdeskdocs_virtualenv
 fi
 
 virtualenv bdeskdocs_virtualenv;
@@ -87,7 +87,7 @@ fi
 
 # Getting Learning Center
 
-#if [ ! -d "connect-learning" ]; then 
+#if [ ! -d "connect-learning" ]; then
 #   git clone --recursive https://github.com/boundlessgeo/connect-learning.git;
 #fi
 #
@@ -128,7 +128,7 @@ esac
 echo "Setting up virtual enviornment..."
 
 if [ -d "qgisdocs_virtualenv" ]; then
-   rm -rf qgisdocs_virtualenv 
+   rm -rf qgisdocs_virtualenv
 fi
 
 virtualenv qgisdocs_virtualenv;
