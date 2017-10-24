@@ -54,30 +54,35 @@ rsync -uthvr --delete build/ ../../output/desktop_doc
 
 cd ../..
 
-# Appending Plugins Documentation
+#Appending Plugins Documentation
 
-#if [ ! -d "qgis-plugins-documentation" ]; then 
-#  git clone https://github.com/boundlessgeo/qgis-plugins-documentation.git;
-#fi 
-#  
-#cd qgis-plugins-documentation;
-#git pull origin master;
-#
-#paver fetch
-#paver builddocs
-#paver deployoffline
-#
-#rsync -uthvr --delete output/ ../output/plugins
-#
-#cd ..
-#
-##Redirecting links
-#REGXHTML="output/desktop_doc/html/plugins/supported_plugins.html"
-#if [[ "${OSTYPE}" =~ ^darwin ]]; then
-#  sed -i '' -E 's@\.\./\.\./plugins/([[:alnum:]]+)/@../../plugins/\1/index.html@g' ${REGXHTML}
-#else
-#  sed -ri "s@\.\./\.\./plugins/(\w*)/@../../plugins/\1/index.html@g" ${REGXHTML}
-#fi
+if [ ! -d "qgis-plugins-documentation" ]; then
+  git clone https://github.com/boundlessgeo/qgis-plugins-documentation.git;
+fi
+
+cd qgis-plugins-documentation;
+git pull origin master;
+
+paver fetch
+paver builddocs -r
+paver deployoffline
+
+rsync -uthvr --delete output/ ../output/plugins
+
+cd ..
+
+#Rename folders for expected names in docs
+mv output/plugins/master output/plugins/masterpasshelper
+mv output/plugins/mgrs output/plugins/mgrstools
+mv output/plugins/reports output/plugins/supporttool
+
+#Redirecting links
+REGXHTML="output/desktop_doc/html/plugins/supported_plugins.html"
+if [[ "${OSTYPE}" =~ ^darwin ]]; then
+  sed -i '' -E 's@\.\./\.\./plugins/([[:alnum:]]+).*\"/@../../../plugins/\1/index.html"@g' ${REGXHTML}
+else
+  sed -ri 's@\.\./\.\./plugins/(\w+).*\"@../../../plugins/\1/index.html"@g' ${REGXHTML}
+fi
 
 
 # Getting Learning Center
