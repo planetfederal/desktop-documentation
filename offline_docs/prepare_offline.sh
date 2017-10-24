@@ -145,7 +145,7 @@ do
   sed -i.bak "s|#exclude_patterns += \['docs/${doc}|exclude_patterns += \['docs/${doc}|g" source/conf.py;
 done
 
-sed '/PDF/d' source/docs/index.rst
+sed -i.bak2 '/PDF/d' source/docs/index.rst;
 
 make fasthtml
 deactivate
