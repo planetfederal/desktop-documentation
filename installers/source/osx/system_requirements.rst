@@ -1,7 +1,7 @@
 Minimum:
 
 * Hardware: Apple
-* OS: OS X 10.9 Mavericks
+* OS: OS X 10.9 Mavericks (1.1.0) or OS X 10.10 Yosemite (1.1.1)
 * CPU: Intel Core 2 Duo
 * RAM for Desktop: 1 GB
 * Screen resolution: 1280x800 at standard dpi
