@@ -1,2 +1,5 @@
 * QGIS.app from Desktop install may not show up in Spotlight search until after initial launch.
-* Double-clicking a QGIS project (.qgs) file may not result in it being opened by Desktop's QGIS.app. Use the Finder's Get Info dialog to assign Desktop's QGIS.app to open .qgs files.
+* Due to QT Library limitations, PgAdmin 4 v2.0 won't launch in OS X 10.9 Mavericks.
+
+For a complete list of QGIS 2.18 LTS active regressions see:
+https://issues.qgis.org/projects/qgis/issues?query_id=143
