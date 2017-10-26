@@ -42,7 +42,7 @@ OS X
 In Mac OS X, to uninstall the Boundless Desktop core apps, libs and
 utilities, and the symbolically linked applications and documentation, use
 the `Uninstall Desktop` shortcut available in the Boundless Desktop's
-shortcuts folder (:menuselection:`Applications --> Boundless --> Desktop 1.0`).
+shortcuts folder (:menuselection:`Applications --> Boundless --> Desktop 1.1`).
 
 .. figure:: img/install_uninstall_osx_shortcut.png
 
