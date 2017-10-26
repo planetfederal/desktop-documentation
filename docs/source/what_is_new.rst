@@ -1,5 +1,8 @@
-What's new in 1.1.0
-===================
+What is new in |version|
+========================
+
+1.1.0
+-----
 
 This version contains numerous component upgrades and bug fixes. Highlights
 include:
@@ -48,7 +51,29 @@ include:
   user's desktop
 * "OpenGeo QGIS" logo replaced by the official QGIS 2.x logo
 
-\* - Available in Boundless QGIS Plugin repository (see :ref:`qgis.plugins`).
+\(*) - Available in Boundless QGIS Plugin repository (see :ref:`qgis.plugins`).
+
+1.1.1
+-----
+
+In this patch release, Boundless Desktop team focused mainly on bug fixing.
+Nevertheless, there were some upgrades and new features as well:
+
+* QGIS updated to 2.18.13
+* Activated QGIS Oracle data provider
+* Activated QGIS's QSpatialite (Qt) database driver
+* GDAL/OGR updated to 2.2.2
+* New OGR plugin for OGDI format
+* New OGR plugin for Oracle geospatial databases
+* New GDAL/OGR plugin for PDF format
+* GRASS updated to 7.2.2
+* Python updated to 2.7.14 (Mac)
+* PgAdmin 4 updated to v2.0
+* New offline Desktop documentation included in installer
+* Support for TLS v1.2 in custom OpenSSL setup
+* Improvements to :ref:`Image Discovery <image_discovery>` plugin UI
+* Improvements to :ref:`Boundless Connect <connect_plugin>` search
+
 
 .. Added custom OpenSSL and QtNetwork builds, and OpenSSL configuration for
    CAPI backend engine, to support Keystore plugin
