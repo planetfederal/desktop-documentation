@@ -21,6 +21,7 @@ Sponsored by Boundless:
 * Fixed all authentication plugin in multithreaded connections
 * Fixed missing openssl command line tool on PATH
 * Fixed NetCDF functionality (missing linkage to GCC libraries)
+* Fixed GDAL/OGR geospatial PDF reading (now uses Poppler instead of PoDoFo libraries)
 * Lines To Polygons, Polygonize and Refactor Fields change all attributes to string 255
 * Segmentation fault with 'Create raster icons' on and loading a WMS
 * WMTS rendering problems in 2.18 and Master
