@@ -6,6 +6,7 @@
   installation directory poses no issues, and the older versions removal won't
   affect the latest ones.
 * Uninstaller leaves an empty ``Program Files\Boundless\Desktop\1.1`` directory
+* Using the Quick field calculator, the attribute table won't update until you scroll down.
 
 For a complete list of QGIS 2.18 LTS active regressions see:
 https://issues.qgis.org/projects/qgis/issues?query_id=143
