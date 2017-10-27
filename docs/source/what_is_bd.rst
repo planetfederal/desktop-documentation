@@ -18,7 +18,7 @@ tools:
 * Qt Designer 4.8 for QGIS by `<http://www.qt.io>`_
 * GDAL/OGR 2.2 by `<http://www.gdal.org>`_
 * :ref:`Master Password Helper <master_password_helper>` plugin by Boundless
-* :ref:`OAuth2 authentication <oauth2>`plugin by Boundless
+* :ref:`OAuth2 authentication <oauth2>` plugin by Boundless
 * :ref:`Support tool <support_tool_plugin>` plugin by Boundless
 
 (See :ref:`components` section for more details on each component)
