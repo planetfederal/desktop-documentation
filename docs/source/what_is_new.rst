@@ -1,16 +1,16 @@
 What is new in |version|
 ========================
 
-1.1.0
------
+1.1.0 Release
+-------------
 
-This version contains numerous component upgrades and bug fixes. Highlights
+This Boundless Desktop 1.1.0 release contains numerous component upgrades and bug fixes. The highlights
 include:
 
-* GDAL/OGR updated to 2.2.0 (see `GDAL 2.2 changelog`_).
-* pgAdmin III replaced by pgAdmin 4 (code-signed).
-* QGIS updated to 2.18.10 which includes lots of new features and
-  improvements (see `QGIS 2.18 visual changelog`_), including:
+* **GDAL/OGR** updated to `2.2.0 <GDAL 2.2.0_>`_.
+* **pgAdmin III** replaced by **pgAdmin 4 1.5** (code-signed).
+* **QGIS** updated to `2.18.10 <QGIS 2.18 visual changelog_>`_ which includes lots of new features and
+  improvements (see also QGIS `2.16 <QGIS 2.16 visual changelog_>`_), including:
 
   * Native support for XYZ tile layers;
   * Native support for reading Map and Feature Services published by ArcGIS
@@ -34,9 +34,9 @@ include:
 * New :ref:`Support Tool <support_tool_plugin>` plugin (core plugin) and
   ``createreport`` command line script (see :ref:`asking_for_support` page for
   instructions).
-* New :ref:`Terrain Analysis <terrain_analysis>` plugin\*
-* New :ref:`Image Discovery <image_discovery>` plugin\*
-* Several improvements to :ref:`Web App Builder <web_app_builder>` plugin\*,
+* New :ref:`Terrain Analysis <terrain_analysis>` plugin [#0]_.
+* New :ref:`Image Discovery <image_discovery>` plugin [#0]_.
+* Several improvements to :ref:`Web App Builder <web_app_builder>` plugin [#0]_,
   including:
 
   * Updates WebSDK;
@@ -48,37 +48,44 @@ include:
 * Improved symbology integration with other products from Boundless ecosystem
   using Mapbox GL Style library.
 * New 'Boundless Documentation' URL link in Start menu and shortcuts on
-  user's desktop
-* "OpenGeo QGIS" logo replaced by the official QGIS 2.x logo
+  user's desktop.
+* "OpenGeo QGIS" logo replaced by the official QGIS 2.x logo.
 
 \(*) - Available in Boundless QGIS Plugin repository (see :ref:`qgis.plugins`).
 
-1.1.1
------
+1.1.1 Release
+-------------
 
-In this patch release, Boundless Desktop team focused mainly on bug fixing.
+In Boundless Desktop 1.1.1 patch release, Boundless Desktop team focused mainly on bug fixing.
 Nevertheless, there were some upgrades and new features as well:
 
-* QGIS updated to 2.18.13
-* Activated QGIS Oracle data provider
-* Activated QGIS's QSpatialite (Qt) database driver
-* GDAL/OGR updated to 2.2.2
-* New OGR plugin for OGDI format
-* New OGR plugin for Oracle geospatial databases
-* New GDAL/OGR plugin for PDF format
-* GRASS updated to 7.2.2
-* Python updated to 2.7.14 (Mac)
-* PgAdmin 4 updated to v2.0
-* New offline Desktop documentation included in installer
-* Support for TLS v1.2 in custom OpenSSL setup
-* Improvements to :ref:`Image Discovery <image_discovery>` plugin UI
-* Improvements to :ref:`Boundless Connect <connect_plugin>` search
+* **QGIS** updated to 2.18.13.
+* Activated QGIS Oracle data provider.
+* Activated QGIS's QSpatialite (Qt) database driver.
+* **GDAL/OGR** updated to `2.2.2 <GDAL 2.2.2_>`_ (see also GDAL `2.2.1 <GDAL 2.2.1_>`_ changelog).
+* New OGR plugin for OGDI format.
+* New OGR plugin for Oracle geospatial databases.
+* New GDAL/OGR plugin for PDF format.
+* **GRASS** updated to `7.2.2 <GRASS GIS 7.2.2_>`_ changelog.
+* **Python** updated to 2.7.14 (Mac only).
+* **PgAdmin 4** updated to `2.0 <PgAdmin 4 2.0_>`_ (see also `1.6 <PgAdmin 4 1.6_>`_ release notes).
+* New offline Desktop documentation included in installer.
+* Support for TLS v1.2 in custom OpenSSL setup.
+* Improvements to :ref:`Image Discovery <image_discovery>` plugin UI [#0]_.
+* Several improvements to :ref:`Boundless Connect <connect_plugin>` search.
 
+For a complete list of new features and fixes, please consult the README file
+provided with Boundless Desktop installer.
 
-.. Added custom OpenSSL and QtNetwork builds, and OpenSSL configuration for
-   CAPI backend engine, to support Keystore plugin
-.. New winhttp-head.exe sub.domain.tld utility for auto-loading missing CAs of
-   endpoints in Win cert store (overcomes Qt4 flaw)
+.. rubric:: Footnotes
 
+.. [#0] Available for installation in Boundless QGIS Plugin repository (see :ref:`qgis.plugins`).
+
+.. _QGIS 2.16 visual changelog: https://www.qgis.org/en/site/forusers/visualchangelog216/index.html
 .. _QGIS 2.18 visual changelog: https://www.qgis.org/en/site/forusers/visualchangelog218/index.html
-.. _GDAL 2.2 changelog: https://trac.osgeo.org/gdal/wiki/Release/2.2.0-News
+.. _GDAL 2.2.0: https://trac.osgeo.org/gdal/wiki/Release/2.2.0-News
+.. _GDAL 2.2.1: https://trac.osgeo.org/gdal/wiki/Release/2.2.1-News
+.. _GDAL 2.2.2: https://trac.osgeo.org/gdal/wiki/Release/2.2.2-News
+.. _GRASS GIS 7.2.2: https://trac.osgeo.org/grass/wiki/Release/7.2.2-News#Overviewofchanges
+.. _PgAdmin 4 2.0: https://www.pgadmin.org/docs/pgadmin4/dev/release_notes_2_0.html
+.. _PgAdmin 4 1.6: https://www.pgadmin.org/docs/pgadmin4/dev/release_notes_1_6.html
