@@ -69,6 +69,7 @@ Nevertheless, there were some upgrades and new features as well:
 * **GRASS** updated to `7.2.2 <GRASS GIS 7.2.2_>`_ changelog.
 * **Python** updated to 2.7.14 (Mac only).
 * **PgAdmin 4** updated to `2.0 <PgAdmin 4 2.0_>`_ (see also `1.6 <PgAdmin 4 1.6_>`_ release notes).
+* **SAGA GIS** updated to LTS version
 * New offline Desktop documentation included in installer.
 * Support for TLS v1.2 in custom OpenSSL setup.
 * Improvements to :ref:`Image Discovery <image_discovery>` plugin UI [#0]_.
