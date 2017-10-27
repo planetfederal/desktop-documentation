@@ -219,5 +219,5 @@ even add some Python logic to make your forms responsive.
 Online resources
 ----------------
 
-* Official Site: `<http://www.qt.io>`_
-* Documentation: `<http://doc.qt.io/qt-4.8/designer-manual.html>`_
+* Qt Official Site: `<http://www.qt.io>`_
+* Qt Designer Manual: `<http://doc.qt.io/qt-4.8/designer-manual.html>`_
