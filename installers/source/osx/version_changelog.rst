@@ -2,7 +2,7 @@
 
 **Added**
 
-* QGIS updated to 2.18.13
+* QGIS updated to 2.18.14
 * Activated QGIS Oracle data provider
 * Activated QGIS's QSpatialite (Qt) database driver
 * GDAL/OGR updated to 2.2.2

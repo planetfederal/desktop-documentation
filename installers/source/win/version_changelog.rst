@@ -2,7 +2,7 @@
 
 **Added**
 
-* QGIS updated to 2.18.13
+* QGIS updated to 2.18.14
 * GDAL/OGR updated to 2.2.2
 * GRASS updated to 7.2.2
 * PgAdmin 4 updated to v2.0

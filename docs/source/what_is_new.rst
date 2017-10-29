@@ -59,7 +59,7 @@ include:
 In Boundless Desktop 1.1.1 patch release, Boundless Desktop team focused mainly on bug fixing.
 Nevertheless, there were some upgrades and new features as well:
 
-* **QGIS** updated to 2.18.13.
+* **QGIS** updated to 2.18.14.
 * Activated QGIS Oracle data provider.
 * Activated QGIS's QSpatialite (Qt) database driver.
 * **GDAL/OGR** updated to `2.2.2 <GDAL 2.2.2_>`_ (see also GDAL `2.2.1 <GDAL 2.2.1_>`_ changelog).
