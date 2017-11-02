@@ -38,6 +38,8 @@ case "$Version" in
 		;;
 esac
 
+git submodule update --recursive
+
 echo "Setting up Desktop docs virtual enviornment..."
 
 if [ -d "bdeskdocs_virtualenv" ]; then
@@ -48,6 +50,7 @@ virtualenv bdeskdocs_virtualenv;
 source bdeskdocs_virtualenv/bin/activate;
 pip install -r requirements.txt;
 
+make clean
 make html
 deactivate
 rsync -uthvr --delete build/ ../../output/desktop_doc
@@ -159,6 +162,7 @@ done
 
 sed -i.bak2 '/PDF/d' source/docs/index.rst;
 
+make clean
 make fasthtml
 deactivate
 rsync -uthvr --delete output/ ../output/qgis_core_docs
