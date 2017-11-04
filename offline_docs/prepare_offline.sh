@@ -94,7 +94,7 @@ mv output/plugins/reports output/plugins/supporttool
 #Redirecting links
 REGXHTML="output/desktop_doc/html/plugins/supported_plugins.html"
 if [[ "${OSTYPE}" =~ ^darwin ]]; then
-  sed -i '' -E 's@\.\./\.\./plugins/([[:alnum:]]+).*\"/@../../../plugins/\1/index.html"@g' ${REGXHTML}
+  sed -i '' -E 's@\.\./\.\./plugins/([[:alnum:]]+).*\"@../../../plugins/\1/index.html"@g' ${REGXHTML}
 else
   sed -ri 's@\.\./\.\./plugins/(\w+).*\"@../../../plugins/\1/index.html"@g' ${REGXHTML}
 fi
