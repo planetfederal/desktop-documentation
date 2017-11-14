@@ -73,8 +73,6 @@ include:
   user's desktop.
 * "OpenGeo QGIS" logo replaced by the official QGIS 2.x logo.
 
-\(*) - Available in Boundless QGIS Plugin repository (see :ref:`qgis.plugins`).
-
 For a complete list of new features, fixes, and known issues, please consult each platform README files:
 
 * :download:`Windows <_static/README_win.txt>`
