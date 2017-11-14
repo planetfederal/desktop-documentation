@@ -3,3 +3,4 @@ installers/build/*
 docs/build/*
 offline_docs/tmp
 desktop-docs*.zip
+docs/source/_static/*
