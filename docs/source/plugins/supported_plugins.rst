@@ -4,8 +4,8 @@ Boundless plugins for QGIS
 ==========================
 
 QGIS for Boundless Desktop includes all the core plugins of a standard QGIS
-installation, plus the `Boundless Connect plugin`, `Master Password Helper
-C++ plugin`, `OAuth2 authentication C++ plugin`, and `Reporting tool plugin`.
+installation, plus `Boundless Connect plugin`, `Master Password Helper
+C++ plugin`, `OAuth2 authentication C++ plugin`, and `Support tool plugin`.
 
 The following list comprises the currently available Boundless plugins
 for QGIS:

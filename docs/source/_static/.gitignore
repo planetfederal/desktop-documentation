@@ -1,0 +1,5 @@
+# Ignore everything in this directory
+# It will contain temporary files
+*
+# Except this file
+!.gitignore

@@ -2,3 +2,5 @@
 installers/build/*
 docs/build/*
 offline_docs/tmp
+desktop-docs*.zip
+

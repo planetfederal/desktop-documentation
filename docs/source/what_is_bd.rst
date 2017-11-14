@@ -14,12 +14,12 @@ tools:
 
 * QGIS 2.18 by http://www.qgis.org
 * Connect plugin for QGIS by Boundless
-* PgAdmin 4 1.5 by `<http://www.pgadmin.org>`_
+* PgAdmin 4 v2.0 by `<http://www.pgadmin.org>`_
 * Qt Designer 4.8 for QGIS by `<http://www.qt.io>`_
 * GDAL/OGR 2.2 by `<http://www.gdal.org>`_
-* Master Password Helper plugin by Boundless
-* OAuth2 authentication plugin by Boundless
-* Reporting tool plugin by Boundless
+* :ref:`Master Password Helper <master_password_helper>` plugin by Boundless
+* :ref:`OAuth2 authentication <oauth2>` plugin by Boundless
+* :ref:`Support tool <support_tool_plugin>` plugin by Boundless
 
 (See :ref:`components` section for more details on each component)
 
