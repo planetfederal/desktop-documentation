@@ -1,6 +1,28 @@
 What is new in |version|
 ========================
 
+1.1.1 Release
+-------------
+
+In Boundless Desktop 1.1.1 patch release, Boundless Desktop team focused mainly on bug fixing.
+Nevertheless, there were some upgrades and new features as well:
+
+* **QGIS** updated to 2.18.14.
+* Activated QGIS Oracle data provider.
+* Activated QGIS's QSpatialite (Qt) database driver.
+* **GDAL/OGR** updated to `2.2.2 <GDAL 2.2.2_>`_ (see also GDAL `2.2.1 <GDAL 2.2.1_>`_ changelog).
+* New OGR plugin for OGDI format.
+* New OGR plugin for Oracle geospatial databases.
+* New GDAL/OGR plugin for PDF format.
+* **GRASS** updated to `7.2.2 <GRASS GIS 7.2.2_>`_ changelog.
+* **Python** updated to 2.7.14 (Mac only).
+* **PgAdmin 4** updated to `2.0 <PgAdmin 4 2.0_>`_ (see also `1.6 <PgAdmin 4 1.6_>`_ release notes).
+* **SAGA GIS** updated to LTS version
+* New offline Desktop documentation included in installer.
+* Support for TLS v1.2 in custom OpenSSL setup.
+* Improvements to :ref:`Image Discovery <image_discovery>` plugin UI [#0]_.
+* Several improvements to :ref:`Boundless Connect <connect_plugin>` search.
+
 1.1.0 Release
 -------------
 
@@ -52,28 +74,6 @@ include:
 * "OpenGeo QGIS" logo replaced by the official QGIS 2.x logo.
 
 \(*) - Available in Boundless QGIS Plugin repository (see :ref:`qgis.plugins`).
-
-1.1.1 Release
--------------
-
-In Boundless Desktop 1.1.1 patch release, Boundless Desktop team focused mainly on bug fixing.
-Nevertheless, there were some upgrades and new features as well:
-
-* **QGIS** updated to 2.18.14.
-* Activated QGIS Oracle data provider.
-* Activated QGIS's QSpatialite (Qt) database driver.
-* **GDAL/OGR** updated to `2.2.2 <GDAL 2.2.2_>`_ (see also GDAL `2.2.1 <GDAL 2.2.1_>`_ changelog).
-* New OGR plugin for OGDI format.
-* New OGR plugin for Oracle geospatial databases.
-* New GDAL/OGR plugin for PDF format.
-* **GRASS** updated to `7.2.2 <GRASS GIS 7.2.2_>`_ changelog.
-* **Python** updated to 2.7.14 (Mac only).
-* **PgAdmin 4** updated to `2.0 <PgAdmin 4 2.0_>`_ (see also `1.6 <PgAdmin 4 1.6_>`_ release notes).
-* **SAGA GIS** updated to LTS version
-* New offline Desktop documentation included in installer.
-* Support for TLS v1.2 in custom OpenSSL setup.
-* Improvements to :ref:`Image Discovery <image_discovery>` plugin UI [#0]_.
-* Several improvements to :ref:`Boundless Connect <connect_plugin>` search.
 
 For a complete list of new features, fixes, and known issues, please consult each platform README files:
 
