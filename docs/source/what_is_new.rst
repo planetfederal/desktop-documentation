@@ -75,7 +75,7 @@ Nevertheless, there were some upgrades and new features as well:
 * Improvements to :ref:`Image Discovery <image_discovery>` plugin UI [#0]_.
 * Several improvements to :ref:`Boundless Connect <connect_plugin>` search.
 
-For a complete list of new features, fixes, and known issues, please consult the README files ():
+For a complete list of new features, fixes, and known issues, please consult each platform README files:
 
 * :download:`Windows <_static/README_win.txt>`
 * :download:`Mac OSX <_static/README_osx.txt>`
