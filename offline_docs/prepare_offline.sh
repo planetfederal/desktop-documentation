@@ -19,7 +19,7 @@ if [ ! -d "desktop-documentation" ]; then
   git clone --recursive https://github.com/boundlessgeo/desktop-documentation.git;
 fi
 
-cd desktop-documentation/docs;
+cd desktop-documentation;
 
 case "$Version" in
 	"1.0")
@@ -39,6 +39,15 @@ case "$Version" in
 esac
 
 git submodule update --recursive
+
+cd installers
+
+make text SPHINXOPTS="-t win"
+cp build/text/README.txt ../docs/source/_static/README_win.txt
+make text SPHINXOPTS="-t osx"
+cp build/text/README.txt ../docs/source/_static/README_osx.txt
+
+cd ../docs
 
 echo "Setting up Desktop docs virtual enviornment..."
 
