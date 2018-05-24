@@ -1,3 +1,6 @@
 [submodule "docs/themes"]
 	path = docs/themes
 	url = https://github.com/boundlessgeo/sphinx-theme
+[submodule "docs/source/plugins/_ext_sources/qgis-connect-plugin"]
+	path = docs/source/plugins/_ext_sources/qgis-connect-plugin
+	url = git@github.com:boundlessgeo/qgis-connect-plugin.git

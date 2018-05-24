@@ -8,7 +8,10 @@ Boundless Desktop's functionality can be remarkably extended by the use of
 plugins for QGIS.
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    
    supported_plugins
+
+.. toctree::
+   :maxdepth: 1
    plugin_repo

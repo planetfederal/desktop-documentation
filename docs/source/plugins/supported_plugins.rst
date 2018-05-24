@@ -3,6 +3,12 @@
 Boundless plugins for QGIS
 ==========================
 
+.. toctree::
+   :maxdepth: 1
+
+   _ext_sources/qgis-connect-plugin/docs/source/index
+
+
 QGIS for Boundless Desktop includes all the core plugins of a standard QGIS
 installation, plus `Boundless Connect plugin`, `Master Password Helper
 C++ plugin`, `OAuth2 authentication C++ plugin`, and `Support tool plugin`.
