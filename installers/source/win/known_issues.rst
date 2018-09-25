@@ -4,7 +4,6 @@
   installation directory poses no issues, and the older versions removal won't
   affect the latest ones.
 * Uninstaller leaves an empty ``Program Files\Boundless\Desktop\1.1`` directory
-* In QGIS, using the Quick field calculator, the attribute table won't update until you scroll down.
 * In PgAdmin 4, in the SSL tab of the Create Server dialog, browsing to a file
   (e.g., for getting a Client certificate) will fill all the other certificate
   fields with that path. The user must clean and manually edit the other fields

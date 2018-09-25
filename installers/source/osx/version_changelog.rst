@@ -1,3 +1,54 @@
+**Version 2.0.0**
+
+**Added**
+
+* QGIS updated to 3.4.?
+* GDAL/OGR updated to 2.3.?
+* GRASS updated to ?
+* Python updated to 3.6.?
+* PgAdmin 4 updated to v3.?
+* Qt Designer updated to 5.9.?
+
+QGIS 3.4 receives a major update from its LTR predecessor (2.18). QGIS 3.4 is based on Qt 5 and Python 3 and adds many new features. Some examples are:
+
+* Support for user profiles
+* Unified data source manager dialog
+* Improved support to Geopackage, which is now the default format on processing tools
+* Multiple map views
+* 3D surface and layer rendering
+* Support for running tools and processes as background tasks, allowing the user to keep using QGIS interface while the job is running
+* Improved layout creation including reports
+* Master password integration with keychain
+* Locator bar for quick access to tools and commands
+* Improved consistency to the user interface
+* Tens of new expression functions, including array functions
+* Improved expressions editor with auto-completion and error highlighting
+* new units for symbols and layouts, including pixels and inches
+* Point cluster renderer
+* Easy styling of discrete rasters
+* Note tool is replaced by the vertex tool
+* Auxiliary storage support (e.g., allows saving label position on the project)
+* Several Improvements to the feature forms and widgets
+* Several new processing algorithms, and performance improvements to existing ones.
+* Improved processing modeler window
+* Support for Geonode
+* Opening of vector and raster stored on HTTP(S), FTP, or cloud services
+* Drill-down (cascading) forms, aka domains and sub-domains in forms
+* Save and load QGIS projects in PostgreSQL database
+* Support for mesh layers
+* Automatically set default style for layers for ArcGIS Feature Server layers
+
+For a full list of new features check the visual changelogs for versions 3.0, 3.2 and 3.4 https://www.qgis.org/en/site/forusers/visualchangelogs.html
+
+?**Removed**?
+* Standalone QGIS browser
+?* Orpheo toolbox?
+
+
+**Fixed**
+
+Community fixes:
+
 **Version 1.1.1**
 
 **Added**

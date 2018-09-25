@@ -78,7 +78,7 @@ https://connect.boundlessgeo.com/Downloads
 License
 -------
 
-Copyright (C) 2009-2017 Boundless
+Copyright (C) 2009-2018 Boundless
 http://boundlessgeo.com/
 
 For more details, please consult the Boundless End User License Agreement (EULA) during installation. You can review the EULA and individual licenses for components of Desktop in the Licenses folder located within the installation folder.
@@ -134,7 +134,7 @@ Online resources
 
 * Qt Designer Manual:
 
-  http://doc.qt.io/qt-4.8/designer-manual.html
+  http://doc.qt.io/qt-5/qtdesigner-manual.html
 
 Proprietary software
 --------------------
@@ -161,4 +161,3 @@ following sources.
 .. only:: osx
 
    .. include:: /osx/proprietary_components.rst
-
