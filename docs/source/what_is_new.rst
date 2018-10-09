@@ -1,83 +1,64 @@
 What is new in |version|
 ========================
 
-1.1.1 Release
+2.0.0 Release
 -------------
 
-In Boundless Desktop 1.1.1 patch release, Boundless Desktop team focused mainly on bug fixing.
-Nevertheless, there were some upgrades and new features as well:
+The Boundless Desktop 2.0.0 release contains numerous component upgrades, new
+functionality, and bug fixes. The highlights include:
 
-* **QGIS** updated to 2.18.14.
-* Activated QGIS Oracle data provider.
-* Activated QGIS's QSpatialite (Qt) database driver.
-* **GDAL/OGR** updated to :gdal_release:`2.2.2` (see also GDAL :gdal_release:`2.2.1` changelog).
-* New OGR plugin for OGDI format.
-* New OGR plugin for Oracle geospatial databases.
-* New GDAL/OGR plugin for PDF format.
-* **GRASS** updated to :grass_release:`7.2.2`.
-* **Python** updated to 2.7.14 (Mac only).
-* **PgAdmin 4** updated to :pgadmin_release:`2.0 <2_0>` (see also `:pgadmin_release:`1.6 <1_6>` release notes).
-* **SAGA GIS** updated to LTS version
-* New offline Desktop documentation included in installer.
-* Support for TLS v1.2 in custom OpenSSL setup.
-* Improvements to :ref:`Image Discovery <image_discovery>` plugin UI [#0]_.
-* Several improvements to :ref:`Boundless Connect <connect_plugin>` search.
+* QGIS updated to 3.4.?
+* GDAL/OGR updated to 2.3.?
+* GRASS updated to ?
+* Python is now based on the Anaconda distribution and has been updated to 3.6.?
+* PgAdmin 4 updated to v3.?
+* Qt Designer updated to 5.9.?
+* New installers both for Mac and Windows, which will allow partial package updates
 
-1.1.0 Release
--------------
+QGIS 3.4 receives a major update from its LTR predecessor (2.18). QGIS 3.4 is
+based on Qt 5 and Python 3 and adds many new features. Some examples are:
 
-This Boundless Desktop 1.1.0 release contains numerous component upgrades and bug fixes. The highlights
-include:
+* Support for user profiles
+* Unified data source manager dialog
+* Improved support for Geopackage, which is now the default format on
+  processing tools
+* Multiple map views
+* 3D surface and layer rendering
+* Support for running processes as background tasks, allowing the user to
+  keep using QGIS interface while the job is running
+* Improved layout creation including reports
+* Master password integration with keychain
+* Locator bar for quick access to tools and commands
+* Improved consistency to the user interface
+* Tens of new expression functions, including array functions
+* Improved expressions editor with auto-completion and error highlighting
+* New units for symbols and layouts, including pixels and inches
+* Point cluster renderer
+* Easy styling of discrete rasters
+* Note tool is replaced by a much improved and fucntional vertex tool
+* Auxiliary storage support, which allows, for example, saving custom label
+  positions on the project)
+* Several Improvements to the feature forms and widgets
+* Several new processing algorithms, and performance improvements to existing ones.
+* Improved processing modeler window
+* New Geonode data provider
+* Opening of vector and raster stored on HTTP(S), FTP, or cloud services
+* Drill-down (cascading) forms (aka domains and sub-domains in forms)
+* Save and load QGIS projects in PostgreSQL database
+* Support for mesh layers
+* Automatically set default style for layers for ArcGIS Feature Server layers
 
-* **GDAL/OGR** updated to :gdal_release:`2.2.0`.
-* **pgAdmin III** replaced by **pgAdmin 4** :pgadmin_release:`1.5 <1_5>` (code-signed).
-* **QGIS** updated to :qgis_changelogs:`2.18.10 <218>` which includes lots of new features and
-  improvements (see also QGIS :qgis_changelogs:`2.16 <216>`), including:
+For a full list of new features check the visual changelogs for versions :qgis_changelogs:`3.0 <30>`, :qgis_changelogs:`3.2 <32>`, and :qgis_changelogs:`3.4 <34>`.
 
-  * Native support for XYZ tile layers;
-  * Native support for reading Map and Feature Services published by ArcGIS
-    Server in Esri REST format;
-  * New styling panel.
-* New customization support (see :ref:`system_admin`):
+There were also some removals for this version:
 
-  * QgsSettings support allowing to define global defaults and settings in a
-    :file:`qgis_global_setting.ini` file (future QGIS 3.0 feature, currently
-    available only on QGIS 2.18 for Boundless Desktop);
-  * :file:`init_scripts` support for running customization scripts on QGIS
-    launch.
-* Several improvements in :ref:`Boundless Connect Plugin <connect_plugin>`,
-  including:
-
-  * Search for basemaps from partners providers;
-  * Use Mapbox Streets basemap in QGIS default project;
-  * Search and install lessons for lessons plugin.
-* New :ref:`Master Password Helper <master_password_helper>` plugin (C++
-  core plugin).
-* New :ref:`Support Tool <support_tool_plugin>` plugin (core plugin) and
-  ``createreport`` command line script (see :ref:`asking_for_support` page for
-  instructions).
-* New :ref:`Terrain Analysis <terrain_analysis>` plugin [#0]_.
-* New :ref:`Image Discovery <image_discovery>` plugin [#0]_.
-* Several improvements to :ref:`Web App Builder <web_app_builder>` plugin [#0]_,
-  including:
-
-  * Updates WebSDK;
-  * New WebSDK compiler service;
-  * Enhanced support to advanced layer styling.
-* Several enhancements to PKI authentication method support.
-* New support for OAuth2 authentication method.
-  (See :ref:`OAuth2 Plugin <oauth2>`)
-* Improved symbology integration with other products from Boundless ecosystem
-  using Mapbox GL Style library.
-* New 'Boundless Documentation' URL link in Start menu and shortcuts on
-  user's desktop.
-* "OpenGeo QGIS" logo replaced by the official QGIS 2.x logo.
+* Standalone QGIS browser has been deprecated
+* Orpheo toolbox processing provider no longer ships with QGIS
+* Connect plugin will not be shipped in this release
+* OAuth2 and Master Password plugins, has its functionality was integrated into
+  QGIS 3.x core
 
 For a complete list of new features, fixes, and known issues, please consult each platform README files:
 
 * :download:`Windows <_static/README_win.txt>`
 * :download:`Mac OSX <_static/README_osx.txt>`
-
-.. rubric:: Footnotes
-
-.. [#0] Available for installation in Boundless QGIS Plugin repository (see :ref:`qgis.plugins`).

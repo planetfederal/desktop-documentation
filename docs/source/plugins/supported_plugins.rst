@@ -12,61 +12,45 @@ for QGIS:
 
 .. _connect_plugin:
 
-* **Boundless Connect Plugin** :guilabel:`Updated`
+* **Boundless Connect Plugin**
 
   Core plugin shipped with Boundless Desktop that acts as a single entry
   point to Boundless technology and content for QGIS. The plugin provides
-  Boundless Desktop integration with `Boundless Connect Portal
-  <https://connect.boundlessgeo.com/>`_, making it easier access online
+  Boundless Desktop integration with :connect:`Boundless Connect Portal
+  <>`, making it easier to access online
   resources like training materials, documentation, lessons, basemaps, data,
   etc. The plugin can also be used to install other Boundless plugins for
   QGIS.
 
-  (See `Boundless Connect plugin Documentation <../../plugins/connect/1.1/>`_
-  for details)
+  :bd_plugins:`[Read more...] <connect/1.1>`
 
 .. _geoserver_explorer:
 
-* **Geoserver Explorer** :guilabel:`Updated`
+* **Geoserver Explorer**
 
   Plugin for configuring GeoServer through QGIS. It allows you to easily
   set up your GeoServer instance, from preparing data and styling to
   publishing directly to a catalog, all through the QGIS interface.
 
-  (See `Geoserver Explorer Documentation <../../plugins/geoserver/>`_ for
-  details)
+  :bd_plugins:`[Read more...] <geoserver>`
 
 .. _image_discovery:
 
-* **Image Discovery** :guilabel:`NEW`
+* **Image Discovery**
 
   Plugin for allowing you to efficiently search, browse, preview and download
   imagery from imagery provider's catalogs in QGIS.
 
-  (See `Image Discovery Documentation <../../plugins/imagediscovery/>`_ for
-  details)
+  :bd_plugins:`[Read more...] <imagediscovery>`
 
 .. _lessons:
 
-* **Lessons** :guilabel:`Updated`
+* **Lessons**
 
   Plugin for creating and following step-by-step lessons and tutorials within
   QGIS.
 
-  (See `Lessons Plugin Documentation <../../plugins/lessons/>`_ for details)
-
-.. _master_password_helper:
-
-* **Master Password Helper** :guilabel:`NEW`
-
-  Core C++ plugin shipped with Boundless Desktop that allows you to store and
-  synchronize QGIS's master password in the user's operating system's
-  Wallet/keyChain/Password Manager. Using this plugin, you no longer
-  need to repeatedly type the master password inside QGIS, as
-  the system stores it and uses it whenever is required.
-
-  (See `Master Password helper <../../plugins/masterpasshelper/>`_ for
-  details)
+  :bd_plugins:`[Read more...] <lessons>`
 
 .. _mil_STD2525:
 

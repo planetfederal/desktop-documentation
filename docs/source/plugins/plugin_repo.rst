@@ -16,7 +16,12 @@ This is the QGIS plugin repository for Boundless_ plugins that are not in the
 Using the repository in QGIS
 ----------------------------
 
-If you are using `Boundless Desktop`, this repository should be already available in its QGIS along with the `Boundless Connect plugin`_. Otherwise, if you are using QGIS from one of the community's installers, you can setup this repository in the `Plugin manager` by going to :menuselection:`Plugins --> Manage and install plugins` and, in the :guilabel:`Settings` tab, add a new repository with the following URL:
+If you are using `Boundless Desktop`, this repository should be already
+available in its QGIS along with the `Boundless Connect plugin`_. Otherwise,
+if you are using QGIS from one of the community's installers, you can setup this
+repository in the `Plugin manager` by going to :menuselection:`Plugins -->
+Manage and install plugins` and, in the :guilabel:`Settings` tab, add a new
+repository with the following URL:
 
 - https://qgis.boundlessgeo.com/plugins/plugins.xml
 
@@ -31,7 +36,13 @@ If you are using `Boundless Desktop`, this repository should be already availabl
    **Show also deprecated plugins** options. The latter is required to install the
    updated, though deprecated, version of the OpenGeo Explorer plugin.
 
-.. warning:: On Windows operating systems, while trying to connect to the repository, it's possible that you get a **Unable To Get Local Issuer Certificate** error message, and you won't be able to access the repository. To solve the issue, try using your browser (Chrome, Edge or Internet Explorer) to open the `repository's URL <https://qgis.boundlessgeo.com/plugins/plugins.xml>`_. This operation should add the needed certificate to your Windows system.
+.. warning:: On Windows operating systems, while trying to connect to the
+   repository, it's possible that you get a **Unable To Get Local Issuer
+   Certificate** error message, and you won't be able to access the repository.
+   To solve the issue, try using your browser (Chrome, Edge or Internet
+   Explorer) to open the `repository's URL
+   <https://qgis.boundlessgeo.com/plugins/plugins.xml>`_.
+   This operation should add the needed certificate to your Windows system.
 
 Browsing the repository
 -----------------------
