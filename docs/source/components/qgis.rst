@@ -11,7 +11,7 @@ well known leading Open Source GIS for desktop, QGIS, is a cross-platform
 desktop application for viewing, editing, and analysing geospatial data from a
 variety of (proprietary and open) vector, raster, and database formats.
 
-QGIS’s development is steered by the `QGIS Project <www.qgis.org>`_, which works
+QGIS’s development is steered by the :qgis:`QGIS Project <>`, which works
 with hundreds of volunteers and companies (including Boundless) from all over
 the world, that helps enhance and maintain QGIS.
 
@@ -31,8 +31,7 @@ This section aims to give you a brief overview about QGIS. We will mainly focus
 on QGIS's graphical user interface (GUI) and some of the most common operations
 like loading data, managing layers and printing a map. For more detailed
 information on QGIS usage see the tutorials on our learning centre and/or
-consult QGIS's official `documentation
-<http://docs.qgis.org/2.14/en/docs/index.html>`_.
+consult :qgis_docs:`QGIS's official documentation <2.18>`.
 
 For this Quick start, we will be using the `Natural Earth
 <http://www.naturalearthdata.com>`_ data. Please, download `Natural Earth
@@ -46,13 +45,13 @@ QGIS user interface
 #. Use any of the available QGIS's shortcuts on your computer to open QGIS.
 
    By default, the QGIS GUI should resemble the one presented in the next figure.
-   
+
    .. figure:: img/qgis_GUI.png
-   
+
       QGIS Graphical User Interface (GUI)
-   
+
    As a very basic overview of the default GUI we have:
-   
+
    * On the top of the screen you will find the menu bar (1). The menu bar
      provides access to various QGIS features using a standard hierarchical
      menu.
@@ -97,14 +96,14 @@ In QGIS, to load data, you can either use the :guilabel:`Browser Panel`, the
    drop it from the browser to the map canvas. It will load the vector layer.
 
    .. figure:: img/qgis_dragndrop_from_browser.png
-   
+
       Loading a layer using the Browser Panel
-   
+
    The layer should now be visible on the map canvas, using a random style.
    It should also be visible in the :guilabel:`Layers Panel` list.
-   
+
    .. figure:: img/qgis_loaded_layer.png
-   
+
       Successfully loaded layer
 
 #. Let's open another file, this time using the :guilabel:`Manage Layers
@@ -113,9 +112,9 @@ In QGIS, to load data, you can either use the :guilabel:`Browser Panel`, the
    Raster Layer`. Then, navigate ito the folder
    ``Natural_Earth_quick_start\50m_raster\NE1_50M_SR_W``, select the
    ``NE1_50M_SR_W.tif`` file and click :guilabel:`Open`.
-   
+
    .. figure:: img/qgis_loading_raster.png
-   
+
       Loading a layer using Add Raster Layer
 
 #. Finally, let's open an ESRI fileGeodatabase, just because it has a small
@@ -129,7 +128,7 @@ In QGIS, to load data, you can either use the :guilabel:`Browser Panel`, the
    :guilabel:`Open` to load the layer.
 
    .. figure:: img/qgis_loading_filegeodatabase.png
-   
+
       Loading an ESRI FileGeodataBase layer using Add Vector Layer
 
 #. Feel free to add any other data, but bare in mind that you can load
@@ -161,7 +160,7 @@ Navigation Toolbar` tools.
    on the map canvas.
 
    .. figure:: img/qgis_zooming.png
-   
+
       Loading an ESRI FileGeodataBase layer using Add Vector Layer
 
 #. Notice you can use the :guilabel:`Zoom last` and :guilabel:`Zoom last` to
@@ -179,18 +178,18 @@ deeper look into it's potential.
    the ``ne_10_coastline`` layer and, in the :guilabel:`Map Navigation
    Toolbar`, click the :guilabel:`Zoom to Layer` button. This will zoom the
    map canvas to the full extent of a particular layer.
-   
+
    .. figure:: img/qgis_active_layer.png
-   
+
       Layer active in the Layers Panel
 
 #. You can change the order of the layers (and consequently their rendering
    order) by dragging them up and down in the :guilabel:`Layers`. Do this
    making sure to put the raster layer at the bottom, the polygons layer above
    it, and the line layer at the top.
-   
+
    .. figure:: img/qgis_ordering_layers.png
-   
+
       Changing the order of the layers
 
 #. You can change the visibility status of the layers by (un)checking the
@@ -198,7 +197,7 @@ deeper look into it's potential.
    canvas. (Make sure to keep all layers visible in the end)
 
    .. figure:: img/qgis_change_layer_visibility.png
-   
+
       Changing the layers' visibility
 
 #. By double-clicking the layer name in the :guilabel:`Layers Panel`, or
@@ -208,12 +207,12 @@ deeper look into it's potential.
    be displayed in the map. Click the :guilabel:`Simple fill` in the symbols
    layers list, and in the Fill :guilabel:`Fill type` select ``No brush``.
    Press :guilabel:`Ok` to apply the changes and close the properties dialog.
-   
+
    .. figure:: img/qgis_change_vector_layer_style.png
-   
+
       Changing the layers' style in the properties dialog
 
-   At this time you might want to save your project. 
+   At this time you might want to save your project.
 
 #. Go to :menuselection:`Project --> Save` or hit Ctrl+S. Choose the
    destination folder where your project will be saved, type in a sugestive
@@ -232,9 +231,9 @@ to retrieve the attributes of our layers.
    :guilabel:`Identify Results` Panel will show up, where you can see the
    feature's fields and respective values. (You may need to expand the panel a
    bit to see it all).
-   
+
    .. figure:: img/qgis_identify.png
-   
+
    Seeing layer's attributes using the identify tool in a feature
 
 #. You can also see all attributes of your layer in its attributes table.
@@ -242,11 +241,11 @@ to retrieve the attributes of our layers.
    :guilabel:`Open Attributes table` in the :guilabel:`Attributes toolbar` (or
    right-click the layer's name in the :guilabel:`Layers Panel` and choose
    :guilabel:`Open Attribute Table` ). The layer's attribute table will show up.
-   
+
    .. figure:: img/qgis_attribute_table.png
-   
+
       Seeing layer's full attributes using the attribute table
-   
+
 #. In the attribute table, use the mouse wheel to quickly scroll up and down
    the attributes, or the scroll bar to move horizontally.
 
@@ -256,7 +255,7 @@ to retrieve the attributes of our layers.
    layer.
 
    .. figure:: img/qgis_attribute_table_selected_row.png
-   
+
       Selecting a row in the attribute table and zooming to it's feature
 
 #. Repeat step 4 selecting several rows by holding the :kbd:`Ctrl` key while
@@ -277,7 +276,7 @@ geometries.
    it looks.
 
    .. figure:: img/qgis_label_layer.png
-   
+
       Layer's properties Label tab
 
 
@@ -293,7 +292,7 @@ you like, and you can manage them in the `Print Composer Manager`.
    representative name for the composer and click :guilabel:`Ok`.
 
    .. figure:: img/qgis_create_print_composer.png
-   
+
       Creating a new composer and choosing a name
 
 #. The print composer will open with an empty page. To add a map item, click
@@ -301,8 +300,8 @@ you like, and you can manage them in the `Print Composer Manager`.
    rectangle covering most of the page by clicking and dragging over it. The
    map content should appear.
 
-   .. figure:: img/qgis_add_map_item_composer.png 
-   
+   .. figure:: img/qgis_add_map_item_composer.png
+
       Adding a map item to the print composer page
 
 #. You can adjust the map item position and size by clicking and dragging the
@@ -314,8 +313,8 @@ you like, and you can manage them in the `Print Composer Manager`.
    precise controls to set the map item position, size, scale and extent can
    be found in the :guilabel:`Item properties tab/panel`.
 
-   .. figure:: img/qgis_adjusting_map_item_composer.png 
-   
+   .. figure:: img/qgis_adjusting_map_item_composer.png
+
       Adjusting map item's scale and extent
 
 #. Now that we are satisfied with our very minimalist map, let's export it.
@@ -335,13 +334,13 @@ application in the Boundless Desktop folder. QGIS Browser can be used to browse
 the datasets quickly on your local computer, network or remote services. You can
 see its metadata, preview its geometries and see the attribute table.
 
-.. figure:: img/qgis_browser_GUI.png 
+.. figure:: img/qgis_browser_GUI.png
 
    Standalone QGIS browser GUI
 
 Online resources
 ----------------
 
-* Official Site: `<http://www.qgis.org>`_
-* Documentation: `<http://docs.qgis.org/2.18/en/docs/index.html>`_
-* Official Plugins Repository: `<http://plugins.qgis.org/plugins/>`_
+* :qgis:`Official Site <>`
+* :qgis_docs:`Documentation: <2.18>`
+* `Official Plugins Repository <http://plugins.qgis.org/plugins/>`_

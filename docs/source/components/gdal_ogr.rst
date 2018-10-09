@@ -59,7 +59,7 @@ the :guilabel:`Boundless Desktop` folder.
 
        INFO: Open of `events.shp'
              using driver `ESRI Shapefile' successful.
-       
+
        Layer name: events
        Geometry: Point
        Feature Count: 1
@@ -96,7 +96,7 @@ the :guilabel:`Boundless Desktop` folder.
        Had to open data source read-only.
        INFO: Open of `events_32633.tab'
              using driver `MapInfo File' successful.
-       
+
        Layer name: events_32633
        Geometry: Point
        Feature Count: 1
@@ -131,6 +131,6 @@ the :guilabel:`Boundless Desktop` folder.
 Online resources
 ----------------
 
-* Official Site: `<http://www.gdal.org/>`_
-* GDAL Raster Utilities: `<http://www.gdal.org/gdal_utilities.html>`_
-* OGR Vector Utilities: `<http://www.gdal.org/ogr_utilities.html>`_
+* :gdal:`Official Site <>`
+* :gdal:`GDAL Raster Utilities <gdal_utilities.html>`
+* :gdal:`OGR Vector Utilities <ogr_utilities.html>`
