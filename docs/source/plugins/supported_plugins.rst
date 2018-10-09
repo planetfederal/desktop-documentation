@@ -75,8 +75,7 @@ for QGIS:
   Plugin for facilitating the use of the MIL-STD-2525 military standard for
   symbology in QGIS.
 
-  (See `MIL-STD2525 Plugin Documentation <../../plugins/milstd2525/>`_ for
-  details)
+  :bd_plugins:`[Read more...] <milstd2525>`
 
 .. _mgrs_tools:
 
@@ -85,7 +84,7 @@ for QGIS:
   A plugin that enables you to work with the Military Grid Reference
   System (MGRS) coordinates in QGIS.
 
-  (See `MGRS Tools Documentation <../../plugins/mgrstools/>`_ for details)
+  :bd_plugins:`[Read more...] <mgrstools>`
 
 .. _oauth2:
 
@@ -100,36 +99,33 @@ for QGIS:
 
 .. _support_tool_plugin:
 
-* **Support Tool** :guilabel:`NEW`
+* **Support Tool**
 
   Core plugin shipped with Boundless Desktop for collecting information from
   the user's QGIS installation and operating system to help in debugging
   issues. The information can be saved as a file or copied to the clipboard.
 
-  (See `Support Tool Documentation <../../plugins/supporttool/>`_ for
-  details)
+  :bd_plugins:`[Read more...] <supporttool>`
 
 .. _terrain_analysis:
 
-* **Terrain Analysis** :guilabel:`NEW`
+* **Terrain Analysis**
 
   Plugin for facilitating the access to several raster analysis tools: Slope,
   Hillshade, Clip, Aspect, Viewshed, and Profile.
 
-  (See `Terrain Analysis Documentation <../../plugins/terrainanalysis/>`_
-  for details)
+  :bd_plugins:`[Read more...] <terrainanalysis>`
 
 .. _web_app_builder:
 
-* **Web App Builder** :guilabel:`Updated`
+* **Web App Builder**
 
   A plugin that allows the easy creation of web applications based on layers,
   map compositions and bookmarks, as configured within a QGIS project. The
   resulting web applications can also include additional web services, various
   controls, and other interactivity.
 
-  (See `Web App Builder Documentation <../../plugins/webappbuilder/>`_ for
-  details)
+  :bd_plugins:`[Read more...] <webappbuilder>`
 
 .. _what3words:
 
@@ -137,5 +133,4 @@ for QGIS:
 
   A plugin that enables you to use What3words three word addresses in QGIS.
 
-  (See `What3words Plugin Documentation <../../plugins/what3words/>`_ for
-  details)
+  :bd_plugins:`[Read more...] <what3words>`

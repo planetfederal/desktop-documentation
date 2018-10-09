@@ -20,7 +20,7 @@ queries to developing complex databases. The graphical interface supports all
 PostgreSQL features and makes its administration easy. The application includes,
 among other things: syntax highlighting SQL editor, a server-side code editor,
 an SQL/batch/shell job scheduling agent, and much more. See more about it in the
-`official website <https://www.pgadmin.org/>`_.
+:pgadmin:`official website <>`.
 
 Quick start guide
 -----------------
@@ -104,7 +104,7 @@ computer.
 Online resources
 ----------------
 
-* Official Site: `<https://www.pgadmin.org/>`_
-* Documentation: `<https://www.pgadmin.org/docs/pgadmin4/1.x/>`_
-* :program:`PostgreSQL` `<https://www.postgresql.org>`_
-* :program:`PostGIS` `<http://postgis.net>`_
+* :pgadmin:`PgAdmin 4 Official Site <>`
+* :pgadmin:`PgAdmin 4 Documentation <docs/pgadmin4/dev/#>`
+* `PostgreSQL Official Site <https://www.postgresql.org>`_
+* `PostGIS Offical Site <http://postgis.net>`_

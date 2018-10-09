@@ -56,14 +56,11 @@ To set the BETA repository, follow the instructions :ref:`above
 Looking for something else?
 ---------------------------
 
-- Boundless plugins in the official `QGIS plugin repository`_
+- Boundless plugins in the `QGIS official plugin repository <QGIS plugin repository_>`_
 - Boundless `Plugins documentation`_
-- Older `OpenGeo Explorer documentation`_
 
 .. warning:: OpenGeo Explorer is deprecated and users are recommended to migrate
-   to the new `GeoServer Explorer`_ plugin.
+   to the new :bd_plugins:`GeoServer Explorer <geoserverexplorer>` plugin.
 
 .. _QGIS plugin repository: http://plugins.qgis.org/search/?q=boundless
 .. _Plugins documentation: http://boundlessgeo.github.io/qgis-plugins-documentation
-.. _OpenGeo Explorer documentation: http://suite.opengeo.org/opengeo-docs/qgis/explorer
-.. _GeoServer Explorer: http://plugins.qgis.org/plugins/geoserverexplorer/

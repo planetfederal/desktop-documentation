@@ -19,7 +19,7 @@ special widgets for QGIS (as an example, a combobox with all project's loaded
 layers).
 
 `Qt Designer` is created by the same team that delivers the Qt Framework. See
-more information about it in `Qt official website <http://www.qt.io>`_
+more information about it in :qt:`Qt official website <>`
 
 Quick start guide
 -----------------
@@ -219,5 +219,5 @@ even add some Python logic to make your forms responsive.
 Online resources
 ----------------
 
-* Qt Official Site: `<http://www.qt.io>`_
-* Qt Designer Manual: `<http://doc.qt.io/qt-4.8/designer-manual.html>`_
+* :qt:`Qt Official Site <>`
+* :qt_docs:`Qt Designer Documentation <qtdesigner-manual.html>`

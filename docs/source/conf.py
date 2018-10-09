@@ -33,7 +33,40 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode',
+    'sphinx.ext.extlinks'
 ]
+
+extlinks = {
+    # boundless products
+    'server': ('https://boundlessgeo.com/boundless-server/%s',None),
+    'exchange': ('https://boundlessgeo.com/boundless-exchange/%s',None),
+    'connect': ('https://connect.boundlessgeo.com/%s',''),
+
+    # Components projects
+    # QGIS
+    'qgis': ('http://www.qgis.org/%s',''),
+    'qgis_changelogs':('https://www.qgis.org/en/site/forusers/visualchangelog%s/index.html',''),
+    'qgis_docs':('http://docs.qgis.org/2.18/en/docs/%s',''),
+    'qgis_plugins':('http://plugins.qgis.org/plugins/%s',''),
+
+    # PgAdmin
+    'pgadmin': ('https://www.pgadmin.org/%s',''),
+    'pgadmin_release':('https://www.pgadmin.org/docs/pgadmin4/dev/release_notes_%s.html',''),
+
+    # Qt Designer
+    'qt': ('https://www.qt.io/%s',''),
+    'qt_docs': ('http://doc.qt.io/qt-5/%s',''),
+
+    # GDAL / OGR
+    'gdal':('http://www.gdal.org/%s',''),
+    'gdal_release':('https://trac.osgeo.org/gdal/wiki/Release/%s-News',''),
+
+    # GRASS
+    'grass_release':('https://trac.osgeo.org/grass/wiki/Release/%s-News#Overviewofchanges',''),
+
+    # Boundless plugins
+    'bd_plugins':('https://connect.boundlessgeo.com/docs/desktop/plugins/%s',''),
+}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

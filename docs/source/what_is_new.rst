@@ -10,13 +10,13 @@ Nevertheless, there were some upgrades and new features as well:
 * **QGIS** updated to 2.18.14.
 * Activated QGIS Oracle data provider.
 * Activated QGIS's QSpatialite (Qt) database driver.
-* **GDAL/OGR** updated to `2.2.2 <GDAL 2.2.2_>`_ (see also GDAL `2.2.1 <GDAL 2.2.1_>`_ changelog).
+* **GDAL/OGR** updated to :gdal_release:`2.2.2` (see also GDAL :gdal_release:`2.2.1` changelog).
 * New OGR plugin for OGDI format.
 * New OGR plugin for Oracle geospatial databases.
 * New GDAL/OGR plugin for PDF format.
-* **GRASS** updated to `7.2.2 <GRASS GIS 7.2.2_>`_ changelog.
+* **GRASS** updated to :grass_release:`7.2.2`.
 * **Python** updated to 2.7.14 (Mac only).
-* **PgAdmin 4** updated to `2.0 <PgAdmin 4 2.0_>`_ (see also `1.6 <PgAdmin 4 1.6_>`_ release notes).
+* **PgAdmin 4** updated to :pgadmin_release:`2.0 <2_0>` (see also `:pgadmin_release:`1.6 <1_6>` release notes).
 * **SAGA GIS** updated to LTS version
 * New offline Desktop documentation included in installer.
 * Support for TLS v1.2 in custom OpenSSL setup.
@@ -29,10 +29,10 @@ Nevertheless, there were some upgrades and new features as well:
 This Boundless Desktop 1.1.0 release contains numerous component upgrades and bug fixes. The highlights
 include:
 
-* **GDAL/OGR** updated to `2.2.0 <GDAL 2.2.0_>`_.
-* **pgAdmin III** replaced by **pgAdmin 4 1.5** (code-signed).
-* **QGIS** updated to `2.18.10 <QGIS 2.18 visual changelog_>`_ which includes lots of new features and
-  improvements (see also QGIS `2.16 <QGIS 2.16 visual changelog_>`_), including:
+* **GDAL/OGR** updated to :gdal_release:`2.2.0`.
+* **pgAdmin III** replaced by **pgAdmin 4** :pgadmin_release:`1.5 <1_5>` (code-signed).
+* **QGIS** updated to :qgis_changelogs:`2.18.10 <218>` which includes lots of new features and
+  improvements (see also QGIS :qgis_changelogs:`2.16 <216>`), including:
 
   * Native support for XYZ tile layers;
   * Native support for reading Map and Feature Services published by ArcGIS
@@ -81,12 +81,3 @@ For a complete list of new features, fixes, and known issues, please consult eac
 .. rubric:: Footnotes
 
 .. [#0] Available for installation in Boundless QGIS Plugin repository (see :ref:`qgis.plugins`).
-
-.. _QGIS 2.16 visual changelog: https://www.qgis.org/en/site/forusers/visualchangelog216/index.html
-.. _QGIS 2.18 visual changelog: https://www.qgis.org/en/site/forusers/visualchangelog218/index.html
-.. _GDAL 2.2.0: https://trac.osgeo.org/gdal/wiki/Release/2.2.0-News
-.. _GDAL 2.2.1: https://trac.osgeo.org/gdal/wiki/Release/2.2.1-News
-.. _GDAL 2.2.2: https://trac.osgeo.org/gdal/wiki/Release/2.2.2-News
-.. _GRASS GIS 7.2.2: https://trac.osgeo.org/grass/wiki/Release/7.2.2-News#Overviewofchanges
-.. _PgAdmin 4 2.0: https://www.pgadmin.org/docs/pgadmin4/dev/release_notes_2_0.html
-.. _PgAdmin 4 1.6: https://www.pgadmin.org/docs/pgadmin4/dev/release_notes_1_6.html
