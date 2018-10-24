@@ -2,30 +2,30 @@
 	path = docs/themes
 	url = https://github.com/boundlessgeo/sphinx-theme
 [submodule "docs/_ext_sources/plugins/qgis-lessons-plugin"]
-	path = docs/_ext_sources/plugins/qgis-lessons-plugin
+	path = docs/source/plugins/_ext/lessons
 	url = git@github.com:boundlessgeo/qgis-lessons-plugin.git
 	branch = master
 [submodule "docs/_ext_sources/plugins/qgis-mgrs-tools-plugin"]
-	path = docs/_ext_sources/plugins/qgis-mgrs-tools-plugin
+	path = docs/source/plugins/_ext/mgrs-tools
 	url = git@github.com:boundlessgeo/qgis-mgrs-tools-plugin.git
 	branch = master
 [submodule "docs/_ext_sources/plugins/qgis-imagediscovery-plugin"]
-	path = docs/_ext_sources/plugins/qgis-imagediscovery-plugin
+	path = docs/source/plugins/_ext/imagediscovery
 	url = git@github.com:boundlessgeo/qgis-imagediscovery-plugin.git
 	branch = master
 [submodule "docs/_ext_sources/plugins/qgis-geoserver-plugin"]
-	path = docs/_ext_sources/plugins/qgis-geoserver-plugin
+	path = docs/source/plugins/_ext/geoserver
 	url = git@github.com:boundlessgeo/qgis-geoserver-plugin.git
 	branch = master
 [submodule "docs/_ext_sources/plugins/qgis-reports-plugin"]
-	path = docs/_ext_sources/plugins/qgis-reports-plugin
+	path = docs/source/plugins/_ext/support
 	url = git@github.com:boundlessgeo/qgis-reports-plugin.git
 	branch = master
 [submodule "docs/_ext_sources/plugins/qgis-milstd2525-plugin"]
-	path = docs/_ext_sources/plugins/qgis-milstd2525-plugin
+	path = docs/source/plugins/_ext/milstd2525
 	url = git@github.com:boundlessgeo/qgis-milstd2525-plugin.git
 	branch = master
 [submodule "docs/_ext_sources/plugins/qgis-terrainanalysis-plugin"]
-	path = docs/_ext_sources/plugins/qgis-terrainanalysis-plugin
+	path = docs/source/plugins/_ext/terrainanalysis
 	url = git@github.com:boundlessgeo/qgis-terrainanalysis-plugin.git
 	branch = master
