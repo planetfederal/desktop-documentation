@@ -20,6 +20,8 @@ import os
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #sys.path.insert(0, os.path.abspath('.'))
 
+sys.path.insert(0, os.path.abspath('plugins/_ext/lessons'))
+
 # -- General configuration ------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
@@ -33,7 +35,8 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode',
-    'sphinx.ext.extlinks'
+    'sphinx.ext.extlinks',
+    'sphinx.ext.autodoc',
 ]
 
 extlinks = {
@@ -105,7 +108,10 @@ release = '2.0.0'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = ['**/README.rst','**/CONTRIBUTING.rst']
+exclude_patterns = ['**/README.rst',
+                    '**/CONTRIBUTING.rst',
+                    '**/DESCRIPTION.rst',
+                    ]
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
