@@ -17,11 +17,6 @@ How to ask for support
   issue.  If you do not have a subscription and are interested in learning more,
   please email us at contact@boundlessgeo.com.
 
-available only for Enterprise users, you will get
-  direct help from Boundless dedicated support staff that, together with the
-  development team, will search for a solution to your issue. Go to `Support
-  tickets <https://connect.boundlessgeo.com/Support/My-Tickets>`_.
-
 .. _reporting_tool:
 
 Support tool
