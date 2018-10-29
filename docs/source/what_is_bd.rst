@@ -31,7 +31,7 @@ integration with other Boundless products, like :server:`Boundless Server <>` an
 
 **THE FIGURE MUST BE REDONE OR REMOVED**
 
-.. figure:: /img/boundless_desktop_simplified_ecosystem.png
+.. figure:: img/boundless_desktop_simplified_ecosystem.png
 
    Boundless Desktop ecosystem
 
