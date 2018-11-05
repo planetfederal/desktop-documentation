@@ -39,6 +39,8 @@ extensions = [
     'sphinx.ext.autodoc',
 ]
 
+autodoc_mock_imports = ["qgis", "qgiscommons2"]
+
 extlinks = {
     # boundless products
     'server': ('https://boundlessgeo.com/boundless-server/%s',None),
