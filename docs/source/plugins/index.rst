@@ -33,7 +33,7 @@ following list comprises the currently available Boundless plugins for QGIS:
   the user's QGIS installation and operating system to help in debugging
   issues. The information can be saved as a file or copied to the clipboard.
 
-  :bd_plugins:`[Read more...] <supporttool>`
+  :ref:`[Read more...] <support_tool_docs>`
 
 .. _geoserver_explorer:
 
@@ -43,7 +43,7 @@ following list comprises the currently available Boundless plugins for QGIS:
   set up your GeoServer instance, from preparing data and styling to
   publishing directly to a catalog, all through the QGIS interface.
 
-  :bd_plugins:`[Read more...] <geoserver>`
+  :ref:`[Read more...] <geoserver_explorer_docs>`
 
   .. _lessons:
 
@@ -52,7 +52,7 @@ following list comprises the currently available Boundless plugins for QGIS:
   Plugin for following interactive step-by-step lessons and tutorials within
   QGIS.
 
-  :bd_plugins:`[Read more...] <lessons>`
+  :ref:`[Read more...] <lessons_docs>`
 
 .. _mil_STD2525:
 
@@ -61,7 +61,7 @@ following list comprises the currently available Boundless plugins for QGIS:
   Plugin for facilitating the use of the MIL-STD-2525 military standard for
   symbology in QGIS.
 
-  :bd_plugins:`[Read more...] <milstd2525>`
+  :ref:`[Read more...] <milstd2525_docs>`
 
 .. _mgrs_tools:
 
@@ -70,7 +70,7 @@ following list comprises the currently available Boundless plugins for QGIS:
   A plugin that enables you to work with the Military Grid Reference
   System (MGRS) coordinates in QGIS.
 
-  :bd_plugins:`[Read more...] <mgrstools>`
+  :ref:`[Read more...] <mgrs_tools_docs>`
 
 .. _terrain_analysis:
 
@@ -79,7 +79,7 @@ following list comprises the currently available Boundless plugins for QGIS:
   Plugin for facilitating the access to several raster analysis tools: Slope,
   Hillshade, Clip, Aspect, Viewshed, and Profile.
 
-  :bd_plugins:`[Read more...] <terrainanalysis>`
+  :ref:`[Read more...] <terrain_analysis_docs>`
 
 .. _web_app_builder:
 
@@ -100,4 +100,4 @@ following list comprises the currently available Boundless plugins for QGIS:
   imagery from imagery provider's catalogs in QGIS. (Only on
   :ref:`boundless.plugins.repo`)
 
-  :bd_plugins:`[Read more...] <imagediscovery>`
+  :ref:`[Read more...] <image_discovery_docs>`

@@ -69,8 +69,6 @@ extlinks = {
     # GRASS
     'grass_release':('https://trac.osgeo.org/grass/wiki/Release/%s-News#Overviewofchanges',''),
 
-    # Boundless plugins
-    'bd_plugins':('https://connect.boundlessgeo.com/docs/desktop/plugins/%s',''),
 }
 
 # Add any paths that contain templates here, relative to this directory.
