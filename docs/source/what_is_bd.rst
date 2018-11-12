@@ -25,10 +25,10 @@ QGIS is built using Anaconda Python distribution, which gives access to
 hundreads of scientific and data management libraries (e.g., pandas, geopandas,
 r, and jupyter)
 
-Boundless Desktop is also extended by a set of Boundless-supported plugins for
-QGIS. The plugins are aimed at improving QGIS functionality, but also for a better
-integration with other Boundless products, like :server:`Boundless Server <>` and
-:exchange:`Boundless Exchange <>`.
+Boundless Desktop is also extended by a set of :ref:`Boundless-supported plugins
+<qgis.plugins>` for QGIS. The plugins are aimed at improving QGIS functionality,
+but also for a better integration with other Boundless products, like
+:server:`Boundless Server <>` and :exchange:`Boundless Exchange <>`.
 
 **THE FIGURE MUST BE REDONE OR REMOVED**
 
@@ -47,27 +47,24 @@ integration with other Boundless products, like :server:`Boundless Server <>` an
 Security
 --------
 
-- Provenance of the code
-- Secury scanning at three stages of the building and packaging process
-- Security scans (Fortify, SonarQube, Dependency Checker) at multiple parts of the pipeline. 
+- Full control of the source code provenance.
+- Security scans (Fortify, SonarQube, Dependency Checker) at multiple parts of
+  the pipeline.
 
-.. figure:: https://github.com/boundlessgeo/desktop-documentation/blob/updates_BD2.0/docs/source/img/BD_2.0_pipeline.png
+**THE FIGURE NEEDS A SIMPLIFIED VERSION**
 
-
-
-      
+.. figure:: img/BD_2.0_pipeline.png
 
 Testing and QA
 --------------
 
 Each Boundless Desktop release is smoke-tested ensuring broadly that the software performs as expected.
 
-
-
 Support
 -------
 
 Boundless Desktop is not composed solely of zeros and ones! It also comes with
-the deep technical knowledge and immediate readiness of Boundless experts. From
-product maintenance and day-to-day online support, whatever are your needs,
-there is a Boundless support plan suited for you (get more information `here <https://boundlessgeo.com/boundless-desktop-gis-software-mapping-solutions/>`_).
+the deep technical knowledge and immediate readiness of our experts. From
+product maintenance to day-to-day online support, whatever are your needs,
+there is a support plan suited for you (get more information
+`here <https://boundlessgeo.com/boundless-desktop-gis-software-mapping-solutions/>`_).
