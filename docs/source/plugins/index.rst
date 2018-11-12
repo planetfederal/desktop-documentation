@@ -81,17 +81,6 @@ following list comprises the currently available Boundless plugins for QGIS:
 
   :ref:`[Read more...] <terrain_analysis_docs>`
 
-.. _web_app_builder:
-
-* **Web App Builder**
-
-  A plugin that allows the easy creation of web applications based on layers,
-  map compositions and bookmarks, as configured within a QGIS project. The
-  resulting web applications can also include additional web services, various
-  controls, and other interactivity.
-
-  :bd_plugins:`[Read more...] <webappbuilder>`
-
 .. _image_discovery:
 
 * **Image Discovery**
