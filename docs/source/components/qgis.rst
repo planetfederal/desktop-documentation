@@ -342,5 +342,5 @@ Online resources
 ----------------
 
 * :qgis:`Official Site <>`
-* :qgis_docs:`Documentation: <2.18>`
-* `Official Plugins Repository <http://plugins.qgis.org/plugins/>`_
+* :qgis_docs:`Documentation <>`
+* :qgis_plugins:`Official Plugins Repository <>`

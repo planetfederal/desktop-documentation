@@ -20,6 +20,8 @@ import os
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #sys.path.insert(0, os.path.abspath('.'))
 
+sys.path.insert(0, os.path.abspath('plugins/_ext/lessons'))
+
 # -- General configuration ------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
@@ -33,8 +35,11 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode',
-    'sphinx.ext.extlinks'
+    'sphinx.ext.extlinks',
+    'sphinx.ext.autodoc',
 ]
+
+autodoc_mock_imports = ["qgis", "qgiscommons2"]
 
 extlinks = {
     # boundless products
@@ -43,23 +48,26 @@ extlinks = {
     'connect': ('https://connect.boundlessgeo.com/%s',''),
 
     # Components projects
+    # QGIS
     'qgis': ('http://www.qgis.org/%s',''),
     'qgis_changelogs':('https://www.qgis.org/en/site/forusers/visualchangelog%s/index.html',''),
     'qgis_docs':('http://docs.qgis.org/%s/en/docs/index.html',''),
 
+    # PgAdmin
     'pgadmin': ('https://www.pgadmin.org/%s',''),
     'pgadmin_release':('https://www.pgadmin.org/docs/pgadmin4/dev/release_notes_%s.html',''),
 
+    # Qt Designer
     'qt': ('https://www.qt.io/%s',''),
     'qt_designer_docs': ('http://doc.qt.io/qt-%s/qtdesigner-manual.html',''),
 
+    # GDAL / OGR
     'gdal':('http://www.gdal.org/%s',''),
     'gdal_release':('https://trac.osgeo.org/gdal/wiki/Release/%s-News',''),
 
+    # GRASS
     'grass_release':('https://trac.osgeo.org/grass/wiki/Release/%s-News#Overviewofchanges',''),
 
-    # plugins
-    'plugins':('https://connect.boundlessgeo.com/docs/desktop/plugins/%s',''),
 }
 
 # Add any paths that contain templates here, relative to this directory.
@@ -99,7 +107,10 @@ release = '2.0.0'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = []
+exclude_patterns = ['**/README.rst',
+                    '**/CONTRIBUTING.rst',
+                    '**/DESCRIPTION.rst',
+                    ]
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
