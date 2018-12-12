@@ -14,7 +14,7 @@ tools:
 
 * QGIS 3.4 by http://www.qgis.org
 * PgAdmin 4 v3.? by `<http://www.pgadmin.org>`_
-* Python 3.6.x by `<http://www.python.org>`_
+* Python 3.6.x by `<http://www.python.org>`_  ??By anaconda??
 * Qt Designer 5.9? for QGIS by `<http://www.qt.io>`_
 * GDAL/OGR 2.3 by `<http://www.gdal.org>`_
 * ??:ref:`Support tool <support_tool_plugin>` plugin by Boundless??
