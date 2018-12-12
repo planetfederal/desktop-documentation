@@ -106,5 +106,5 @@ Online resources
 
 * :pgadmin:`Official Site: <>`
 * :pgadmin:`Documentation <docs/pgadmin4/dev/#>`
-* :program:`PostgreSQL <https://www.postgresql.org>`_
-* :program:`PostGIS <http://postgis.net>`_
+* :program:`PostgreSQL` `<https://www.postgresql.org>`_
+* :program:`PostGIS` `<http://postgis.net>`_

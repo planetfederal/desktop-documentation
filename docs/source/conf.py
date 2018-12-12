@@ -52,6 +52,7 @@ extlinks = {
     'qgis': ('http://www.qgis.org/%s',''),
     'qgis_changelogs':('https://www.qgis.org/en/site/forusers/visualchangelog%s/index.html',''),
     'qgis_docs':('http://docs.qgis.org/%s/en/docs/index.html',''),
+    'qgis_plugins':('http://plugins.qgis.org/plugins/%s',''),
 
     # PgAdmin
     'pgadmin': ('https://www.pgadmin.org/%s',''),
@@ -110,6 +111,7 @@ release = '2.0.0'
 exclude_patterns = ['**/README.rst',
                     '**/CONTRIBUTING.rst',
                     '**/DESCRIPTION.rst',
+                    '**/mgrspy/docs**',
                     ]
 
 # The reST default role (used for this markup: `text`) to use for all
