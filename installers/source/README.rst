@@ -3,7 +3,8 @@
 Boundless Desktop |version|
 ===========================
 
-Boundless Desktop is a software package prepared by Boundless Spatial and composed of open-source geospatial client-side tools. The current version (|release|) includes:
+Boundless Desktop is a full-featured, professional desktop GIS that supports the management, analysis, visualization and dissemination of your geospatial data.
+Powered by QGIS, a proven open source geospatial software, Desktop combines innovative open source projects with premier support, certiication and security, giving you the control and tools to unlock your location-based data for maximum bottom-line impact. The current version (|release|) includes:
 
 .. only:: win
 
@@ -41,11 +42,6 @@ https://pip.pypa.io/en/stable/
 The ``IPython`` and ``Jupyter`` packages are installed (see **Known Issues** on Windows). This allows for easy installation of the **IPyConsole** plugin for QGIS, an excellent additional console to QGIS's embedded Python console.
 
 http://plugins.qgis.org/plugins/IPyConsole/
-
-Boundless Connect plugin
-------------------------
-
-The central element of our QGIS installation is the Boundless Connect plugin, which acts as a single entry point to Boundless technology and content for QGIS. QGIS for Boundless Desktop includes all the core plugins of a standard QGIS installation, plus the Connect plugin. This provides access to Boundless Connect content, which currently includes Boundless-supported plugins. We will continue to add more content for customizing your QGIS interface, and for training and support.
 
 System requirements
 -------------------
