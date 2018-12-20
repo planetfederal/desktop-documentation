@@ -3,17 +3,19 @@
 How to ask for support
 ======================
 
-At Boundless we have prepared two levels of support for Boundless Desktop:
+  At Boundless we have prepared two options for getting assistance with
+  Boundless Desktop:
 
-* **Questions and Answers**: a crowdsourced support system available to any
-  subscription level. You can ask questions and receive answers from a
+* **Questions and Answers**: a crowdsourced forum system available to any
+  Boundless Desktop user. You can ask questions and receive answers from a
   community of users and Boundless staff. Go to `Questions and Answers
   <https://connect.boundlessgeo.com/Community/Questions-Answers>`_.
 
-* **Support tickets**: available only for Enterprise users, you will get
-  direct help from Boundless dedicated support staff that, together with the
-  development team, will search for a solution to your issue. Go to `Support
-  tickets <https://connect.boundlessgeo.com/Support/My-Tickets>`_.
+* **Support tickets**: available only for organization-wide enterprise
+  subscribers. You will get direct help from Boundless dedicated support staff
+  that, together with the development team, will search for a solution to your
+  issue.  If you do not have a subscription and are interested in learning more,
+  please email us at contact@boundlessgeo.com.
 
 .. _reporting_tool:
 

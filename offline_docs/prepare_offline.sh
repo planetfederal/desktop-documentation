@@ -27,11 +27,11 @@ case "$Version" in
 		git checkout r1.0;
 		git merge origin/r1.0;
 		;;
-#	"1.1")
-#		git fetch origin r1.1;
-#		git checkout r1.1;
-#		git merge origin/r1.1;
-#		;;
+	"1.1")
+		git fetch origin r1.1;
+		git checkout r1.1;
+		git merge origin/r1.1;
+		;;
 	*)
 		git checkout master;
 		git pull origin master;
@@ -65,65 +65,6 @@ deactivate
 rsync -uthvr --delete build/ ../../output/desktop_doc
 
 cd ../..
-
-#Appending Plugins Documentation
-
-if [ ! -d "qgis-plugins-documentation" ]; then
-  git clone https://github.com/boundlessgeo/qgis-plugins-documentation.git;
-fi
-
-cd qgis-plugins-documentation;
-git pull origin master;
-
-echo "Setting up Desktop plugins docs virtual enviornment..."
-
-if [ -d "bdeskplugins_virtualenv" ]; then
-   rm -rf bdeskplugins_virtualenv
-fi
-
-virtualenv bdeskplugins_virtualenv;
-source bdeskplugins_virtualenv/bin/activate;
-pip install -r requirements.txt;
-
-paver fetch
-paver builddocs -r
-paver deployoffline
-
-deactivate
-
-rsync -uthvr --delete output/ ../output/plugins
-
-cd ..
-
-#Rename folders for expected names in docs
-mv output/plugins/master output/plugins/masterpasshelper
-mv output/plugins/mgrs output/plugins/mgrstools
-mv output/plugins/reports output/plugins/supporttool
-
-#Redirecting links
-REGXHTML="output/desktop_doc/html/plugins/supported_plugins.html"
-REGEX='s@(\.\./\.\./plugins/)([^/]+/)([^"]*)"@../\1\2index.html"@g'
-if [[ "${OSTYPE}" =~ ^darwin ]]; then
-  sed -i '' -E ${REGEX} ${REGXHTML}
-else
-  sed -ri ${REGEX} ${REGXHTML}
-fi
-
-
-# Getting Learning Center
-
-#if [ ! -d "connect-learning" ]; then
-#   git clone --recursive https://github.com/boundlessgeo/connect-learning.git;
-#fi
-#
-#cd connect-learning/desktop;
-#git pull origin master;
-#
-#make html-offline
-##make get-videos
-#rsync -uthvr --delete build/ ../../output/desktop-learning
-#cd ../..
-
 # Getting QGIS Core Documentation
 
 if [ ! -d "QGIS-Documentation" ]; then
@@ -167,7 +108,7 @@ ARRAY=("training_manual" "developers_guide" "documentation_guidelines" "gentle_g
 
 for doc in ${ARRAY[*]}
 do
-  sed -i.bak "s|#exclude_patterns += \['docs/${doc}|exclude_patterns += \['docs/${doc}|g" source/conf.py;
+  sed -i.bak "s|# exclude_patterns += \['docs/${doc}|exclude_patterns += \['docs/${doc}|g" source/conf.py;
 done
 
 sed -i.bak2 '/PDF/d' source/docs/index.rst;

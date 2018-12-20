@@ -16,5 +16,4 @@ the future.
 
    init_scripts
    globalsettings
-
-
+   plugins_management

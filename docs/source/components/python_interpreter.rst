@@ -19,6 +19,6 @@ Pre-installed Packages
 ----------------------
 
 The ``IPython`` and ``Jupyter`` packages are installed with Desktop. This allows
-for easy installation of the `IPyConsole plugin
-<http://plugins.qgis.org/plugins/IPyConsole/>`_ for QGIS, an excellent
+for easy installation of the 
+:qgis_plugins:`IPyConsole plugin <IPyConsole>` for QGIS, an excellent
 additional console to QGIS's embedded Python console.
