@@ -39,7 +39,7 @@ extensions = [
     'sphinx.ext.autodoc',
 ]
 
-autodoc_mock_imports = ["qgis", "qgiscommons2"]
+autodoc_mock_imports = ["qgis", "qgiscommons2", "qgis.PyQt"]
 
 extlinks = {
     # boundless products
