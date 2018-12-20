@@ -66,7 +66,7 @@ rsync -uthvr --delete build/ ../../output/desktop_doc
 
 cd ../..
 # Getting QGIS Core Documentation
-
+: <<'END'
 if [ ! -d "QGIS-Documentation" ]; then
   git clone https://github.com/qgis/QGIS-Documentation.git;
 fi
@@ -118,6 +118,7 @@ make fasthtml
 deactivate
 rsync -uthvr --delete output/ ../output/qgis_core_docs
 cd ..
+END
 
 #Put index Page in place
 cd ..
