@@ -9,7 +9,7 @@ functionality, and bug fixes. The highlights include:
 
 * QGIS updated to 3.4.?
 * GDAL/OGR updated to 2.3.?
-* GRASS updated to ?
+* GRASS updated to 7.4.2
 * Python is now based on the Anaconda distribution and has been updated to 3.6.?
 * PgAdmin 4 updated to v3.?
 * Qt Designer updated to 5.9.?

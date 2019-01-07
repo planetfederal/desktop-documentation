@@ -88,7 +88,7 @@ as QGIS processing provider adding hundreds of new tools.
   In Boundless Desktop, SAGA GUI is not exposed, and it works exclusively as an
   extra provider for QGIS processing framework.
 
-* :program:`GRASS` by https://grass.osgeo.org/
+* :program:`GRASS` 7.4.2 by https://grass.osgeo.org/
 
   GRASS (Geographic Resources Analysis Support System), is a free and open
   source GIS software suite used for geospatial data management and analysis,
