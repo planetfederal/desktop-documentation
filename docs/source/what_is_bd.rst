@@ -3,11 +3,12 @@
 What is Boundless Desktop?
 ==========================
 
-Boundless Desktop is a full-featured, professional desktop GIS that supports the management,
-analysis, visualization and dissemination of your geospatial data. Powered by QGIS, a proven
-open source geospatial software, Desktop combines innovative open source projects with
-premier support, certification and security, giving you the control and tools to unlock your
-location-based data for maximum bottom-line impact.
+Boundless Desktop is the commercially-supported version of the open source QGIS
+project and GIS toolkit, providing the ability to manage, analyze, and
+disseminate your geospatial data under open standards without sacrificing the
+security of an Enterprise solution. Powered by proven open source projects with
+premier support, Boundless Desktop gives you the control and tools to unlock
+your location-based data for maximum bottom-line impact.
 
 Boundless Desktop |version| is composed of the following set of open source
 tools:
