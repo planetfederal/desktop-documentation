@@ -110,12 +110,14 @@ drivers:
   database connections from within QGIS.
 
 Plugins
--------
+.......
 
 Boundless Desktop is also extended by a set of :ref:`Boundless-supported plugins
 <qgis.plugins>` for QGIS. The plugins are aimed at improving QGIS functionality,
 but also for better integration with other Boundless products, like
 :server:`Boundless Server <>` and :exchange:`Boundless Exchange <>`.
+
+(See :ref:`qgis.plugins` section for more details on the available plugins)
 
 **THE FIGURE MUST BE REDONE OR REMOVED**
 
