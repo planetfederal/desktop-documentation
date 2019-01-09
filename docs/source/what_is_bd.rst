@@ -125,6 +125,23 @@ but also for better integration with other Boundless products, like
 
    Boundless Desktop ecosystem
 
+Offline documentation
+.....................
+
+For convenience, a documentation bundle is shipped with the installer. This allows
+offline access to the following:
+
+* Boundless Desktop Documentation - the current pages, which also include
+  Boundless plugins for QGIS Documentation with installation and usage
+  instructions.
+
+* QGIS User manual - extensive user manual created by the community. The QGIS
+  application help buttons link both to the online and offline versions of this
+  manual.
+
+* PyQGIS Cookbook - PyQGIS nstruction and recipes created by the community on
+  how to use the QGIS classes and methods with Python
+
 Security
 --------
 
