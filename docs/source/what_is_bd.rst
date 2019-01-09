@@ -112,7 +112,7 @@ drivers:
 Plugins
 .......
 
-Boundless Desktop is also extended by a set of :ref:`Boundless-supported plugins
+Additionally, Boundless Desktop is also extended by a set of both community and :ref:`Boundless-supported plugins
 <qgis.plugins>` for QGIS. The plugins are aimed at improving QGIS functionality,
 but also for better integration with other Boundless products, like
 :server:`Boundless Server <>` and :exchange:`Boundless Exchange <>`.
@@ -125,16 +125,16 @@ but also for better integration with other Boundless products, like
 
    Boundless Desktop ecosystem
 
-.. Commenting until necessary The central element of our QGIS installation is the
-   :bd_plugins:`Boundless connect plugin <connect/1.1>`, which acts
-   as a single entry point to Boundless technology and content for QGIS. This
-   provides access to :connect:`Boundless Connect <>`
-   content, which currently includes Boundless-supported plugins, basemaps,
-   and knowledge-based content, like documentation, tutorials and lessons
-   for lessons plugins.
-
 Security
 --------
+
+Commercial support, among other things, means security. In order to support
+rapidly changing customer needs or respond to customer-specific security
+standards, Boundless Desktop is composed of a modernized, open, conda-forge
+development stack. That means as software components age or upgrade, user needs
+change, or a bug is identified, it can be addressed quickly by targeting a
+single package in a plug-and-play packaging methodology, supported by a
+community based approach.
 
 - Full control of the source code provenance by fully building all binaries for
   all components and its dependencies.
@@ -148,8 +148,14 @@ Security
 Testing and QA
 --------------
 
-Each Boundless Desktop release is smoke-tested ensuring broadly that the
-software performs as expected.
+Each Boundless Desktop release is smoke-tested for core components functionality
+ensuring broadly that the software performs as expected.
+
+Each Boundless Desktop release is smoke-tested for QGIS core functionality as
+well as for the specific release (installer). Want to write your own
+workflow-specific tests for new releases? Use the Docker Image Tester plugin to
+see how new releases work for you. {I have no clue is this is true…what was the
+work Alessandro did?}
 
 Support
 -------
@@ -159,3 +165,16 @@ the deep technical knowledge and immediate readiness of our experts. From
 product maintenance to day-to-day online support, whatever are your needs,
 there is a support plan suited for you (get more information
 `here <https://boundlessgeo.com/boundless-desktop-gis-software-mapping-solutions/>`_).
+
+.. |qgis_version| replace:: 3.4
+.. |qt_design_version| replace:: ?5.9?
+.. |pgadmin_version| replace:: ?v3.?
+.. |gdal_version| replace:: 2.3
+.. |grass_version| replace:: 7.4
+.. |saga_version| replace:: 2.3
+.. |python_version| replace:: 3.6
+.. |otb_version| replace:: 5.0
+.. |mrsid_drv_version| replace:: ?9.5?
+.. |ecw_version| replace:: ?5.6?
+.. |filegdb_version| replace:: ?1.5.1?
+.. |oracle_version| replace:: ?12.1?
