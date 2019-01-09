@@ -112,6 +112,7 @@ exclude_patterns = ['**/README.rst',
                     '**/CONTRIBUTING.rst',
                     '**/DESCRIPTION.rst',
                     '**/mgrspy/docs**',
+                    '**pgadmin.rst'
                     ]
 
 # The reST default role (used for this markup: `text`) to use for all
