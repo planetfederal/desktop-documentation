@@ -46,8 +46,8 @@ Boundless Desktop |version| is composed of the following core components:
 
 (See :ref:`components` section for more details on each component)
 
-Components dependencies and tools
-.................................
+Dependencies and tools
+......................
 
 To support the core components functionality the core components are bundled with
 the following tools:
@@ -86,9 +86,6 @@ the following tools:
 
 ..  * :program:`Orfeo Toolbox` |otb_version| by https://www.orfeo-toolbox.org`
 
-Proprietary drivers
-...................
-
 To support the core components functionality and ensure compatibility with
 not-so-open tools, the core components are bundled with the following proprietary
 drivers:
@@ -119,8 +116,6 @@ but also for better integration with other Boundless products, like
 
 (See :ref:`qgis.plugins` section for more details on the available plugins)
 
-**THE FIGURE MUST BE REDONE OR REMOVED**
-
 .. figure:: img/boundless_desktop_simplified_ecosystem.png
 
    Boundless Desktop ecosystem
@@ -131,15 +126,15 @@ Offline documentation
 For convenience, a documentation bundle is shipped with the installer. This allows
 offline access to the following:
 
-* Boundless Desktop Documentation - the current pages, which also include
+* **Boundless Desktop Documentation** - the current pages, which also include
   Boundless plugins for QGIS Documentation with installation and usage
   instructions.
 
-* QGIS User manual - extensive user manual created by the community. The QGIS
+* **QGIS User manual** - extensive user manual created by the community. The QGIS
   application help buttons link both to the online and offline versions of this
   manual.
 
-* PyQGIS Cookbook - PyQGIS nstruction and recipes created by the community on
+* **PyQGIS Cookbook** - PyQGIS nstruction and recipes created by the community on
   how to use the QGIS classes and methods with Python
 
 Security
@@ -165,23 +160,19 @@ community based approach.
 Testing and QA
 --------------
 
-Each Boundless Desktop release is smoke-tested for core components functionality
-ensuring broadly that the software performs as expected.
+During development, we use continuous integration with a Docker QGIS testing
+environment and the tester plugin, which test every single change to code.
 
-Each Boundless Desktop release is smoke-tested for QGIS core functionality as
-well as for the specific release (installer). Want to write your own
-workflow-specific tests for new releases? Use the Docker Image Tester plugin to
-see how new releases work for you. {I have no clue is this is true…what was the
-work Alessandro did?}
+Besides, each Boundless Desktop release is tested manually for core components functionality
+ensuring broadly that the software performs as expected.
 
 Support
 -------
 
 Boundless Desktop is not composed solely of zeros and ones! It also comes with
-the deep technical knowledge and immediate readiness of our experts. From
-product maintenance to day-to-day online support, whatever are your needs,
-there is a support plan suited for you (get more information
-`here <https://boundlessgeo.com/boundless-desktop-gis-software-mapping-solutions/>`_).
+the deep technical knowledge and immediate readiness of our experts, both
+internally and amongst the community. From product maintenance to day-to-day
+online support through our ZenDesk, we have you covered.
 
 .. |qgis_version| replace:: 3.4
 .. |qt_design_version| replace:: ?5.9?
