@@ -161,10 +161,14 @@ Testing and QA
 --------------
 
 During development, we use continuous integration with a Docker QGIS testing
-environment and the tester plugin, which test every single change to code.
+environment, testing every single change to code.
 
-Besides, each Boundless Desktop release is tested manually for core components functionality
-ensuring broadly that the software performs as expected.
+For plugins, we have created a specific Tester plugin, which allows us to run 
+manual and semi-automatic tests in a much more effective way.
+
+Besides, each Boundless Desktop release is tested manually for core components 
+functionality (in most cases, also with the help of the Tester plugin) ensuring 
+broadly that the software performs as expected.
 
 Support
 -------
