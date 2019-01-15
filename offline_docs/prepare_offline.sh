@@ -66,9 +66,8 @@ rsync -uthvr --delete build/ ../../output/desktop_doc
 
 cd ../..
 # Getting QGIS Core Documentation
-: <<'END'
 if [ ! -d "QGIS-Documentation" ]; then
-  git clone https://github.com/qgis/QGIS-Documentation.git;
+  git clone git@github.com:boundlessgeo/QGIS-Documentation.git;
 fi
 cd QGIS-Documentation;
 
@@ -81,9 +80,14 @@ case "$Version" in
 		git merge origin/manual_en_2.14;
 		;;
 	"1.1")
-	    git fetch origin release_2.18;
+		git fetch origin release_2.18;
 		git checkout release_2.18;
 		git merge origin/release_2.18;
+		;;
+	"2.0")
+		git fetch origin BD200_release;
+		git checkout BD200_release;
+		git merge origin/BD200_release;
 		;;
 	*)
 		git checkout master;
@@ -102,23 +106,22 @@ source qgisdocs_virtualenv/bin/activate;
 pip install -r REQUIREMENTS.txt;
 
 # Exclude unwanted QGIS Documentation
-echo "Replacing conf.py file..."
+#echo "Replacing conf.py file..."
 
-ARRAY=("training_manual" "developers_guide" "documentation_guidelines" "gentle_gis_introduction")
+#ARRAY=("training_manual" "developers_guide" "documentation_guidelines" "gentle_gis_introduction")
 
-for doc in ${ARRAY[*]}
-do
-  sed -i.bak "s|# exclude_patterns += \['docs/${doc}|exclude_patterns += \['docs/${doc}|g" source/conf.py;
-done
-
-sed -i.bak2 '/PDF/d' source/docs/index.rst;
+#for doc in ${ARRAY[*]}
+#do
+#  sed -i.bak "s|# exclude_patterns += \['docs/${doc}|exclude_patterns += \['docs/${doc}|g" source/conf.py;
+#done
+#
+#sed -i.bak2 '/PDF/d' source/docs/index.rst;
 
 make clean
 make fasthtml
 deactivate
 rsync -uthvr --delete output/ ../output/qgis_core_docs
 cd ..
-END
 
 #Put index Page in place
 cd ..
