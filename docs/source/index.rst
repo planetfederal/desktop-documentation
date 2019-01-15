@@ -5,7 +5,7 @@ Welcome to Boundless Desktop documentation
 
 .. toctree::
    :maxdepth: 2
-   
+
    what_is_bd
    what_is_new
    requirements
@@ -15,4 +15,4 @@ Welcome to Boundless Desktop documentation
    plugins/index
    ask_for_support
    system_admins/index
-
+   community_docs
