@@ -1,6 +1,6 @@
 * ESRI FileGDB API driver support for OGR
 
-  - (ESRI license)
+  - (Apache v2.0 license)
 
   - https://github.com/Esri/file-geodatabase-api
 
