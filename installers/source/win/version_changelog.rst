@@ -5,12 +5,11 @@
 The Boundless Desktop 2.0.0 release contains numerous component upgrades, new
 functionality, and bug fixes. The highlights include:
 
-* QGIS updated to 3.4.?
-* GDAL/OGR updated to 2.3.?
-* GRASS updated to ?
-* Python is now based on the Anaconda distribution and has been updated to 3.6.?
-* PgAdmin 4 updated to v3.?
-* Qt Designer updated to 5.9.?
+* QGIS updated to 3.4.4
+* GDAL/OGR updated to 2.3.3
+* GRASS updated to 7.4.4
+* Python updated to 3.6
+* Qt Designer updated to 5.9
 * New installers both for Mac and Windows, which will allow partial package updates
 
 QGIS 3.4 receives a major update from its LTR predecessor (2.18). QGIS 3.4 is
@@ -59,20 +58,75 @@ For a full list of new features check the visual changelogs for versions 3.0, 3.
 **Removed**
 
 * Standalone QGIS browser application has been deprecated
-* ??Orpheo toolbox processing provider no longer ships with QGIS??
 * Connect plugin will not be shipped in this release
 * Boundless OAuth2 and Master Password plugins, has its functionality was integrated into
   QGIS 3 core
+* Orfeo toolbox processing provider removed temporarily
+* PgAdmin 4 was temporarily removed from installer
 
 **Fixed**
 
 Community fixes:
 
-**Version 1.1.1**
+* Browser panel restore causes unwanted WMS connections when expanded
+* Invalid fields error when using auto-complete in Layer properties Edit widget:Value Relation
+* Date edit widget only shows current date whatever the real data is underneath
+* QGIS crashes when opening project file with nonexisting NTV2 grid file location
+* Date widget: cosmetic issue with NULL values
+* Date widget: current date can't be picked
+* Processing/geoprocessing operations failing in 2.18 with memory layers
+* Processing script editor: incorrect read of degree symbol
+* Spatial Bookmark Panel: precision gets trimmed
+* DXF Export generates many numbered layers (1 layer for each feature)
+* Reference point property of the composer item is not working properly
+* GDAL algorithms ignore feature filter
+* Clipping of raster with GDAL may hang QGIS
+* Print composer:  Changing "orientation" in Page Setup has no effect
+* File picker window slow
+* Tooltip type changed automatically
+* The QGIS intersection tool yields incomplete results
+* Names of Print layout items not reused
+* Rephrase Draw map canvas items
+* Font size in Form view does not take into account default font size settings
+* Scalebar addition when dealing with multiple map frames
+* Let user set histograms in mm
+* While exporting composer, WMS warning appears only if WMS layer is visible in the map canvas
+* Processing gdal tools do not work if Windows username contain non ascii chars.
+* Processing Toolbox Doesn't Pick Up New Database Connections
+* When advanced (CAD) digitizing is ON, Overview panel cannot be resized
+* Composer map doesn't rotate when angle is set using "data define override" option
+* Coverage layer not checked before parsing filename expression in atlas generation
+* Style Manager filter ignores currently selected group
+* Processing:runalg locks input file
+* Configure Shortcuts problem on Mac
+* Python bindings for QgsDxfExport.addLayers causes crash
+* Adding geojson via add vector layer causes strange behaviour
+* Add PostGIS layers is too slow on connecting to a database
+* PostGIS views not handled correctly
+* Incorrect evaluation of Rule-Base features
+* resolution problem with the rule rendering dialog window
+* Grey  "Export symbology" option in the "save vector layer as ..."  CSV
+* The toggle editing pencil becomes orange without changing values of the layer
+* Progress bar and setText not working on a mac with user script
+* Project loads layers not seen in legend
+* Right to Left formating in Map Composer
+* No vertical scrollbar for tall forms and bad display when maximized
+* SRS 102003 not recognized
+* Map rotation in print composer: make behaviour more uniform
+* Wrong rendering of line pattern fill (custom dash pattern)
+* Using PostGIS over a slow connection unfeasible: unnecessary loading of data?
+* Save dialogue for Geoprocessing outputs is inconsistent
+* Names of colour ramp categories
+* Do not list non-geometric layers in layer order
+* Postgis: commit errors leads to loosing data
+* Help in Save raster as... help dialog
+* Results from field calculator wrong format
+* Browser not accessing Windows network
+* Toolbox misaligned
+* SAGA vector produced without .prj if the input layer does not have it
+* Arrow in composer - "bounding box" corners
 
-**Added**
-* QGIS updated to 3.4.0
-* GDAL/OGR updated to 2.2.3?
+For a full list of fixed issues see https://issues.qgis.org/projects/qgis/issues?query_id=176
 
 **Version 1.1.1**
 
