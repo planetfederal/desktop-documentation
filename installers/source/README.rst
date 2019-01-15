@@ -24,6 +24,38 @@ For convenience, outside the supported scope of Boundless Desktop, the following
 
    .. include:: /osx/additional_components.rst
 
+The Boundless Desktop was built upon the following open source dependencies:
+
+.. only:: win
+
+   .. include:: /win/dependencies.rst
+
+.. only:: osx
+
+   .. include:: /osx/dependencies.rst
+
+To support the core components functionality and ensure compatibility with not-so-open tools, the core components are bundled with the following proprietary drivers
+
+* MrSID raster and LiDAR decompression driver support for GDAL/OGR
+
+  - (Extensis software license agreement for MRSID decode SDKS)
+
+  - https://www.extensis.com/support/developers
+
+* ECW, ECWP and JPEG2000 driver support for GDAL
+
+  - (ERDAS ECW/JP2 Desktop Read-Only Redistributable SDK License)
+
+  - http://www.hexagongeospatial.com/products/provider-suite/erdas-ecw-jp2-sdk
+
+.. only:: win
+
+   .. include:: /win/proprietary_components.rst
+
+.. only:: osx
+
+   .. include:: /osx/proprietary_components.rst
+
 Python interpreter
 ------------------
 
@@ -131,29 +163,3 @@ Online resources
 * Qt Designer Manual:
 
   http://doc.qt.io/qt-5/qtdesigner-manual.html
-
-Proprietary software
---------------------
-
-Proprietary software, included with Desktop, has its provenance from the
-following sources.
-
-* MrSID raster and LiDAR decompression driver support for GDAL/OGR
-
-  - (LizardTech Computer Software License)
-
-  - https://www.lizardtech.com/gis-tools/server-development-kit
-
-* ECW, ECWP and JPEG2000 driver support for GDAL
-
-  - (ERDAS ECW/JP2 Desktop Read-Only Redistributable SDK License)
-
-  - http://www.hexagongeospatial.com/products/provider-suite/erdas-ecw-jp2-sdk
-
-.. only:: win
-
-   .. include:: /win/proprietary_components.rst
-
-.. only:: osx
-
-   .. include:: /osx/proprietary_components.rst
