@@ -59,8 +59,8 @@ virtualenv bdeskdocs_virtualenv;
 source bdeskdocs_virtualenv/bin/activate;
 pip install -r requirements.txt;
 
-make clean
-make html
+rm -rf ../../output/desktop_doc
+sphinx-build -b html -t offline -d build/doctrees   source ../../output/desktop_doc
 deactivate
 rsync -uthvr --delete build/ ../../output/desktop_doc
 
@@ -120,10 +120,10 @@ pip install -r REQUIREMENTS.txt;
 make clean
 make fasthtml
 deactivate
-rsync -uthvr --delete output/ ../output/qgis_core_docs
-cd ..
-
-#Put index Page in place
-cd ..
-rsync -uthvr _static/ tmp/output/_static
-cp index.html tmp/output
+rsync -uthvrq --delete output/ ../output/qgis_core_docs
+#cd ..
+#
+##Put index Page in place
+#cd ..
+#rsync -uthvr _static/ tmp/output/_static
+#cp index.html tmp/output
