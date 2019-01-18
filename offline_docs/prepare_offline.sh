@@ -8,6 +8,7 @@ set -e
 
 Version=$1
 # Clean things up
+rm tmp
 mkdir -p tmp
 cd tmp
 rm -rf output
