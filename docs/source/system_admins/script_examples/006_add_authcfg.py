@@ -14,7 +14,7 @@ from qgis.core import QgsAuthManager, QgsAuthMethodConfig, QgsMessageLog
 
 AUTHDB_MASTERPWD = 'password'
 
-QgsMessageLog.logMessage("Init script: %s" % __file__, tag="Init script", level=QgsMessageLog.INFO)
+QgsMessageLog.logMessage("Init script: %s" % __file__, tag="Init script", level=Qgis.Info)
 
 # Do not run twice!
 if not QSettings().value("InitScript/AuthCfgCreated", type=bool):
@@ -35,7 +35,7 @@ if not QSettings().value("InitScript/AuthCfgCreated", type=bool):
         cfg.setConfig('password', 'password')
         am.storeAuthenticationConfig(cfg)
     else:
-        QgsMessageLog.logMessage("Master password was already set: aborting", tag="Init script", level=QgsMessageLog.INFO)
+        QgsMessageLog.logMessage("Master password was already set: aborting", tag="Init script", level=Qgis.Info)
 
 else:
-    QgsMessageLog.logMessage("AuthCfg was already created: aborting", tag="Init script", level=QgsMessageLog.INFO)
+    QgsMessageLog.logMessage("AuthCfg was already created: aborting", tag="Init script", level=Qgis.Info)
