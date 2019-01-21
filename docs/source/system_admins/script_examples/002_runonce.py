@@ -6,11 +6,11 @@
 
 from qgis.PyQt.QtCore import QSettings
 from qgis.core import QgsMessageLog
-QgsMessageLog.logMessage("Init script: %s" % __file__, tag="Init script", level=QgsMessageLog.INFO)
+QgsMessageLog.logMessage("Init script: %s" % __file__, tag="Init script", level=Qgis.Info)
 
 if not QSettings().value("InitScript/RunOnceHasRun"):
-    QgsMessageLog.logMessage("Setting 'InitScript/RunOnceHasRun' to 'true'", tag="Init script", level=QgsMessageLog.INFO)
+    QgsMessageLog.logMessage("Setting 'InitScript/RunOnceHasRun' to 'true'", tag="Init script", level=Qgis.Info)
     QSettings().setValue("InitScript/MyTestSetting", True)
 else:
-    QgsMessageLog.logMessage("'InitScript/MyTestSetting' already set to '%s'" % QSettings().value("InitScript/MyTestSetting"), tag="Init script", level=QgsMessageLog.INFO)
+    QgsMessageLog.logMessage("'InitScript/MyTestSetting' already set to '%s'" % QSettings().value("InitScript/MyTestSetting"), tag="Init script", level=Qgis.Info)
 
