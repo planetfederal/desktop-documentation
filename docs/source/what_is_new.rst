@@ -13,6 +13,7 @@ functionality, and bug fixes. The highlights include:
 * Python is now |python_version|
 * Qt Designer updated to |qt_design_version|
 * New installers both for Mac and Windows, which will allow partial package updates
+
 .. * PgAdmin 4 updated to|pgadmin_version|
 
 QGIS 3.4 receives a major update from its LTR predecessor (2.18). QGIS 3.4 is

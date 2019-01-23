@@ -12,7 +12,8 @@ to their online resources.
    :maxdepth: 2
 
    qgis
-   pgadmin
    qtdesigner
    gdal_ogr
    python_interpreter
+
+.. pgadmin
