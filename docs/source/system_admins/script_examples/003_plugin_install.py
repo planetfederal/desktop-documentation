@@ -8,7 +8,7 @@ import zipfile
 from qgis.PyQt.QtCore import QSettings
 from qgis.utils import home_plugin_path, loadPlugin, startPlugin, plugins
 from qgis.core import QgsMessageLog
-QgsMessageLog.logMessage("Init script: %s" % __file__, tag="Init script", level=QgsMessageLog.INFO)
+QgsMessageLog.logMessage("Init script: %s" % __file__, tag="Init script", level=Qgis.Info)
 
 if "HelloWorld" not in plugins:
     # Installing
@@ -17,7 +17,7 @@ if "HelloWorld" not in plugins:
     zip_ref.close()
     loadPlugin('HelloWorld')
     startPlugin('HelloWorld')
-    QgsMessageLog.logMessage("Plugin HelloWorld has been successfully installed", tag="Init script", level=QgsMessageLog.INFO)
+    QgsMessageLog.logMessage("Plugin HelloWorld has been successfully installed", tag="Init script", level=Qgis.Info)
 else:
-    QgsMessageLog.logMessage("Plugin HelloWorld has been already installed", tag="Init script", level=QgsMessageLog.INFO)
+    QgsMessageLog.logMessage("Plugin HelloWorld has been already installed", tag="Init script", level=Qgis.Info)
 

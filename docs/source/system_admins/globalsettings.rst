@@ -43,11 +43,11 @@ path for the :file:`qgis_global_setting.ini` by using one of the following:
 
 If none of the two above methods is used, QGIS will use the file's default location. On Windows, the default location folder is::
 
-  C:\Program Files\Boundless\Desktop\1.1\osgeo4w\apps\qgis\qgis_global_setting.ini
+  C:\Program Files\Boundless\Desktop\2.0\Library\apps\qgis\qgis_global_setting.ini
 
 While on Mac OS, the default location is::
 
-  /Library/Boundless/Desktop/1.1/Cellar/qgis2-bdesk/2.18.10/QGIS for Boundless Desktop 1.1.app/Contents/MacOS/../Resources/qgis_global_setting.ini
+  /Library/Boundless/Desktop/2.0/apps/QGIS for Boundless Desktop.app/Contents/Resources/qgis_global_setting.ini
 
 
 Exporting QGIS settings to INI format

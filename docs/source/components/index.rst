@@ -15,4 +15,5 @@ to online resources.
    qtdesigner
    gdal_ogr
    python_interpreter
-..   pgadmin
+
+.. pgadmin

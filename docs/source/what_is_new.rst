@@ -7,13 +7,14 @@ What is new in |version|
 The Boundless Desktop 2.0.0 release contains numerous component upgrades, new
 functionality, and bug fixes. The highlights include:
 
-* QGIS updated to 3.4.?
-* GDAL/OGR updated to 2.3.?
-* GRASS updated to 7.4.2
-* Python is now based on the Anaconda distribution and has been updated to 3.6.?
-* PgAdmin 4 updated to v3.?
-* Qt Designer updated to 5.9.?
+* QGIS updated to |qgis_version|
+* GDAL/OGR updated to |gdal_version|
+* GRASS updated to |grass_version|
+* Python is now |python_version|
+* Qt Designer updated to |qt_design_version|
 * New installers both for Mac and Windows, which will allow partial package updates
+
+.. * PgAdmin 4 updated to|pgadmin_version|
 
 QGIS 3.4 receives a major update from its LTR predecessor (2.18). QGIS 3.4 is
 based on Qt 5 and Python 3 and adds many new features. Some examples are:
@@ -61,12 +62,27 @@ For a full list of new features check the visual changelogs for versions :qgis_c
 There were also some removals for this version:
 
 * Standalone QGIS browser application has been deprecated
-* ??Orpheo toolbox processing provider no longer ships with QGIS??
 * Connect plugin will not be shipped in this release
 * Boundless OAuth2 and Master Password plugins, has its functionality was integrated into
   QGIS 3 core
+* Orfeo toolbox processing provider no longer ships with QGIS
+* PgAdmin 4 was temporarily removed from installer
 
 For a complete list of new features, fixes, and known issues, please consult each platform README files:
 
 * :download:`Windows <_static/README_win.txt>`
 * :download:`Mac OSX <_static/README_osx.txt>`
+
+
+.. |qgis_version| replace:: 3.4
+.. |qt_design_version| replace:: ?5.9?
+.. |pgadmin_version| replace:: ?v3.?
+.. |gdal_version| replace:: 2.3
+.. |grass_version| replace:: 7.4
+.. |saga_version| replace:: 2.3
+.. |python_version| replace:: 3.6
+.. |otb_version| replace:: 5.0
+.. |mrsid_drv_version| replace:: ?9.5?
+.. |ecw_version| replace:: ?5.6?
+.. |filegdb_version| replace:: ?1.5.1?
+.. |oracle_version| replace:: 12.2

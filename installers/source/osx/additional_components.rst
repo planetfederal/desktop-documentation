@@ -1,4 +1,3 @@
-* SAGA 2.3.1 by http://www.saga-gis.org
-* GRASS 7.2.2 by http://grass.osgeo.org
-* Orfeo Toolbox 5.8.0 by http://www.orfeo-toolbox.org
-* Python 3.?.? http://www.python.org/
+* SAGA 2.3.? by http://www.saga-gis.org
+* GRASS 7.4.4 by http://grass.osgeo.org
+* Python 3.6 http://www.python.org/

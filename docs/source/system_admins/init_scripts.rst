@@ -3,7 +3,7 @@ QGIS Initialization scripts
 
 QGIS has the native ability to run a specified Python script when it starts.
 By loading an init script that will in turn load and run all the scripts in
-a given directory, this system allows Boundless Desktop's QGIS to be configured 
+a given directory, this system allows Boundless Desktop's QGIS to be configured
 every time it starts.
 
 Setting the scripts path to a network shared folder, allows the system
@@ -20,11 +20,11 @@ is not set, QGIS will look in a default local folder determined by
 
 On Windows, the default local folder is::
 
-  C:\Program Files\Boundless\Desktop\1.1\osgeo4w\apps\qgis\init_scripts
+  C:\Program Files\Boundless\Desktop\2.0\Library\apps\qgis\init_scripts
 
 On Mac OS, the default local folder is::
 
-  /Library/Boundless/Desktop/1.1/Cellar/qgis2-bdesk/2.18.10/QGIS for Boundless Desktop 1.1.app/Contents/MacOS/../Resources/init_scripts
+  /Library/Boundless/Desktop/2.0/apps/QGIS for Boundless Desktop.app/Contents/Resources/init_scripts
 
 
 .. tip::
