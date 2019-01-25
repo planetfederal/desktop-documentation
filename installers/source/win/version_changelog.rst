@@ -9,8 +9,9 @@ functionality, and bug fixes. The highlights include:
 * GDAL/OGR updated to 2.3.3
 * GRASS updated to 7.4.4
 * Python updated to 3.6
-* Qt Designer updated to 5.9
-* New installers both for Mac and Windows, which will allow partial package updates
+* Qt Designer updated to 5.9.6
+
+.. New installers both for Mac and Windows, which will allow partial package updates
 
 QGIS 3.4 receives a major update from its LTR predecessor (2.18). QGIS 3.4 is
 based on Qt 5 and Python 3 and adds many new features. Some examples are:

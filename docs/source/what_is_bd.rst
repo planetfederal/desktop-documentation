@@ -52,13 +52,13 @@ Dependencies and tools
 To support the core components functionality the core components are bundled with
 the following tools:
 
-* :program:`GDAL/OGR` |gdal_version| by `<http://www.gdal.org>`_
+* :program:`GDAL/OGR` |gdal_version| by http://www.gdal.org
 
   Geospatial Data Abstraction Library (GDAL/OGR) is a cross-platform C++
   translator library for raster and vector geospatial data formats, which
   supports over 50 raster formats, and OGR over 20 vector formats.
 
-* :program:`Python` |python_version| interpreter by `<http://www.python.org>`_
+* :program:`Python` |python_version| interpreter by http://www.python.org
 
   Object-oriented, interpreted, and interactive programming
   language,  it combines remarkable power with very clear syntax. Python is also
@@ -66,7 +66,7 @@ the following tools:
   that need easy-to-use scripting or automation interfaces, which is the case of
   QGIS, which uses python as its backbone for scripting and plugin creation.
 
-* :program:`SAGA` |saga_version| by http://www.saga-gis.org/
+* :program:`SAGA` |saga_version| by http://www.saga-gis.org
 
   SAGA (System for Automated Geoscientific Analyses) is a GIS software that has
   been designed for an easy and effective implementation of spatial algorithms.
@@ -75,7 +75,7 @@ the following tools:
   In Boundless Desktop, SAGA GUI is not exposed, and it works exclusively as an
   extra provider for QGIS processing framework.
 
-* :program:`GRASS` |grass_version| by https://grass.osgeo.org/
+* :program:`GRASS` |grass_version| by https://grass.osgeo.org
 
   GRASS (Geographic Resources Analysis Support System), is a free and open
   source GIS software suite used for geospatial data management and analysis,
@@ -91,11 +91,11 @@ not-so-open tools, the core components are bundled with the following proprietar
 drivers:
 
 * :program:`MrSID SDK` |mrsid_drv_version| for GDAL  by
-  https://www.extensis.com/ - adds read and visualization support to MrSID/MG4
+  https://www.extensis.com - adds read and visualization support to MrSID/MG4
   compressed raster and LiDAR files.
 
 * :program:`ERDAS ECW/JP2 SDK` |ecw_version| for GDAL by
-  https://www.hexagongeospatial.com/ - adds read and write (limited to
+  https://www.hexagongeospatial.com - adds read and write (limited to
   500mb) support for ECW and JPEG2000 formats.
 
 * :program:`ESRI FileGDB API driver` |filegdb_version| for GDAL by
@@ -109,10 +109,11 @@ drivers:
 Plugins
 .......
 
-Additionally, Boundless Desktop is also extended by a set of both community and :ref:`Boundless-supported plugins
-<qgis.plugins>` for QGIS. The plugins are aimed at improving QGIS functionality,
-but also for better integration with other Boundless products, like
-:server:`Boundless Server <>` and :exchange:`Boundless Exchange <>`.
+Additionally, Boundless Desktop is also extended by a set of both community and
+:ref:`Boundless-supported plugins <qgis.plugins>` for QGIS. The plugins are
+aimed at improving QGIS functionality, but also for better integration with
+other Boundless products, like :server:`Boundless Server <>` and
+:exchange:`Boundless Exchange <>`.
 
 (See :ref:`qgis.plugins` section for more details on the available plugins)
 
@@ -163,11 +164,11 @@ Testing and QA
 During development, we use continuous integration with a Docker QGIS testing
 environment, testing every single change to code.
 
-For plugins, we have created a specific Tester plugin, which allows us to run 
+For plugins, we have created a specific Tester plugin, which allows us to run
 manual and semi-automatic tests in a much more effective way.
 
-Besides, each Boundless Desktop release is tested manually for core components 
-functionality (in most cases, also with the help of the Tester plugin) ensuring 
+Besides, each Boundless Desktop release is tested manually for core components
+functionality (in most cases, also with the help of the Tester plugin) ensuring
 broadly that the software performs as expected.
 
 Support
@@ -177,6 +178,8 @@ Boundless Desktop is not composed solely of zeros and ones! It also comes with
 the deep technical knowledge and immediate readiness of our experts, both
 internally and amongst the community. From product maintenance to day-to-day
 online support through our ZenDesk, we have you covered.
+
+.. USe Major version (x.y) if available
 
 .. |qgis_version| replace:: 3.4
 .. |qt_design_version| replace:: ?5.9?

@@ -10,5 +10,5 @@
   a password anyway. As a workaround, the user can just enter a fake password.
 
 
-For a complete list of QGIS 2.18 LTS active regressions see:
-https://issues.qgis.org/projects/qgis/issues?query_id=143
+  For a complete list of QGIS active regressions see:
+  https://issues.qgis.org/projects/qgis/issues?query_id=115
