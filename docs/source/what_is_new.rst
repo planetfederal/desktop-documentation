@@ -76,12 +76,12 @@ For a complete list of new features, fixes, and known issues, please consult eac
 .. Use minor versions (x.y.z) if available
 
 .. |qgis_version| replace:: 3.4.4
-.. |qt_design_version| replace:: ?5.9?
+.. |qt_design_version| replace:: 5.9.6
 .. |pgadmin_version| replace:: ?v3.?
-.. |gdal_version| replace:: 2.3.3
+.. |gdal_version| replace:: 2.4.0
 .. |grass_version| replace:: 7.4.4
 .. |saga_version| replace:: 2.3.2
-.. |python_version| replace:: 3.6
+.. |python_version| replace:: 3.7.1
 .. |otb_version| replace:: 5.0
 .. |mrsid_drv_version| replace:: ?9.5?
 .. |ecw_version| replace:: ?5.6?

@@ -6,9 +6,9 @@ The Boundless Desktop 2.0.0 release contains numerous component upgrades, new
 functionality, and bug fixes. The highlights include:
 
 * QGIS updated to 3.4.4
-* GDAL/OGR updated to 2.3.3
+* GDAL/OGR updated to 2.4.0
 * GRASS updated to 7.4.4
-* Python updated to 3.6
+* Python updated to 3.7.1
 * Qt Designer updated to 5.9.6
 
 .. New installers both for Mac and Windows, which will allow partial package updates
