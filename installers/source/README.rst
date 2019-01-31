@@ -106,7 +106,7 @@ https://connect.boundlessgeo.com/Downloads
 License
 -------
 
-Copyright (C) 2009-2018 Boundless
+Copyright (C) 2009-2019 Boundless
 http://boundlessgeo.com/
 
 For more details, please consult the Boundless End User License Agreement (EULA) during installation. You can review the EULA and individual licenses for components of Desktop in the Licenses folder located within the installation folder.
