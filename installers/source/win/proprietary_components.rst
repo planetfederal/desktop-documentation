@@ -11,7 +11,7 @@
   https://www.oracle.com - Adds read and write support support to Oracle spatial
   database connections from within QGIS.
 
-.. |mrsid_drv_version| replace:: ?9.5?
-.. |ecw_version| replace:: ?5.6?
-.. |filegdb_version| replace:: ?1.5.1?
-.. |oracle_version| replace:: ?12.1?
+.. |mrsid_drv_version| replace:: 9.5
+.. |ecw_version| replace:: 5.6
+.. |filegdb_version| replace:: 1.5.1
+.. |oracle_version| replace:: 12.1

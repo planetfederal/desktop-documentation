@@ -189,7 +189,7 @@ online support through our ZenDesk, we have you covered.
 .. |saga_version| replace:: 2.3
 .. |python_version| replace:: 3.7
 .. |otb_version| replace:: 5.0
-.. |mrsid_drv_version| replace:: ?9.5?
-.. |ecw_version| replace:: ?5.6?
-.. |filegdb_version| replace:: ?1.5.1?
-.. |oracle_version| replace:: ?12.1?
+.. |mrsid_drv_version| replace:: 9.5
+.. |ecw_version| replace:: 5.6
+.. |filegdb_version| replace:: 1.5.1
+.. |oracle_version| replace:: 12.1
