@@ -17,8 +17,8 @@ Boundless Desktop 2.0.
 
 .. only:: offline
 
-   * `QGIS 3.4 User manual <../qgis_core_docs/html/en/docs/user_manual/index.html>`_ (see :ref:`online <QGIS-manual-index-reference>`)
-   * `PyQGIS Cookbook <../qgis_core_docs/html/en/docs/pyqgis_developer_cookbook/index.html>`_ (see :ref:`online <PyQGIS-Developer-Cookbook>`)
+   * `QGIS 3.4 User manual <../../qgis_core_docs/html/en/docs/user_manual/index.html>`_ (see :ref:`online <QGIS-manual-index-reference>`)
+   * `PyQGIS Cookbook <../../qgis_core_docs/html/en/docs/pyqgis_developer_cookbook/index.html>`_ (see :ref:`online <PyQGIS-Developer-Cookbook>`)
 
 .. only:: online
 

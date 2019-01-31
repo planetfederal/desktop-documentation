@@ -61,7 +61,7 @@ source bdeskdocs_virtualenv/bin/activate;
 pip install -r requirements.txt;
 
 rm -rf ../../output/desktop_doc
-sphinx-build -b html -t offline -d build/doctrees   source ../../output/desktop_doc
+sphinx-build -b html -t offline -d build/doctrees   source build/html
 deactivate
 rsync -uthvr --delete build/ ../../output/desktop_doc
 
