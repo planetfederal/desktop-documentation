@@ -3,7 +3,7 @@
 # settings and set it to 'A Value' if not found
 
 from qgis.PyQt.QtCore import QSettings
-from qgis.core import QgsMessageLog
+from qgis.core import QgsMessageLog, Qgis
 QgsMessageLog.logMessage("Init script: %s" % __file__, tag="Init script", level=Qgis.Info)
 
 if not QSettings().value("InitScript/MyTestSetting"):
