@@ -10,7 +10,7 @@
 
 
 from qgis.PyQt.QtCore import QSettings
-from qgis.core import QgsAuthManager, QgsAuthMethodConfig, QgsMessageLog
+from qgis.core import QgsAuthManager, QgsAuthMethodConfig, QgsMessageLog, Qgis
 
 AUTHDB_MASTERPWD = 'password'
 
