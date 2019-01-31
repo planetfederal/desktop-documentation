@@ -7,7 +7,7 @@ import zipfile
 
 from qgis.PyQt.QtCore import QSettings
 from qgis.utils import home_plugin_path, loadPlugin, startPlugin, plugins
-from qgis.core import QgsMessageLog
+from qgis.core import QgsMessageLog, Qgis
 QgsMessageLog.logMessage("Init script: %s" % __file__, tag="Init script", level=Qgis.Info)
 
 if "HelloWorld" not in plugins:
