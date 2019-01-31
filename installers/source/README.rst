@@ -14,6 +14,7 @@ Powered by proven open source projects with premier support, Boundless Desktop g
 
    .. include:: /osx/supported_components.rst
 
+
 For convenience, outside the supported scope of Boundless Desktop, the following components are provided:
 
 .. only:: win
@@ -23,6 +24,7 @@ For convenience, outside the supported scope of Boundless Desktop, the following
 .. only:: osx
 
    .. include:: /osx/additional_components.rst
+
 
 The Boundless Desktop was built upon the following open source dependencies:
 
@@ -34,19 +36,8 @@ The Boundless Desktop was built upon the following open source dependencies:
 
    .. include:: /osx/dependencies.rst
 
+
 To support the core components functionality and ensure compatibility with not-so-open tools, the core components are bundled with the following proprietary drivers
-
-* MrSID raster and LiDAR decompression driver support for GDAL/OGR
-
-  - (Extensis software license agreement for MRSID decode SDKS)
-
-  - https://www.extensis.com/support/developers
-
-* ECW, ECWP and JPEG2000 driver support for GDAL
-
-  - (ERDAS ECW/JP2 Desktop Read-Only Redistributable SDK License)
-
-  - http://www.hexagongeospatial.com/products/provider-suite/erdas-ecw-jp2-sdk
 
 .. only:: win
 
@@ -55,6 +46,7 @@ To support the core components functionality and ensure compatibility with not-s
 .. only:: osx
 
    .. include:: /osx/proprietary_components.rst
+
 
 Python interpreter
 ------------------
@@ -88,6 +80,7 @@ Boundless Desktop has the following minimum and recommended system requirements:
 
    .. include:: /osx/system_requirements.rst
 
+
 Install
 -------
 
@@ -102,6 +95,7 @@ https://connect.boundlessgeo.com/Downloads
 .. only:: osx
 
    .. include:: /osx/install_uninstall.rst
+
 
 License
 -------
@@ -122,6 +116,7 @@ Known issues
 
    .. include:: /osx/known_issues.rst
 
+
 Changelog
 ---------
 
@@ -132,6 +127,7 @@ Changelog
 .. only:: osx
 
    .. include:: /osx/version_changelog.rst
+
 
 Online resources
 ----------------
@@ -152,9 +148,9 @@ Online resources
 
   http://www.qgis.org/en/docs
 
-* PgAdmin official documentation:
+.. * PgAdmin official documentation:
 
-  http://www.pgadmin.org/docs
+..   http://www.pgadmin.org/docs
 
 * GDAL/OGR official documentation:
 
