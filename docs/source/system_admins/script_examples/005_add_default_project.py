@@ -4,7 +4,7 @@
 import os
 from shutil import copyfile
 from qgis.PyQt.QtCore import QSettings
-from qgis.core import QgsMessageLog, QgsApplication
+from qgis.core import QgsMessageLog, QgsApplication, Qgis
 QgsMessageLog.logMessage("Init script: %s" % __file__, tag="Init script", level=Qgis.Info)
 
 
@@ -14,7 +14,7 @@ DEFAULT_PROJECT_PATH=os.path.join(QgsApplication.qgisSettingsDirPath(), "project
 if not os.path.exists(DEFAULT_PROJECT_PATH):
     try:
         copyfile(os.path.join(os.path.dirname(os.path.realpath(__file__)), 'test_data', 'project_default.qgs'), DEFAULT_PROJECT_PATH)
-        QgsMessageLog.logMessage("Default project has been successfully installed", tag="Init script", level=QgsMessageLog.INFO)
+        QgsMessageLog.logMessage("Default project has been successfully installed", tag="Init script", level=Qgis.Info)
         # Set the settings to use the default project
         settings.setValue("qgis/newProjectDefault", True)
     except Exception as ex:
