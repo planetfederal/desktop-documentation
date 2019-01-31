@@ -3,7 +3,7 @@
 
 
 from qgis.PyQt.QtCore import QSettings
-from qgis.core import QgsMessageLog
+from qgis.core import QgsMessageLog, Qgis
 QgsMessageLog.logMessage("Init script: %s" % __file__, tag="Init script", level=Qgis.Info)
 
 WMS_URL="http://demo.boundlessgeo.com/geoserver/wms"
