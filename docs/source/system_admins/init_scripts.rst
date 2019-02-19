@@ -18,14 +18,17 @@ containing Python scripts to run at QGIS start, if the variable
 is not set, QGIS will look in a default local folder determined by
 ``QgsApplication.pkgDataPath()`` + ``/init_scripts``.
 
-On Windows, the default local folder is::
+On Windows, the default folder location is:
 
-  C:\Program Files\Boundless\Desktop\2.0\Library\apps\qgis\init_scripts
+``C:\ProgramData\Boundless\Desktop\2.0\Library\apps\qgis\init_scripts``
 
-On Mac OS, the default local folder is::
+or, in case of single user installation:
 
-  /Library/Boundless/Desktop/2.0/apps/QGIS for Boundless Desktop.app/Contents/Resources/init_scripts
+``C:\Users\<username>\Boundless\Desktop\2.0\Library\apps\qgis\init_scripts``
 
+On Mac OS, the default local folder is:
+
+``/Library/Boundless/Desktop/2.0/apps/QGIS for Boundless Desktop.app/Contents/Resources/init_scripts``
 
 .. tip::
 
