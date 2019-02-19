@@ -154,17 +154,13 @@ community based approach.
 - Security scans (Fortify, SonarQube, Dependency Checker) at multiple parts of
   the building pipeline.
 
-**THE FIGURE NEEDS A SIMPLIFIED VERSION**
-
-.. figure:: img/BD_2.0_pipeline.png
-
 Testing and QA
 --------------
 
 During development, we use continuous integration with a Docker QGIS testing
 environment, testing every single change to code.
 
-For plugins, we have created a specific Tester plugin, which allows us to run
+For plugins, we have created the Tester plugin, which allows us to run
 manual and semi-automatic tests in a much more effective way.
 
 Besides, each Boundless Desktop release is tested manually for core components
