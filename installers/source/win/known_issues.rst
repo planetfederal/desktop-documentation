@@ -4,6 +4,9 @@
   installation directory poses no issues, and the older versions removal won't
   affect the latest ones.
 * Uninstaller leaves an empty ``Program Files\Boundless\Desktop\1.1`` directory
+* Current available versions of IPython console plugin (v1.9) is not compatible with
+  IPython 7.2, which is the version deployed with Boundless Desktop. The plugin
+  will not work properly.
 
 .. * In PgAdmin 4, in the SSL tab of the Create Server dialog, browsing to a file
      (e.g., for getting a Client certificate) will fill all the other certificate
