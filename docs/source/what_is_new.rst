@@ -12,7 +12,8 @@ functionality, and bug fixes. The highlights include:
 * GRASS updated to |grass_version|
 * Python is now |python_version|
 * Qt Designer updated to |qt_design_version|
-* New installers both for Mac and Windows, which will allow partial package updates
+* New installers for Windows, which allows global and single user
+  instalation
 
 .. * PgAdmin 4 updated to|pgadmin_version|
 
@@ -71,7 +72,10 @@ There were also some removals for this version:
 For a complete list of new features, fixes, and known issues, please consult each platform README files:
 
 * :download:`Windows <_static/README_win.txt>`
-* :download:`Mac OSX <_static/README_osx.txt>`
+
+.. commenting until future release for Mac OS
+
+   * :download:`Mac OSX <_static/README_osx.txt>`
 
 .. Use minor versions (x.y.z) if available
 

@@ -9,10 +9,15 @@ Boundless provides packages for Boundless Desktop on both Windows and OS X.
    :maxdepth: 1
 
    windows
+   uninstall
+
+.. commenting until future release for Mac OS
+
+   windows
    osx
    uninstall
 
-.. note:: 
+.. note::
 
    Although Boundless does not provides installers for Linux, all open source
    tools that ship with Boundless Desktop are also available for Linux. Please

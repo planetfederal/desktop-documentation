@@ -26,9 +26,11 @@ or, in case of single user installation:
 
 ``C:\Users\<username>\Boundless\Desktop\2.0\Library\apps\qgis\init_scripts``
 
-On Mac OS, the default local folder is:
+.. commenting until future release for Mac OS
 
-``/Library/Boundless/Desktop/2.0/apps/QGIS for Boundless Desktop.app/Contents/Resources/init_scripts``
+   On Mac OS, the default local folder is:
+
+   ``/Library/Boundless/Desktop/2.0/apps/QGIS for Boundless Desktop.app/Contents/Resources/init_scripts``
 
 .. tip::
 

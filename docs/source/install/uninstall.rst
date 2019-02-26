@@ -40,44 +40,45 @@ folder or from the start menu.
 #. Once the process is finished, click :guilabel:`Close` to close the
    uninstaller window.
 
-.. _install.uninstall.osx:
+.. commenting until future release for Mac OS
 
-OS X
-----
+   .. _install.uninstall.osx:
 
-In Mac OS X, to uninstall the Boundless Desktop core apps, libs and
-utilities, and the symbolically linked applications and documentation, use
-the `Uninstall Desktop` shortcut available in the Boundless Desktop's
-shortcuts folder (:menuselection:`Applications --> Boundless --> Desktop 1.1`).
+   OS X
+   ----
 
-.. figure:: img/install_uninstall_osx_shortcut.png
+   In Mac OS X, to uninstall the Boundless Desktop core apps, libs and
+   utilities, and the symbolically linked applications and documentation, use
+   the `Uninstall Desktop` shortcut available in the Boundless Desktop's
+   shortcuts folder (:menuselection:`Applications --> Boundless --> Desktop 1.1`).
 
-   Uninstall Desktop shortcut location
-
-#. Double-click the shortcut to run the uninstaller. Click
-   :guilabel:`Uninstall` to start the uninstall procedure.
-
-   .. figure:: img/install_uninstall_osx_administrator_permissions.png
+   .. figure:: img/install_uninstall_osx_shortcut.png
 
       Uninstall Desktop shortcut location
 
-#. Administrator permissions are required. Enter your administrator
-   credentials to proceed with the uninstall.
+   #. Double-click the shortcut to run the uninstaller. Click
+      :guilabel:`Uninstall` to start the uninstall procedure.
 
-   .. figure:: img/install_uninstall_osx_administrator_credentials.png
+      .. figure:: img/install_uninstall_osx_administrator_permissions.png
 
-      Entering administrator's credentials
+         Uninstall Desktop shortcut location
 
-#. Once the uninstall is finished, a dialog will inform the user about what
-   was removed. Click :guilabel:`Quit` to close it.
+   #. Administrator permissions are required. Enter your administrator
+      credentials to proceed with the uninstall.
 
-   .. figure:: img/install_uninstall_osx_complete.png
+      .. figure:: img/install_uninstall_osx_administrator_credentials.png
 
-      Uninstallation complete
+         Entering administrator's credentials
 
+   #. Once the uninstall is finished, a dialog will inform the user about what
+      was removed. Click :guilabel:`Quit` to close it.
+
+      .. figure:: img/install_uninstall_osx_complete.png
+
+         Uninstallation complete
 
 .. Note::
 
-   Both in Windows and Mac OS X, all user's configuration and settings (for
-   example, QGIS settings and plugins) will be preserved for future
-   installations of `Boundless Desktop`.
+   Both in Windows and Mac OS X, all the user's configuration and settings (for
+   example, QGIS settings and plugins) are preserved for future
+   installations of `Boundless Desktop 2.x`.

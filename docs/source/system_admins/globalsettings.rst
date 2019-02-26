@@ -50,9 +50,11 @@ or, in case of single user installation:
 
 ``C:\Users\<username>\Boundless\Desktop\2.0\Library\apps\qgis\qgis_global_setting.ini``
 
-While on Mac OS, the default location is:
+.. commenting until future release for Mac OS
 
-``/Library/Boundless/Desktop/2.0/apps/QGIS for Boundless Desktop.app/Contents/Resources/qgis_global_setting.ini``
+   While on Mac OS, the default location is:
+
+   ``/Library/Boundless/Desktop/2.0/apps/QGIS for Boundless Desktop.app/Contents/Resources/qgis_global_setting.ini``
 
 Exporting QGIS settings to INI format
 -------------------------------------
