@@ -24,7 +24,13 @@ folder or from the start menu.
 
    .. figure:: img/install_uninstall_win_UAC_message.png
 
-#. In the next dialog, press :guilabel:`Uninstall` to proceed with the
+#. On the Uninstaller welcome page, click :guilabel:`Next`.
+
+   .. figure:: img/install_uninstall_win_start_dialog.png
+
+
+#. In the next dialog, make sure you which to uninstall the software from the
+   announced folder. If so, press :guilabel:`Uninstall` to proceed with the
    uninstallation of Boundless Desktop from your computer.
 
    .. figure:: img/install_uninstall_win_dialog.png
@@ -33,7 +39,7 @@ folder or from the start menu.
 
 #. Once the process is finished, click :guilabel:`Close` to close the
    uninstaller window.
-   
+
 .. _install.uninstall.osx:
 
 OS X
