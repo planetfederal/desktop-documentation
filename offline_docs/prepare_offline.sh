@@ -68,7 +68,7 @@ rsync -uthvr --delete build/ ../../output/desktop_doc
 cd ../..
 # Getting QGIS Core Documentation
 if [ ! -d "QGIS-Documentation" ]; then
-  git clone git@github.com:boundlessgeo/QGIS-Documentation.git;
+  git clone git@github.com:qgis/QGIS-Documentation.git;
 fi
 cd QGIS-Documentation;
 
@@ -86,9 +86,9 @@ case "$Version" in
 		git merge origin/release_2.18;
 		;;
 	"2.0")
-		git fetch origin BD200_release;
-		git checkout BD200_release;
-		git merge origin/BD200_release;
+		git fetch origin release_3.4;
+		git checkout release_3.4;
+		git merge origin/release_3.4;
 		;;
 	*)
 		git checkout master;
