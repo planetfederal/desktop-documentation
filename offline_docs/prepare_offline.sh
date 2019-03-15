@@ -107,16 +107,16 @@ source qgisdocs_virtualenv/bin/activate;
 pip install -r REQUIREMENTS.txt;
 
 # Exclude unwanted QGIS Documentation
-#echo "Replacing conf.py file..."
+echo "Replacing conf.py file..."
 
-#ARRAY=("training_manual" "developers_guide" "documentation_guidelines" "gentle_gis_introduction")
+ARRAY=("training_manual" "developers_guide" "documentation_guidelines" "gentle_gis_introduction")
 
-#for doc in ${ARRAY[*]}
-#do
-#  sed -i.bak "s|# exclude_patterns += \['docs/${doc}|exclude_patterns += \['docs/${doc}|g" source/conf.py;
-#done
-#
-#sed -i.bak2 '/PDF/d' source/docs/index.rst;
+for doc in ${ARRAY[*]}
+do
+  sed -i.bak "s|# exclude_patterns += \['docs/${doc}|exclude_patterns += \['docs/${doc}|g" source/conf.py;
+done
+
+sed -i.bak2 '/PDF/d' source/docs/index.rst;
 
 make clean
 make fasthtml
