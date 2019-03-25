@@ -14,6 +14,7 @@ the future.
 .. toctree::
    :maxdepth: 2
 
+   commandline_install
    init_scripts
    globalsettings
    plugins_management
