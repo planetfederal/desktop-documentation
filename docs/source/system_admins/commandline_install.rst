@@ -1,9 +1,9 @@
 .. _command_line_install:
 
-Command line install
+Command Line Install
 ====================
 
-The Boundless desktop installer allows headless installation, which for system
+The Boundless Desktop installer allows headless installation, which for system
 administrators may be quicker and more convenient than using the graphical user
 interface (GUI).
 
@@ -27,13 +27,13 @@ Several options are available::
 .. note::
 
    One drawback of this type of installation is that there is no visual feedback
-   on the installation progress. For this reason, it's recommended to preseed
+   on the installation progress. For this reason, it's recommended to precede
    the command with::
 
      start "" /wait /b [install command]
 
     Using this command, the command prompt will be inactive until the
-    installation is finishes.
+    installation is finished.
 
 Usage examples
 --------------
@@ -48,8 +48,8 @@ Install for all users in default path::
 
 .. note::
 
-   For `Allusers` installations, the :program:`Command prompt` needs to be opened
-   using the :guilabel:`Run as administrator` option.
+   For `Allusers` installations, the :program:`Command prompt` (cmd.exe) needs
+   to be opened using the :guilabel:`Run as administrator` option.
 
 Install for all users in specific path::
 
