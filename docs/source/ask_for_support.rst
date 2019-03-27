@@ -15,7 +15,7 @@ How to ask for support
   subscribers. You will get direct help from Boundless dedicated support staff
   that, together with the development team, will search for a solution to your
   issue.  If you do not have a subscription and are interested in learning more,
-  please email us at contact@boundlessgeo.com.
+  please email us at support-team@boundlessgeo.com.
 
 .. _reporting_tool:
 
