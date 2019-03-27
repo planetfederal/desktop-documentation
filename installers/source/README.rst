@@ -26,17 +26,6 @@ For convenience, outside the supported scope of Boundless Desktop, the following
    .. include:: /osx/additional_components.rst
 
 
-The Boundless Desktop was built upon the following open source dependencies:
-
-.. only:: win
-
-   .. include:: /win/dependencies.rst
-
-.. only:: osx
-
-   .. include:: /osx/dependencies.rst
-
-
 To support the core components functionality and ensure compatibility with not-so-open tools, the core components are bundled with the following proprietary drivers
 
 .. only:: win
@@ -46,6 +35,16 @@ To support the core components functionality and ensure compatibility with not-s
 .. only:: osx
 
    .. include:: /osx/proprietary_components.rst
+
+Boundless Desktop was built upon the remaining open source dependencies:
+
+   .. only:: win
+
+      .. include:: /win/dependencies.rst
+
+   .. only:: osx
+
+      .. include:: /osx/dependencies.rst
 
 
 Python interpreter
