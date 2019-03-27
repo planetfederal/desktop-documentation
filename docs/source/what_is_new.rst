@@ -58,18 +58,19 @@ based on Qt 5 and Python 3 and adds many new features. Some examples are:
 * ESRI Token Authentication support
 * Support for encrypted zips in the Plugin Manager¶
 
-For a full list of new features check the visual changelogs for versions :qgis_changelogs:`3.0 <30>`, :qgis_changelogs:`3.2 <32>`, and :qgis_changelogs:`3.4 <34>`.
+For a full list of QGIS new features check the visual changelogs for versions :qgis_changelogs:`3.0 <30>`, :qgis_changelogs:`3.2 <32>`, and :qgis_changelogs:`3.4 <34>`.
 
 There were also some removals for this version:
 
 * Standalone QGIS browser application has been deprecated
 * Connect plugin will not be shipped in this release
-* Boundless OAuth2 and Master Password plugins, has its functionality was integrated into
-  QGIS 3 core
-* Orfeo toolbox processing provider no longer ships with QGIS
+* Boundless OAuth2 and Master Password plugins were removes has its
+  functionality was integrated into QGIS 3 core
+* Orfeo toolbox processing provider no longer shipped
 * PgAdmin 4 was temporarily removed from installer
 
-For a complete list of new features, fixes, and known issues, please consult each platform README files:
+For a complete list of new features, fixes, and known issues, please consult
+each platform README files:
 
 * :download:`Windows <_static/README_win.txt>`
 

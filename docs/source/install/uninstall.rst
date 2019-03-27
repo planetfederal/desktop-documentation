@@ -17,17 +17,15 @@ folder or from the start menu.
 
    Uninstall Desktop shortcut location
 
-#. Double-click the shortcut to run the uninstaller (administrator
-   permissions are required).
+#. Double-click the shortcut to run the uninstaller.
 
-#. In the :guilabel:`User Account Control` dialog, click :guilabel:`YES`.
-
-   .. figure:: img/install_uninstall_win_UAC_message.png
+   Note, if you are uninstalling a ``all users`` installation, administrator
+   permissions are required, you may be asked to insert the administrator
+   credentials.
 
 #. On the Uninstaller welcome page, click :guilabel:`Next`.
 
    .. figure:: img/install_uninstall_win_start_dialog.png
-
 
 #. In the next dialog, make sure you which to uninstall the software from the
    announced folder. If so, press :guilabel:`Uninstall` to proceed with the
@@ -37,8 +35,8 @@ folder or from the start menu.
 
       Boundless Desktop Uninstaller dialog
 
-#. Once the process is finished, click :guilabel:`Close` to close the
-   uninstaller window.
+#. Once the process is complete, click :guilabel:`Next` followed by
+   :guilabel:`Finish` to close the uninstaller.
 
 .. commenting until future release for Mac OS
 

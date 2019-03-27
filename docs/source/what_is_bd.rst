@@ -132,11 +132,11 @@ offline access to the following:
   instructions.
 
 * **QGIS User manual** - extensive user manual created by the community. The QGIS
-  application help buttons link both to the online and offline versions of this
-  manual.
+  application help buttons, normally linked to this online document, will
+  fallback to the offline version, if there is no internet connection.
 
-* **PyQGIS Cookbook** - PyQGIS nstruction and recipes created by the community on
-  how to use the QGIS classes and methods with Python
+* **PyQGIS Cookbook** - PyQGIS instruction and recipes created by the community
+  on how to use the QGIS classes and methods with Python
 
 Security
 --------

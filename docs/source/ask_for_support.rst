@@ -9,7 +9,7 @@ How to ask for support
 * **Questions and Answers**: a crowdsourced forum system available to any
   Boundless Desktop user. You can ask questions and receive answers from a
   community of users and Boundless staff. Go to `Questions and Answers
-  <https://connect.boundlessgeo.com/Community/Questions-Answers>`_.
+  <https://support.boundlessgeo.com/hc/en-us/community/topics/360000722852-Q-A>`_.
 
 * **Support tickets**: available only for organization-wide enterprise
   subscribers. You will get direct help from Boundless dedicated support staff
@@ -39,7 +39,7 @@ way of using the Report tool is using it from QGIS.
 
 #. From Boundless Desktop folder, open the :program:`QGIS`.
 
-#. In QGIS menus, click :menuselection:`Plugins --> Boundless Support Tool`.
+#. In QGIS menus, click :menuselection:`Help --> Boundless Support Tool`.
 
 A new dialog will open with the full report visible, and the location of the
 saved copy.

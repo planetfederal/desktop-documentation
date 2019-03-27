@@ -3,11 +3,10 @@
 For System Administrators
 =========================
 
-Starting from Boundless Desktop 1.1, there are available tools to help
-system administrators deploy and manage Boundless Desktop in their
-organization machines.
+There are available tools to help system administrators deploy and manage
+Boundless Desktop in their organization machines.
 
-Currently, the tools are solely focused on QGIS, the main component of Boundless
+Currently, most tools are focused on QGIS, the main component of Boundless
 Desktop, but it's planned to provide similar tools for the other applications in
 the future.
 

@@ -9,7 +9,7 @@ interface (GUI).
 
 Several options are available::
 
-  Boundless-Desktop-2.0.0-x64.exe [option=value], ...
+  Boundless-Desktop-2.0.0-x64.exe [option=value] ...
 
   /S                 Silent install, mandatory for headless installation
   /InstallationType  Defines the type of installation

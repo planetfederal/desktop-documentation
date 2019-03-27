@@ -36,10 +36,7 @@ the :guilabel:`Boundless Desktop` folder.
 #. Open :program:`Command Shell` using any of the available shortcuts in your
    computer.
 
-#. If you are on Windows, you will immediately see the list of available
-   commands. To list them again, type ``o-help`` and press :kbd:`Enter`. To
-   print the list of available commands on Mac, type ``list-cmds`` and press
-   :kbd:`Enter`.
+#. Type ``o-help`` and press :kbd:`Enter` to list the available command.
 
 #. To execute a :program:`GDAL/OGR` command, type its name an press enter.
    If executed without arguments :program:`GDAL/OGR` commands normally print
