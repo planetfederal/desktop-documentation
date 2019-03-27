@@ -4,13 +4,18 @@
   installation directory poses no issues, and the older versions removal won't
   affect the latest ones.
 * Boundless Desktop |version| installation changes QGIS project files (qgs
-  and qgz) application mapping, disconnecting them from previous installation of
+  and qgz) application mapping, disconnecting them from the previous installation of
   QGIS. In the same way, uninstalling Boundless Desktop |version| will leave
-  those files unmaped.
+  those files unmapped.
+* Running QGIS from a pinned icon in the taskbar won't run scripts in the init_script folder.
 * Uninstaller leaves an empty ``Program Files\Boundless\Desktop\2.0`` directory
-* Current available versions of IPython console plugin (v1.9) is not compatible with
+* Uninstaller on Windows 7 will need a system reboot to allow other programs uninstall.
+* Uninstallation on user workspace requires administrator permissions.
+* Currently available versions of IPython console plugin (v1.9) is not compatible with
   IPython 7.2, which is the version deployed with Boundless Desktop. The plugin
   will not work properly.
+* Due to a problem in the OGDI driver DGAL (and therefore QGIS) is not able to
+  read OGDI ``VPF`` and ``RPF`` formats. The OGDI ``DTED`` format works as expected.
 
 .. * In PgAdmin 4, in the SSL tab of the Create Server dialog, browsing to a file
      (e.g., for getting a Client certificate) will fill all the other certificate

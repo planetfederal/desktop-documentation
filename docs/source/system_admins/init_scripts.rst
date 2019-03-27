@@ -10,6 +10,11 @@ Setting the scripts path to a network shared folder, allows the system
 administrator to perform QGIS configuration tasks in several machines by simply
 adding or changing the scripts in that folder.
 
+..  warning::
+
+    Due to a know issue on Windows, running QGIS a pinned icon on the taskbar,
+    won't run the Initialization scripts.
+
 Usage
 -----
 
