@@ -6,24 +6,24 @@ Quick start guide
 Windows
 -------
 
-After installation, a Boundless Desktop shortcut is added for easy access to all
-the installed tools. Double-click the icon to open the shortcuts folder. Then,
-double-click any of the icons to launch the respective tools.
+A Boundless Desktop shortcut folder is created during of the installation process,
+providing easy access to all installed tools. Double-click the icon to open
+the shortcuts folder. Then, double-click any of the icons to launch the
+respective tools.
 
 .. figure:: img/quickstart_desktop_shortcut.png
 
    Boundless desktop shortcut and folder in windows
 
-The same shortcuts are also added to the start menu in a group called `Boundless
-Desktop` |version|. Click on any of the tools' icons or names to launch it.
+The shortcut folder can also be accessed  from the Start menu in a group called `Boundless
+Desktop` |version|. Click on any tool's icon or name to launch it.
 
 .. figure:: img/quickstart_start_menu.png
 
-   Boundless Desktop shortcuts group in the windows start menu
+   Boundless Desktop shortcuts group in the Windows Start menu
 
 There is also an `Uninstall` shortcut to easily remove `Boundless Desktop` from
-your computer. Please see :ref:`install.uninstall` for more information about
-uninstalling procedures.
+your computer. Please see :ref:`install.uninstall` for more information.
 
 .. commenting until future release for Mac OS
 

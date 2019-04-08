@@ -11,12 +11,11 @@ interfaces (GUIs) from Qt components. With it, you can compose and customise
 widgets or dialogs in a what-you-see-is-what-you-get (WYSIWYG) manner, and also
 test them using different styles and resolutions.
 
-The reason why `Boundless Desktop` includes `Qt Designer` is because it's
-extremely useful to create QGIS plugins' interface dialogs, but also to create
-highly customised feature forms for editing vector layers' attributes in QGIS
-projects. With that in mind, the shipped version brings a set of very convenient
-special widgets for QGIS (as an example, a combobox with all project's loaded
-layers).
+`Boundless Desktop` includes `Qt Designer` because it's extremely useful for
+creating interface dialogs for QGIS plugins and highly customised feature forms
+for editing vector layers' attributes in QGIS projects. With that in mind, the
+shipped version brings a set of very convenient special widgets for QGIS
+(for example, a combobox with all project's loaded layers).
 
 `Qt Designer` is created by the same team that delivers the Qt Framework. See
 more information about it in :qt:`Qt official website <>`
@@ -59,9 +58,9 @@ will show how to create a simple custom feature form for a vector layer in QGIS.
      toolbar(4), which we will use to impose some alignment layout for
      consistency purposes.
 
-   .. note:: In Mac OS X, Qt Designer starts up in `Multiple Top-Level Windows
+   .. note:: In macOS, Qt Designer starts up in `Multiple Top-Level Windows
       mode` by default, looking very different from what is presented above. To
-      change it, you should go to :menuselection:`Designer --> Preferences...`
+      change it, you can go to :menuselection:`Designer --> Preferences...`
       and choose ``Docked Window`` in the :guilabel:`User Interface Mode`.
 
    To see what widgets we want to use on the new form, we will need to inspect
@@ -164,7 +163,7 @@ target field. As you will see, this can be done in several different ways.
    .. figure:: img/qt_designer_form_resize.png
 
 #. Finally, using :menuselection:`File --> Save as..` let's save the form
-   using a suggestive name, for instance ``events_form.ui``. For easy
+   using a descriptive name, for instance ``events_form.ui``. For easy
    discovery, save it in the same folder that the data is located.
 
    Now, let's go back to QGIS and test the feature form in action.

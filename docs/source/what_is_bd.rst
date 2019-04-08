@@ -33,10 +33,9 @@ Boundless Desktop |version| is composed of the following core components:
   widgets (*e.g.*, project layer selector).
 
 * :program:`Command Shell` (Optional) - for convenience, users are provided a
-  pre-scripted terminal application, providing a mechanism for running Desktop
-  command line utilities as well as providing a Python console [need version
-  number as well as more detain about scripts/customization]
-
+  pre-scripted terminal application with environment variable preconfigured for
+  running Desktop command line utilities as well as providing a Python 3 console
+  with access to the QGIS 3 Python API.
 .. * :program:`PgAdmin 4` |pgadmin_version| (Optional) by `<http://www.pgadmin.org>`_
 
 .. Feature-rich Open Source administration and development platform
@@ -109,7 +108,7 @@ drivers:
 Plugins
 .......
 
-Additionally, Boundless Desktop is also extended by a set of both community and
+Boundless Desktop is also extended by a set of both community and
 :ref:`Boundless-supported plugins <qgis.plugins>` for QGIS. The plugins are
 aimed at improving QGIS functionality, but also for better integration with
 other Boundless products, like :server:`Boundless Server <>` and

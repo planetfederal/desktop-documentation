@@ -19,10 +19,10 @@ Plugins
    Image Discovery <_ext/imagediscovery/docs/source/index>
    plugin_repo
 
-Boundless Desktop's functionality can be remarkably extended by the use of
+Boundless Desktop's functionality can be extended by the use of
 plugins for QGIS.
 
-Boundless development team has created some useful plugins for QGIS. The
+The Boundless development team has created some useful plugins for QGIS. The
 following list comprises the currently available Boundless plugins for QGIS:
 
 .. _support_tool_plugin:
@@ -58,8 +58,7 @@ following list comprises the currently available Boundless plugins for QGIS:
 
 * **MIL-STD2525**
 
-  Plugin for facilitating the use of the MIL-STD-2525 military standard for
-  symbology in QGIS.
+  Plugin for facilitating the use of MIL-STD-2525 for symbology in QGIS.
 
   :ref:`[Read more...] <milstd2525_docs>`
 
@@ -67,7 +66,7 @@ following list comprises the currently available Boundless plugins for QGIS:
 
 * **MGRS Tools**
 
-  A plugin that enables you to work with the Military Grid Reference
+  A plugin that enables you to work with Military Grid Reference
   System (MGRS) coordinates in QGIS.
 
   :ref:`[Read more...] <mgrs_tools_docs>`

@@ -3,7 +3,11 @@
 Installing Boundless Desktop
 ============================
 
-Boundless provides packages for Boundless Desktop on both Windows and OS X.
+.. commenting out until macOS release
+
+   Boundless provides packages for Boundless Desktop on both Windows and OS X.
+
+Boundless Desktop installation packages for Windows 7 and above.
 
 .. toctree::
    :maxdepth: 1
@@ -11,7 +15,7 @@ Boundless provides packages for Boundless Desktop on both Windows and OS X.
    windows
    uninstall
 
-.. commenting until future release for Mac OS
+.. commenting until future release for macOS
 
    windows
    osx

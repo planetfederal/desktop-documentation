@@ -3,10 +3,10 @@
 System requirements
 ===================
 
-Boundless Desktop should run well on most recent hardware systems. Nevertheless,
-the performance may vary depending on the data type, data size, and the type of
-operation/analysis performed. The following system requirements are the minimum
-and recommended settings for reliable average use.
+Boundless Desktop typically runs well on most recent hardware systems.
+Performance may vary depending on data type and size, as well as the type of
+operation/analysis being performed. The following are the minimum
+recommended system requirements settings for reliable average use.
 
 .. note::
 
