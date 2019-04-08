@@ -6,8 +6,8 @@ QGIS
 About
 -----
 
-QGIS is the central piece of the Boundless Desktop package installation. The
-well known leading Open Source GIS for desktop, QGIS, is a cross-platform
+QGIS is the centerpiece of the Boundless Desktop package installation. The
+well-known leading Open Source GIS for desktop, QGIS, is a cross-platform
 desktop application for viewing, editing, and analyzing geospatial data from a
 variety of (proprietary and open) vector, raster, and database formats.
 
@@ -28,14 +28,13 @@ processing providers are available for QGIS’s Processing framework:
 Quickstart guide
 ----------------
 
-This section aims to give you a brief overview of QGIS. It will mainly focus
-on QGIS's graphical user interface (GUI) and some of the most common operations
-like loading data, managing layers and printing a map. For more detailed
-information on QGIS usage see the tutorials on our learning center and
-consult :qgis_docs:`QGIS's official documentation <2.18>`.
+This brief overview of QGIS will focus on QGIS's graphical user interface (GUI)
+and some of the most common operations like loading data, managing layers and
+printing a map. For more detailed information on QGIS usage see the tutorials
+in our learning center and consult :qgis_docs:`QGIS's official documentation <2.18>`.
 
-For this Quickstart, we will use the `Natural Earth
-<http://www.naturalearthdata.com>`_ data. Please, download `Natural Earth
+We will use the `Natural Earth <http://www.naturalearthdata.com>`_ data in
+the examples that follow. Please, download the `Natural Earth
 Quickstart Kit
 <http://naciscdn.org/naturalearth/packages/Natural_Earth_quick_start.zip>`_ and
 unzip it to any folder that you find convenient to access.
@@ -45,7 +44,7 @@ QGIS user interface
 
 #. Use any of the available QGIS's shortcuts on your computer to open QGIS.
 
-   By default, the QGIS GUI should resemble the one presented in the next figure.
+   By default, the QGIS interface should resemble the one presented in the next figure.
 
    .. figure:: img/qgis_GUI.png
 
@@ -57,14 +56,14 @@ QGIS user interface
      provides access to various QGIS features using a standard hierarchical
      menu.
 
-   * Below the menu bar, there's the main toolbar area (2). Toolbars allow access to
-     most of the same functions as the menus, plus additional tools for
+   * The main toolbar area (2) is below the menu bar. Toolbars provide quick
+     access to many functions present in the menus, plus additional tools for
      interacting with the map. Hold your mouse over the item for a short
      description of the tool's purpose. Toolbars can be moved by dragging and
      dropping them elsewhere and even hidden using :menuselection:`View -->
      Toolbars`.
 
-   * On the left side of the screen, there are two panels by default: The :guilabel:`Browser Panel`
+   * On the left side of the interface, there are two panels by default: The :guilabel:`Browser Panel`
      (3), which is used to browse and load data, and the :guilabel:`Layers
      Panel` (4) which is used to toggle layers visibility, setting their
      relative order, accessing the layer's properties and much more. Panels
@@ -74,23 +73,24 @@ QGIS user interface
    * To the right and middle of the screen, you find the map canvas (5) where
      all visible layers' geometries are displayed.
 
-   * At the bottom of the screen, there's the status bar (6) with
-     several useful information and controls for the current map scale, the
-     mouse pointer coordinates, the current Coordinate Reference System's
-     EPSG code in use, and more.
+   * The status bar (6) s located at the bottom of the interface. It provides
+     useful information and controls related to the current map scale, including the
+     coordinates under the mouse pointer, the current Coordinate Reference System's
+     EPSG code, and more.
 
 
 Loading data
 ~~~~~~~~~~~~
 
-In QGIS, to load data, you can either use the :guilabel:`Browser Panel`, the
-:guilabel:`Manage Layers Panel` or even use your operating system file explorer.
+Data can be loaded into QGIS using the :guilabel:`Browser Panel`, the
+:guilabel:`Manage Layers Panel`, or by dragging and dropping from the
+operating system file manager.
 
 #. Using the :guilabel:`Browser Panel`, browse to the sample data location,
    more precisely into the ``Natural_Earth_quick_start\10m_physical`` folder.
-   Double-click the folder's names or click the plus signs next to it to view
+   Double-click a folder's name or click the plus signs next to it to view
    its contents. Find the ``ne_10m_coastline.shp`` shapefile and drag and
-   drop it from the browser to the map canvas. It will load the vector layer.
+   drop it from the browser to the map canvas. This will load the layer.
 
    .. figure:: img/qgis_dragndrop_from_browser.gif
 
@@ -131,18 +131,17 @@ In QGIS, to load data, you can either use the :guilabel:`Browser Panel`, the
    several files at once by holding the :kbd:`Ctrl` key during file selection,
    in any of the three methods described above.
 
-Navigating on the map canvas
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Navigating the map canvas
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To navigate the map canvas, you can primarily use your mouse wheel. For more
-precise control over the map canvas, you can also use the :guilabel:`Map
-Navigation Toolbar` tools.
+Navigation in the map canvas can be done entirely with the mouse wheel.
+In the absence of a mouse wheel, or for more precise control over the
+map canvas, you can also use the :guilabel:`Map Navigation Toolbar` tools.
 
 #. Position your mouse pointer anywhere on the map and spin your mouse wheel
    up to Zoom In. Spin the mouse wheel in the opposite direction to Zoom Out.
 
-#. To pan, press the mouse wheel down and hold it, then move the pointer
-   around and release the wheel once satisfied.
+#. To pan, click and drag on the map canvas with the middle mouse button (wheel).
 
 #. As stated above, the :guilabel:`Map Navigation Toolbar` provides more
    precise ways to navigate the map.
@@ -185,7 +184,7 @@ more in-depth look into its potential.
 
       Changing the order of the layers
 
-#. You can change the visibility status of the layers by (un)checking the
+#. You can change the visibility status of the layers by toggling the
    small checkbox next to its name. Give it a try and see the result on the map
    canvas. (Make sure to keep all layers visible in the end)
 
@@ -201,7 +200,7 @@ more in-depth look into its potential.
 
       Opening the Layer Styling panel
 
-#. On the right side of the screen the :guilabel:`Layer Styling` panel.
+#. The :guilabel:`Layer Styling` panel will open on the right side of the interface.
    Click the :guilabel:`Simple fill` in the symbols
    layers list, and in the Fill :guilabel:`Fill type` select ``No brush``. The
    change applies immediately on the map canvas.
@@ -212,16 +211,16 @@ more in-depth look into its potential.
 
 #. Close the :guilabel:`Layer Styling` panel.
 
-#. At this time you might want to save your project. Go to
-   :menuselection:`Project --> Save` or hit Ctrl+S. Choose the
-   destination folder where your project will be saved, type in a sugesttive
+#. You may want to save your project at this time. Go to
+   :menuselection:`Project --> Save` or hit :kbd:`Ctrl+S`. Choose the
+   destination folder where your project will be saved, type in a descriptive
    name and click :guilabel:`Save`.
 
 Exploring data's attributes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To make proper use of the dataset, one should know its attributes. Let's see how
-to retrieve the attributes of our layers.
+To make proper use of the dataset, one should be familiar with its attributes.
+Let's see how to retrieve the attributes of our layers.
 
 #. Make sure the ``ne_10m_admin_1_states_provinces`` layer is still active
    and in the :guilabel:`Attributes toolbar` (if not visible, go to
@@ -284,7 +283,7 @@ Let's see how to print a simple map with the layers that we have
 loaded. In QGIS, you can have as many print layouts as
 you like, and you can manage them in the :guilabel:`Layout Manager`.
 
-#. Once you are satisfied with how the map's looks, click the :guilabel:`New
+#. Once you are satisfied with the map's appearance, click the :guilabel:`New
    Print Layout` button in the :guilabel:`File toolbar`, type a
    representative name for the layout and click :guilabel:`Ok`.
 
@@ -318,10 +317,11 @@ you like, and you can manage them in the :guilabel:`Layout Manager`.
    In the :guilabel:`Layout` toolbar, click :guilabel:`Export to PDF`. Choose
    a location and name for your PDF file and click :guilabel:`Ok`.
 
-We could do more complex maps by adding other items like legends,
+More complex maps can be created by adding other items like legends,
 labels, and images. Please see our learning center to learn how to work with
-them. Also, if you have interested, have a look into this `QGIS Map Gallery
-<https://www.flickr.com/groups/qgis/pool/>`_.
+them. This `QGIS Map Gallery
+<https://www.flickr.com/groups/qgis/pool/>`_ has more exampls of what can be
+accomplished with the print composer.
 
 
 Online resources

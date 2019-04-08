@@ -8,10 +8,9 @@ Uninstalling Boundless Desktop
 Windows
 -------
 
-In windows, to uninstall Boundless Desktop |version| core apps, libs and
-utilities and the symbolically linked applications and documentation, use the
-`Uninstall Desktop` shortcut available in the Boundless Desktop shortcut
-folder or from the start menu.
+Use `Uninstall Desktop` in the Boundless Desktop shortcut folder onthe Desktop or in the Start Menu to
+uninstall Boundless Desktop |version| applications, libraries, utilities,
+and documentation.
 
 .. figure:: img/install_uninstall_win_shortcut.png
 
@@ -19,23 +18,21 @@ folder or from the start menu.
 
 #. Double-click the shortcut to run the uninstaller.
 
-   Note, if you are uninstalling a ``all users`` installation, administrator
-   permissions are required, you may be asked to insert the administrator
-   credentials.
+   Note: If Boundless Desktop was installed for ``all users``, this will require administrator privileges.
+   You may be asked for administrator credentials.
 
-#. On the Uninstaller welcome page, click :guilabel:`Next`.
+#. On the Uninstaller welcome  dialog, click :guilabel:`Next`.
 
    .. figure:: img/install_uninstall_win_start_dialog.png
 
-#. In the next dialog, make sure you which to uninstall the software from the
-   announced folder. If so, press :guilabel:`Uninstall` to proceed with the
+#. In the next dialog, check that the correct directory is listed. If so, press :guilabel:`Uninstall` to proceed with the
    uninstallation of Boundless Desktop from your computer.
 
    .. figure:: img/install_uninstall_win_dialog.png
 
       Boundless Desktop Uninstaller dialog
 
-#. Once the process is complete, click :guilabel:`Next` followed by
+#. When the uninstallation process is complete, click :guilabel:`Next` followed by
    :guilabel:`Finish` to close the uninstaller.
 
 .. commenting until future release for Mac OS
@@ -77,6 +74,6 @@ folder or from the start menu.
 
 .. Note::
 
-   Both in Windows and Mac OS X, all the user's configuration and settings (for
+   Both in Windows and Mac OS X, all the user configuration and settings (for
    example, QGIS settings and plugins) are preserved for future
    installations of `Boundless Desktop 2.x`.

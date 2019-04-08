@@ -18,7 +18,7 @@ details.
 Pre-installed Packages
 ----------------------
 
-The ``IPython`` and ``Jupyter`` packages are installed with Desktop. This allows
+The ``IPython`` and ``Jupyter`` packages are installed with Boundless Desktop. This allows
 for easy installation of the 
 :qgis_plugins:`IPyConsole plugin <IPyConsole>` for QGIS, an excellent
 additional console to QGIS's embedded Python console.

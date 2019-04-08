@@ -37,7 +37,7 @@ based on Qt 5 and Python 3 and adds many new features. Some examples are:
 * New units for symbols and layouts, including pixels and inches
 * Point cluster renderer
 * Easy styling of discrete rasters
-* Note tool is replaced by a much improved and functional vertex tool
+* Node tool is replaced by a much improved and functional vertex tool
 * Auxiliary storage support, which allows, for example, saving custom label
   positions on the project)
 * Several Improvements to the feature forms and widgets, including drill-down
@@ -60,12 +60,12 @@ based on Qt 5 and Python 3 and adds many new features. Some examples are:
 
 For a full list of QGIS new features check the visual changelogs for versions :qgis_changelogs:`3.0 <30>`, :qgis_changelogs:`3.2 <32>`, and :qgis_changelogs:`3.4 <34>`.
 
-There were also some removals for this version:
+There were also some feature removals for this version:
 
 * Standalone QGIS browser application has been deprecated
 * Connect plugin will not be shipped in this release
-* Boundless OAuth2 and Master Password plugins were removes has its
-  functionality was integrated into QGIS 3 core
+* Boundless OAuth2 and Master Password plugins were removed, as their
+  functionality has been integrated into QGIS 3 core
 * Orfeo toolbox processing provider no longer shipped
 * PgAdmin 4 was temporarily removed from installer
 
