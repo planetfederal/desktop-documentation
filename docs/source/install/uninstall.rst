@@ -8,7 +8,7 @@ Uninstalling Boundless Desktop
 Windows
 -------
 
-Use `Uninstall Desktop` in the Boundless Desktop shortcut folder onthe Desktop or in the Start Menu to
+Use `Uninstall Desktop` in the Boundless Desktop shortcut folder on the Desktop or in the Start Menu to
 uninstall Boundless Desktop |version| applications, libraries, utilities,
 and documentation.
 
