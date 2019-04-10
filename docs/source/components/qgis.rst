@@ -29,7 +29,7 @@ Quickstart guide
 ----------------
 
 This brief overview of QGIS will focus on QGIS's graphical user interface (GUI)
-and some of the most common operations like loading data, managing layers and
+and some common operations like loading data, managing layers and
 printing a map. For more detailed information on QGIS usage see the tutorials
 in our learning center and consult :qgis_docs:`QGIS's official documentation <2.18>`.
 
