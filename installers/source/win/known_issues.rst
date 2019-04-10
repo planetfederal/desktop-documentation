@@ -14,8 +14,7 @@
   uninstalled.
 * Uninstallation on user workspace requires administrator permissions.
 * Currently available version of IPython console plugin (v1.9) is not compatible with
-  IPython 7.2, which is the version deployed with Boundless Desktop. The plugin
-  will not work properly.
+  the IPython version deployed with Boundless Desktop. The plugin will not work properly.
 * Due to a problem in the OGDI driver, GDAL (and therefore QGIS) is not able to
   read OGDI ``VPF`` and ``RPF`` formats. The OGDI ``DTED`` format works as expected.
 

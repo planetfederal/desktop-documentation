@@ -33,7 +33,7 @@ based on Qt 5 and Python 3 and adds many new features. Some examples are:
 * New units for symbols and layouts, including pixels and inches
 * Point cluster renderer
 * Easy styling of discrete rasters
-* Note tool is replaced by a much improved vertex tool with greater functionality 
+* Node tool is replaced by a much improved vertex tool with greater functionality 
 * Auxiliary storage support, which allows, for example, saving custom label
   positions on the project)
 * Several Improvements to the feature forms and widgets, including drill-down
