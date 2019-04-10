@@ -23,25 +23,25 @@ based on Qt 5 and Python 3 and adds many new features. Some examples are:
 * Multiple map views
 * 3D surface and layer rendering, with animations
 * Support for running processes as background tasks, allowing the user to
-  keep using QGIS interface while the job is running
+  keep using QGIS interface while a job is running
 * Improved layout creation including reports
 * Master password integration with win, mac and linux keychains
 * Locator bar for quick access to tools and commands
-* Improved consistency to the user interface
+* Improved consistency in the user interface
 * Tens of new expression functions, including array functions
 * Improved expressions editor with auto-completion and error highlighting
 * New units for symbols and layouts, including pixels and inches
 * Point cluster renderer
 * Easy styling of discrete rasters
-* Note tool is replaced by a much improved and functional vertex tool
+* Note tool is replaced by a much improved vertex tool with greater functionality 
 * Auxiliary storage support, which allows, for example, saving custom label
   positions on the project)
 * Several Improvements to the feature forms and widgets, including drill-down
-  (cascading) forms (aka domains and sub-domains in forms)
+  (cascading) forms (aka domains and sub-domains)
 * Several new processing algorithms, and performance improvements to existing ones.
 * Improved processing modeler window
 * New Geonode data provider
-* Opening of vector and raster stored on HTTP(S), FTP, or cloud services
+* Opening of vector and raster layers stored in HTTP(S), FTP, and cloud services
 * Save and load QGIS projects in PostgreSQL database
 * Support for mesh layers (GRIB, XMDF, Netcdf)
 * Automatically set default style for layers from ArcGIS Feature Server layers
@@ -60,7 +60,7 @@ For a full list of new features check the visual changelogs for versions 3.0, 3.
 
 * Standalone QGIS browser application has been deprecated
 * Connect plugin will not be shipped in this release
-* Boundless OAuth2 and Master Password plugins, has its functionality was integrated into
+* Functionality of Boundless OAuth2 and Master Password plugins has been integrated into
   QGIS 3 core
 * Orfeo toolbox processing provider removed temporarily
 * PgAdmin 4 was temporarily removed from installer

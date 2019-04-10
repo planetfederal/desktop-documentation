@@ -15,7 +15,7 @@ Powered by proven open source projects with premier support, Boundless Desktop g
    .. include:: /osx/supported_components.rst
 
 
-For convenience, outside the supported scope of Boundless Desktop, the following components are provided:
+The following components are provided for convenience, and are outside the supported scope of Boundless Desktop:
 
 .. only:: win
 
@@ -26,7 +26,7 @@ For convenience, outside the supported scope of Boundless Desktop, the following
    .. include:: /osx/additional_components.rst
 
 
-To support the core components functionality and ensure compatibility with not-so-open tools, the core components are bundled with the following proprietary drivers
+To support the functionality of core components and ensure compatibility with not-so-open tools, the core components are bundled with the following proprietary drivers:
 
 .. only:: win
 
