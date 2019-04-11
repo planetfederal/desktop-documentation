@@ -40,11 +40,11 @@ Boundless Desktop was built upon the remaining open source dependencies:
 
    .. only:: win
 
-      .. include:: /win/dependencies.rst
+      .. include:: /win/other_dependencies.rst
 
    .. only:: osx
 
-      .. include:: /osx/dependencies.rst
+      .. include:: /osx/other_dependencies.rst
 
 
 Python interpreter
