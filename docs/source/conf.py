@@ -85,7 +85,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Boundless Desktop'
-copyright = u'2018 Boundless Spatial, Inc.'
+copyright = u'2019 Boundless Spatial, Inc.'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
