@@ -38,13 +38,13 @@ To support the functionality of core components and ensure compatibility with no
 
 Boundless Desktop was built upon the remaining open source dependencies:
 
-   .. only:: win
+.. only:: win
 
-      .. include:: /win/other_dependencies.rst
+   .. include:: /win/other_dependencies.rst
 
-   .. only:: osx
+.. only:: osx
 
-      .. include:: /osx/other_dependencies.rst
+   .. include:: /osx/other_dependencies.rst
 
 
 Python interpreter
