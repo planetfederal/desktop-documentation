@@ -38,6 +38,8 @@ To support the functionality of core components and ensure compatibility with no
 
 Boundless Desktop was built upon the remaining open source dependencies:
 
+.. lines of deps can be processed into columns with reshape utility e.g. `rs -e #rows #cols  < deps_list.txt`
+
 .. only:: win
 
    .. include:: /win/other_dependencies.rst
